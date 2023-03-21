@@ -1,0 +1,4753 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bb49e81640459fc382feda3b1cff61ca {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+    <script src="https://unpkg.com/leaflet.featuregroup.subgroup@1.0.2/dist/leaflet.featuregroup.subgroup.js"></script>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_bb49e81640459fc382feda3b1cff61ca" ></div>
+        
+</body>
+<script>    
+    
+            var map_bb49e81640459fc382feda3b1cff61ca = L.map(
+                "map_bb49e81640459fc382feda3b1cff61ca",
+                {
+                    center: [19.37473536720414, -99.1397845200601],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4dfd552491201cbcec6c4745ed847563 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_bb49e81640459fc382feda3b1cff61ca);
+        
+    
+            var marker_cluster_a10ee7850a7b6a727ef330bc0cffdc9a = L.markerClusterGroup(
+                {}
+            );
+            map_bb49e81640459fc382feda3b1cff61ca.addLayer(marker_cluster_a10ee7850a7b6a727ef330bc0cffdc9a);
+        
+    
+            var feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a = L.featureGroup.subGroup(
+                marker_cluster_a10ee7850a7b6a727ef330bc0cffdc9a
+            );
+            feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a.addTo(map_bb49e81640459fc382feda3b1cff61ca);
+        
+    
+            var marker_fb138b01c929109b53106173b46a8ed4 = L.marker(
+                [19.3831312, -99.27875],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_bbcbdc69733f0b5b4592a203fa61fc96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3680a309a9e3ad9d9183dcb9d52c68be = $(`<div id="html_3680a309a9e3ad9d9183dcb9d52c68be" style="width: 100.0%; height: 100.0%;">COLEGIO FRANCO INGLES</div>`)[0];
+            popup_bbcbdc69733f0b5b4592a203fa61fc96.setContent(html_3680a309a9e3ad9d9183dcb9d52c68be);
+        
+
+        marker_fb138b01c929109b53106173b46a8ed4.bindPopup(popup_bbcbdc69733f0b5b4592a203fa61fc96)
+        ;
+
+        
+    
+    
+            marker_fb138b01c929109b53106173b46a8ed4.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d5000d012715fff93fb76d6b4055aa0 = L.marker(
+                [19.3771375, -99.2721983],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_de769fdc88d076dc04138a3a5625a14f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_857014d00fd15bcdc6110d7991001f84 = $(`<div id="html_857014d00fd15bcdc6110d7991001f84" style="width: 100.0%; height: 100.0%;">COLEGIO VISTA HERMOSA</div>`)[0];
+            popup_de769fdc88d076dc04138a3a5625a14f.setContent(html_857014d00fd15bcdc6110d7991001f84);
+        
+
+        marker_7d5000d012715fff93fb76d6b4055aa0.bindPopup(popup_de769fdc88d076dc04138a3a5625a14f)
+        ;
+
+        
+    
+    
+            marker_7d5000d012715fff93fb76d6b4055aa0.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_18d70384739b888aacfde0878fb0e76c = L.marker(
+                [19.3669436, -99.289291],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_250a631def6f04959870f12b41709a2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c911736c0a48edd3f8dfa835834dadf1 = $(`<div id="html_c911736c0a48edd3f8dfa835834dadf1" style="width: 100.0%; height: 100.0%;">ABRAHAM LINCOLN</div>`)[0];
+            popup_250a631def6f04959870f12b41709a2c.setContent(html_c911736c0a48edd3f8dfa835834dadf1);
+        
+
+        marker_18d70384739b888aacfde0878fb0e76c.bindPopup(popup_250a631def6f04959870f12b41709a2c)
+        ;
+
+        
+    
+    
+            marker_18d70384739b888aacfde0878fb0e76c.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f3cd30c8f0e5844446d24281e8713ff = L.marker(
+                [19.3889883, -99.2577837],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_529e7d4993a9af556d7ff57e0a6a29ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_292438682e5b820eb81c5333e72dcebc = $(`<div id="html_292438682e5b820eb81c5333e72dcebc" style="width: 100.0%; height: 100.0%;">COLEGIO DEL BOSQUE</div>`)[0];
+            popup_529e7d4993a9af556d7ff57e0a6a29ee.setContent(html_292438682e5b820eb81c5333e72dcebc);
+        
+
+        marker_1f3cd30c8f0e5844446d24281e8713ff.bindPopup(popup_529e7d4993a9af556d7ff57e0a6a29ee)
+        ;
+
+        
+    
+    
+            marker_1f3cd30c8f0e5844446d24281e8713ff.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d2ab5004d96efbd794260bc45073c92 = L.marker(
+                [19.3626419, -99.2909804],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_ddbd5d84ca3b51a1148d114d92ddec71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ddf72d4657a1451b1055f8517a47a3b2 = $(`<div id="html_ddf72d4657a1451b1055f8517a47a3b2" style="width: 100.0%; height: 100.0%;">TOMAS MORO</div>`)[0];
+            popup_ddbd5d84ca3b51a1148d114d92ddec71.setContent(html_ddf72d4657a1451b1055f8517a47a3b2);
+        
+
+        marker_4d2ab5004d96efbd794260bc45073c92.bindPopup(popup_ddbd5d84ca3b51a1148d114d92ddec71)
+        ;
+
+        
+    
+    
+            marker_4d2ab5004d96efbd794260bc45073c92.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69285c8783d7728d6452d17c2bb6db0e = L.marker(
+                [19.401021, -99.2557803],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_855295b6b5208944c8090ec719334f45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fef666287a8e6c1ee17f8696e0b4355 = $(`<div id="html_7fef666287a8e6c1ee17f8696e0b4355" style="width: 100.0%; height: 100.0%;">INSTITUTO CUMBRES BOSQUES</div>`)[0];
+            popup_855295b6b5208944c8090ec719334f45.setContent(html_7fef666287a8e6c1ee17f8696e0b4355);
+        
+
+        marker_69285c8783d7728d6452d17c2bb6db0e.bindPopup(popup_855295b6b5208944c8090ec719334f45)
+        ;
+
+        
+    
+    
+            marker_69285c8783d7728d6452d17c2bb6db0e.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29369e7ed68325433a49a3938a0aee6e = L.marker(
+                [19.3572011, -99.293439],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_e879cb2da789f7b0674eb14dae8b09f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e224116ae2d268e6a86ece6769060fe = $(`<div id="html_1e224116ae2d268e6a86ece6769060fe" style="width: 100.0%; height: 100.0%;">COAHUILA</div>`)[0];
+            popup_e879cb2da789f7b0674eb14dae8b09f3.setContent(html_1e224116ae2d268e6a86ece6769060fe);
+        
+
+        marker_29369e7ed68325433a49a3938a0aee6e.bindPopup(popup_e879cb2da789f7b0674eb14dae8b09f3)
+        ;
+
+        
+    
+    
+            marker_29369e7ed68325433a49a3938a0aee6e.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_adfb1fc39ced1dd201579b05431242e1 = L.marker(
+                [19.3533632, -99.2978991],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_739524447852f847c9025c7a82fa0d6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a01a6190fbf74e407858b3fbb7dc79e5 = $(`<div id="html_a01a6190fbf74e407858b3fbb7dc79e5" style="width: 100.0%; height: 100.0%;">CENTRO INFANTIL MARIA TERESA, S. C.</div>`)[0];
+            popup_739524447852f847c9025c7a82fa0d6a.setContent(html_a01a6190fbf74e407858b3fbb7dc79e5);
+        
+
+        marker_adfb1fc39ced1dd201579b05431242e1.bindPopup(popup_739524447852f847c9025c7a82fa0d6a)
+        ;
+
+        
+    
+    
+            marker_adfb1fc39ced1dd201579b05431242e1.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a1726b3d21714ccb6b69518b08298a8 = L.marker(
+                [19.3564739, -99.2662522],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_014cc58cc4e98718b85358100e983a47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d841744837634ee8907e05b832398d73 = $(`<div id="html_d841744837634ee8907e05b832398d73" style="width: 100.0%; height: 100.0%;">COLEGIO ETON</div>`)[0];
+            popup_014cc58cc4e98718b85358100e983a47.setContent(html_d841744837634ee8907e05b832398d73);
+        
+
+        marker_0a1726b3d21714ccb6b69518b08298a8.bindPopup(popup_014cc58cc4e98718b85358100e983a47)
+        ;
+
+        
+    
+    
+            marker_0a1726b3d21714ccb6b69518b08298a8.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b60e44e6067023fccc160caa4ae27cc = L.marker(
+                [19.3703129, -99.2779191],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_1e02006417fc5002cfed3bddd0ed9c50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2f74492dc15d22e317f16372f6df056 = $(`<div id="html_d2f74492dc15d22e317f16372f6df056" style="width: 100.0%; height: 100.0%;">COLEGIO ATID</div>`)[0];
+            popup_1e02006417fc5002cfed3bddd0ed9c50.setContent(html_d2f74492dc15d22e317f16372f6df056);
+        
+
+        marker_2b60e44e6067023fccc160caa4ae27cc.bindPopup(popup_1e02006417fc5002cfed3bddd0ed9c50)
+        ;
+
+        
+    
+    
+            marker_2b60e44e6067023fccc160caa4ae27cc.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb763d769d8db686a459edfd4779f62e = L.marker(
+                [19.3578017, -99.2654125],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_d32a86d383a5f9536464a21987b3c548 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1dd057d7321b3026d15ef86c044284ed = $(`<div id="html_1dd057d7321b3026d15ef86c044284ed" style="width: 100.0%; height: 100.0%;">WESTHILL INSTITUTE</div>`)[0];
+            popup_d32a86d383a5f9536464a21987b3c548.setContent(html_1dd057d7321b3026d15ef86c044284ed);
+        
+
+        marker_cb763d769d8db686a459edfd4779f62e.bindPopup(popup_d32a86d383a5f9536464a21987b3c548)
+        ;
+
+        
+    
+    
+            marker_cb763d769d8db686a459edfd4779f62e.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4477c5e1bb9572d90d3ed4945cda63b5 = L.marker(
+                [19.3597431, -99.2659063],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_2a804b753d40d977c687e9ea5a48b6b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb2f7781bdd1ac98810168bfded3acce = $(`<div id="html_fb2f7781bdd1ac98810168bfded3acce" style="width: 100.0%; height: 100.0%;">PINECREST INTERNATIONAL SCHOOL</div>`)[0];
+            popup_2a804b753d40d977c687e9ea5a48b6b4.setContent(html_fb2f7781bdd1ac98810168bfded3acce);
+        
+
+        marker_4477c5e1bb9572d90d3ed4945cda63b5.bindPopup(popup_2a804b753d40d977c687e9ea5a48b6b4)
+        ;
+
+        
+    
+    
+            marker_4477c5e1bb9572d90d3ed4945cda63b5.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebfbb83fa8e40e6926aaea50bde62056 = L.marker(
+                [19.3605581, -99.299827],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_fef4842017e01120154294867b28a02b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30ee2f00212f3c525c9dcd1cbe5fc36d = $(`<div id="html_30ee2f00212f3c525c9dcd1cbe5fc36d" style="width: 100.0%; height: 100.0%;">COLEGIO NUEVA GENERACION</div>`)[0];
+            popup_fef4842017e01120154294867b28a02b.setContent(html_30ee2f00212f3c525c9dcd1cbe5fc36d);
+        
+
+        marker_ebfbb83fa8e40e6926aaea50bde62056.bindPopup(popup_fef4842017e01120154294867b28a02b)
+        ;
+
+        
+    
+    
+            marker_ebfbb83fa8e40e6926aaea50bde62056.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e3a9785e5c03cba4b4652bd34094956e = L.marker(
+                [19.3616179, -99.2895458],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_026914ab31ca947c70abc85044f87abe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d4dd1f53ba6c161787e074f5ad54fd6 = $(`<div id="html_7d4dd1f53ba6c161787e074f5ad54fd6" style="width: 100.0%; height: 100.0%;">COLEGIO VON GLÜMER</div>`)[0];
+            popup_026914ab31ca947c70abc85044f87abe.setContent(html_7d4dd1f53ba6c161787e074f5ad54fd6);
+        
+
+        marker_e3a9785e5c03cba4b4652bd34094956e.bindPopup(popup_026914ab31ca947c70abc85044f87abe)
+        ;
+
+        
+    
+    
+            marker_e3a9785e5c03cba4b4652bd34094956e.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b8cf7d578e7a1e3f8015d852d118f37 = L.marker(
+                [19.376414, -99.2842536],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_01828b83fd32283d40303b9440cb12dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97ca66dfb8223d2f24b8d4386ee99c21 = $(`<div id="html_97ca66dfb8223d2f24b8d4386ee99c21" style="width: 100.0%; height: 100.0%;">ARNOLD GESELL</div>`)[0];
+            popup_01828b83fd32283d40303b9440cb12dd.setContent(html_97ca66dfb8223d2f24b8d4386ee99c21);
+        
+
+        marker_3b8cf7d578e7a1e3f8015d852d118f37.bindPopup(popup_01828b83fd32283d40303b9440cb12dd)
+        ;
+
+        
+    
+    
+            marker_3b8cf7d578e7a1e3f8015d852d118f37.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59874ce18fb399a70ab0383d4f101e93 = L.marker(
+                [19.3391124, -99.2808461],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_bb9e03b74f83c40675bed28d3866e381 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_446811a16cad9705aa5cc86ac2031d8e = $(`<div id="html_446811a16cad9705aa5cc86ac2031d8e" style="width: 100.0%; height: 100.0%;">INSTITUTO FIRST SKILLS</div>`)[0];
+            popup_bb9e03b74f83c40675bed28d3866e381.setContent(html_446811a16cad9705aa5cc86ac2031d8e);
+        
+
+        marker_59874ce18fb399a70ab0383d4f101e93.bindPopup(popup_bb9e03b74f83c40675bed28d3866e381)
+        ;
+
+        
+    
+    
+            marker_59874ce18fb399a70ab0383d4f101e93.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6cab8e62cf31e60e372d9cd13a01c9db = L.marker(
+                [19.352059, -99.3014416],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_e3d8569d63044ad2a2526a09e7edae98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fb0738d3dbbf9c86db9b52495861219 = $(`<div id="html_1fb0738d3dbbf9c86db9b52495861219" style="width: 100.0%; height: 100.0%;">COLEGIO LOMAS HILL</div>`)[0];
+            popup_e3d8569d63044ad2a2526a09e7edae98.setContent(html_1fb0738d3dbbf9c86db9b52495861219);
+        
+
+        marker_6cab8e62cf31e60e372d9cd13a01c9db.bindPopup(popup_e3d8569d63044ad2a2526a09e7edae98)
+        ;
+
+        
+    
+    
+            marker_6cab8e62cf31e60e372d9cd13a01c9db.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_05619065867ba1cd582eaf5eb14db681 = L.marker(
+                [19.3533549, -99.2901474],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_7300216f6fc9f7c58b4b6cd832643862 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_198e8f0944049c135396a4c09cbc5913 = $(`<div id="html_198e8f0944049c135396a4c09cbc5913" style="width: 100.0%; height: 100.0%;">"COLEGIO CONTADERO"</div>`)[0];
+            popup_7300216f6fc9f7c58b4b6cd832643862.setContent(html_198e8f0944049c135396a4c09cbc5913);
+        
+
+        marker_05619065867ba1cd582eaf5eb14db681.bindPopup(popup_7300216f6fc9f7c58b4b6cd832643862)
+        ;
+
+        
+    
+    
+            marker_05619065867ba1cd582eaf5eb14db681.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1523ae8729ba40266b0cd78028837b49 = L.marker(
+                [19.3529756, -99.3043435],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_074564fbae47dc2aedd909cbd92919eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79f0adb7fc344ed0d58ced3c7164335f = $(`<div id="html_79f0adb7fc344ed0d58ced3c7164335f" style="width: 100.0%; height: 100.0%;">"COLEGIO BILINGÜE CIPRES"</div>`)[0];
+            popup_074564fbae47dc2aedd909cbd92919eb.setContent(html_79f0adb7fc344ed0d58ced3c7164335f);
+        
+
+        marker_1523ae8729ba40266b0cd78028837b49.bindPopup(popup_074564fbae47dc2aedd909cbd92919eb)
+        ;
+
+        
+    
+    
+            marker_1523ae8729ba40266b0cd78028837b49.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0e1917a0bc0474adc0335a2770efb16e = L.marker(
+                [19.390187, -99.2650932],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_7b3b100a3a330afe7abcbf380786bb30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d45ce1df2fdb02c8696dc7fdc2398bc = $(`<div id="html_1d45ce1df2fdb02c8696dc7fdc2398bc" style="width: 100.0%; height: 100.0%;">OAK'S LEADERSHIP SCHOOL</div>`)[0];
+            popup_7b3b100a3a330afe7abcbf380786bb30.setContent(html_1d45ce1df2fdb02c8696dc7fdc2398bc);
+        
+
+        marker_0e1917a0bc0474adc0335a2770efb16e.bindPopup(popup_7b3b100a3a330afe7abcbf380786bb30)
+        ;
+
+        
+    
+    
+            marker_0e1917a0bc0474adc0335a2770efb16e.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72d25b551cb57d3641bf66877d62176c = L.marker(
+                [19.3706978, -99.2806373],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_c8e98fcb0d0b4f59ec47b3af989db918 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5eff7be9dea9129e65a3f03c4c935a89 = $(`<div id="html_5eff7be9dea9129e65a3f03c4c935a89" style="width: 100.0%; height: 100.0%;">COLEGIO PETERSON</div>`)[0];
+            popup_c8e98fcb0d0b4f59ec47b3af989db918.setContent(html_5eff7be9dea9129e65a3f03c4c935a89);
+        
+
+        marker_72d25b551cb57d3641bf66877d62176c.bindPopup(popup_c8e98fcb0d0b4f59ec47b3af989db918)
+        ;
+
+        
+    
+    
+            marker_72d25b551cb57d3641bf66877d62176c.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7115c59c2c8048a4b472a98cd92d973a = L.marker(
+                [19.3796757, -99.2699458],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_5a428a18232cf1da835880f940f4f0c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3dcf29918437da268581cc0c82f00091 = $(`<div id="html_3dcf29918437da268581cc0c82f00091" style="width: 100.0%; height: 100.0%;">COLEGIO ISRAELITA DE MÉXICO</div>`)[0];
+            popup_5a428a18232cf1da835880f940f4f0c2.setContent(html_3dcf29918437da268581cc0c82f00091);
+        
+
+        marker_7115c59c2c8048a4b472a98cd92d973a.bindPopup(popup_5a428a18232cf1da835880f940f4f0c2)
+        ;
+
+        
+    
+    
+            marker_7115c59c2c8048a4b472a98cd92d973a.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e4394695df6a43a82bac4025c61ca10 = L.marker(
+                [19.3722023, -99.2769383],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_e9e1e701546cb1b0123522cd8f485291 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8236e3454aa3c85f4034af58891d614d = $(`<div id="html_8236e3454aa3c85f4034af58891d614d" style="width: 100.0%; height: 100.0%;">COLEGIO HEBREO TARBUT</div>`)[0];
+            popup_e9e1e701546cb1b0123522cd8f485291.setContent(html_8236e3454aa3c85f4034af58891d614d);
+        
+
+        marker_8e4394695df6a43a82bac4025c61ca10.bindPopup(popup_e9e1e701546cb1b0123522cd8f485291)
+        ;
+
+        
+    
+    
+            marker_8e4394695df6a43a82bac4025c61ca10.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b8dded2e8c8ca2709fba60f38dd11e3 = L.marker(
+                [19.3831071, -99.2552818],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_196d953ca9e822be21113a9f22ccf15f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35718ef9afb5617b2dc435114acd6fcf = $(`<div id="html_35718ef9afb5617b2dc435114acd6fcf" style="width: 100.0%; height: 100.0%;">COLEGIO MERICI</div>`)[0];
+            popup_196d953ca9e822be21113a9f22ccf15f.setContent(html_35718ef9afb5617b2dc435114acd6fcf);
+        
+
+        marker_4b8dded2e8c8ca2709fba60f38dd11e3.bindPopup(popup_196d953ca9e822be21113a9f22ccf15f)
+        ;
+
+        
+    
+    
+            marker_4b8dded2e8c8ca2709fba60f38dd11e3.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f6c5100450403c42e5518980da3f3f95 = L.marker(
+                [19.3824231, -99.2783239],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_a93667393efd4c5fede86a1a4ab60e43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a063fc34f4c345a9253bc3188db2262 = $(`<div id="html_0a063fc34f4c345a9253bc3188db2262" style="width: 100.0%; height: 100.0%;">COLEGIO HEBREO MAGUEN DAVID</div>`)[0];
+            popup_a93667393efd4c5fede86a1a4ab60e43.setContent(html_0a063fc34f4c345a9253bc3188db2262);
+        
+
+        marker_f6c5100450403c42e5518980da3f3f95.bindPopup(popup_a93667393efd4c5fede86a1a4ab60e43)
+        ;
+
+        
+    
+    
+            marker_f6c5100450403c42e5518980da3f3f95.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_68eb7e1e4fd23452e6d1479c5fde2ef3 = L.marker(
+                [19.3488577, -99.303282],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_fa611324c8c2a880fdc9ef9bef2eb4e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4d2bdd9f8123e40c53f9643ce86de51 = $(`<div id="html_f4d2bdd9f8123e40c53f9643ce86de51" style="width: 100.0%; height: 100.0%;">COLEGIO BOSQUES</div>`)[0];
+            popup_fa611324c8c2a880fdc9ef9bef2eb4e5.setContent(html_f4d2bdd9f8123e40c53f9643ce86de51);
+        
+
+        marker_68eb7e1e4fd23452e6d1479c5fde2ef3.bindPopup(popup_fa611324c8c2a880fdc9ef9bef2eb4e5)
+        ;
+
+        
+    
+    
+            marker_68eb7e1e4fd23452e6d1479c5fde2ef3.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3c58c9cc9ac923e1d04d32b77ae3602 = L.marker(
+                [19.3768418, -99.2852262],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_e506d3524d3e34a0c8e7a5b59df7e307 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76952f007523434c84ea0b020be2cc48 = $(`<div id="html_76952f007523434c84ea0b020be2cc48" style="width: 100.0%; height: 100.0%;">GABRIELA MISTRAL</div>`)[0];
+            popup_e506d3524d3e34a0c8e7a5b59df7e307.setContent(html_76952f007523434c84ea0b020be2cc48);
+        
+
+        marker_d3c58c9cc9ac923e1d04d32b77ae3602.bindPopup(popup_e506d3524d3e34a0c8e7a5b59df7e307)
+        ;
+
+        
+    
+    
+            marker_d3c58c9cc9ac923e1d04d32b77ae3602.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a7142fbc37dfb4c704f8d25bec36ce84 = L.marker(
+                [19.3202999, -99.2868276],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_061f765e628ed141246ded654657d3f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4574a37ca71d523be49b3508f0a3b146 = $(`<div id="html_4574a37ca71d523be49b3508f0a3b146" style="width: 100.0%; height: 100.0%;">COLEGIO BILBAO</div>`)[0];
+            popup_061f765e628ed141246ded654657d3f9.setContent(html_4574a37ca71d523be49b3508f0a3b146);
+        
+
+        marker_a7142fbc37dfb4c704f8d25bec36ce84.bindPopup(popup_061f765e628ed141246ded654657d3f9)
+        ;
+
+        
+    
+    
+            marker_a7142fbc37dfb4c704f8d25bec36ce84.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71bcfc043eb57e43263684ffc44915b3 = L.marker(
+                [19.3809872, -99.26862],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_32f54ac77797e01a2ef6780059cc8b6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b9ab05b077db593b910dee85b598a38 = $(`<div id="html_0b9ab05b077db593b910dee85b598a38" style="width: 100.0%; height: 100.0%;">INSTITUTO ROSEDAL MÉXICO</div>`)[0];
+            popup_32f54ac77797e01a2ef6780059cc8b6f.setContent(html_0b9ab05b077db593b910dee85b598a38);
+        
+
+        marker_71bcfc043eb57e43263684ffc44915b3.bindPopup(popup_32f54ac77797e01a2ef6780059cc8b6f)
+        ;
+
+        
+    
+    
+            marker_71bcfc043eb57e43263684ffc44915b3.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_debf04b2e3bc1aeb23e2c7750f6425ba = L.marker(
+                [19.3669504, -99.2779594],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_c59e9581089f8d9a4a72c0c0a1c4f247 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5dda63618504f4dcda1ebe4cdc5096f = $(`<div id="html_a5dda63618504f4dcda1ebe4cdc5096f" style="width: 100.0%; height: 100.0%;">COLEGIO HEBREO MONTE SINAI</div>`)[0];
+            popup_c59e9581089f8d9a4a72c0c0a1c4f247.setContent(html_a5dda63618504f4dcda1ebe4cdc5096f);
+        
+
+        marker_debf04b2e3bc1aeb23e2c7750f6425ba.bindPopup(popup_c59e9581089f8d9a4a72c0c0a1c4f247)
+        ;
+
+        
+    
+    
+            marker_debf04b2e3bc1aeb23e2c7750f6425ba.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_456c5c6926efa809644895d8c58c805e = L.marker(
+                [19.3510606, -99.2932412],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_01c23e66acabcbaa81285855701bf5fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eee5be58ca26b7ac92549dc85f6e8d26 = $(`<div id="html_eee5be58ca26b7ac92549dc85f6e8d26" style="width: 100.0%; height: 100.0%;">VINCENT VAN GOGH</div>`)[0];
+            popup_01c23e66acabcbaa81285855701bf5fd.setContent(html_eee5be58ca26b7ac92549dc85f6e8d26);
+        
+
+        marker_456c5c6926efa809644895d8c58c805e.bindPopup(popup_01c23e66acabcbaa81285855701bf5fd)
+        ;
+
+        
+    
+    
+            marker_456c5c6926efa809644895d8c58c805e.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dac254dbd65774a254a91f94ed5a60a4 = L.marker(
+                [19.3564504, -99.2652214],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_9afdb81b2dac856f541d960bbe508d3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90d42d6b6496afd58f01b58c05d4cbfe = $(`<div id="html_90d42d6b6496afd58f01b58c05d4cbfe" style="width: 100.0%; height: 100.0%;">COLEGIO EUGENIO DE MAZENOD</div>`)[0];
+            popup_9afdb81b2dac856f541d960bbe508d3c.setContent(html_90d42d6b6496afd58f01b58c05d4cbfe);
+        
+
+        marker_dac254dbd65774a254a91f94ed5a60a4.bindPopup(popup_9afdb81b2dac856f541d960bbe508d3c)
+        ;
+
+        
+    
+    
+            marker_dac254dbd65774a254a91f94ed5a60a4.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82eccbc9ebb579af72f07466b8b4708d = L.marker(
+                [19.3603876, -99.2923088],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_fe49f2bdae07cd4928b6306a5fe720fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4aeebeff20be06a53504d2825ac595a = $(`<div id="html_b4aeebeff20be06a53504d2825ac595a" style="width: 100.0%; height: 100.0%;">WINPENNY'S ELEMENTARY SCHOOL</div>`)[0];
+            popup_fe49f2bdae07cd4928b6306a5fe720fa.setContent(html_b4aeebeff20be06a53504d2825ac595a);
+        
+
+        marker_82eccbc9ebb579af72f07466b8b4708d.bindPopup(popup_fe49f2bdae07cd4928b6306a5fe720fa)
+        ;
+
+        
+    
+    
+            marker_82eccbc9ebb579af72f07466b8b4708d.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a4a0d1258721f17cee4ef62da99afd3 = L.marker(
+                [19.3705698, -99.2909637],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_00aaeb79c5057e33ac8d15b1d9818c4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c40b3ba7f18a842baf413d97b18470d7 = $(`<div id="html_c40b3ba7f18a842baf413d97b18470d7" style="width: 100.0%; height: 100.0%;">COLEGIO ALAMO</div>`)[0];
+            popup_00aaeb79c5057e33ac8d15b1d9818c4e.setContent(html_c40b3ba7f18a842baf413d97b18470d7);
+        
+
+        marker_6a4a0d1258721f17cee4ef62da99afd3.bindPopup(popup_00aaeb79c5057e33ac8d15b1d9818c4e)
+        ;
+
+        
+    
+    
+            marker_6a4a0d1258721f17cee4ef62da99afd3.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5f99a35bd3b4f7a6acaeca4d231b942 = L.marker(
+                [19.363909, -99.2998604],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_a839b14875a25d4d913823fff6060c02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27500a01f2952cd80425ee05f321a9d6 = $(`<div id="html_27500a01f2952cd80425ee05f321a9d6" style="width: 100.0%; height: 100.0%;">NORTHRIDGE SCHOOL MÉXICO</div>`)[0];
+            popup_a839b14875a25d4d913823fff6060c02.setContent(html_27500a01f2952cd80425ee05f321a9d6);
+        
+
+        marker_f5f99a35bd3b4f7a6acaeca4d231b942.bindPopup(popup_a839b14875a25d4d913823fff6060c02)
+        ;
+
+        
+    
+    
+            marker_f5f99a35bd3b4f7a6acaeca4d231b942.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bbf402af798ba5ffb27a2baea3531c6a = L.marker(
+                [19.3592744, -99.2858878],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_200a0c4bc0f7b8eee4348ac8f6511eda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ed33d434b71bf21bddb4982ab427d42 = $(`<div id="html_9ed33d434b71bf21bddb4982ab427d42" style="width: 100.0%; height: 100.0%;">CEDAR VALLEY</div>`)[0];
+            popup_200a0c4bc0f7b8eee4348ac8f6511eda.setContent(html_9ed33d434b71bf21bddb4982ab427d42);
+        
+
+        marker_bbf402af798ba5ffb27a2baea3531c6a.bindPopup(popup_200a0c4bc0f7b8eee4348ac8f6511eda)
+        ;
+
+        
+    
+    
+            marker_bbf402af798ba5ffb27a2baea3531c6a.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8976849b36edaa0c47c7ac927d6aa22b = L.marker(
+                [19.3701915, -99.2939404],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_a6add4ec17a4361edbfbdeca749652b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7822bcbe5b7395d5804cf0cc5299bbd7 = $(`<div id="html_7822bcbe5b7395d5804cf0cc5299bbd7" style="width: 100.0%; height: 100.0%;">CENTRO DE APRENDIZAJE INFANTIL EDUKIDS</div>`)[0];
+            popup_a6add4ec17a4361edbfbdeca749652b8.setContent(html_7822bcbe5b7395d5804cf0cc5299bbd7);
+        
+
+        marker_8976849b36edaa0c47c7ac927d6aa22b.bindPopup(popup_a6add4ec17a4361edbfbdeca749652b8)
+        ;
+
+        
+    
+    
+            marker_8976849b36edaa0c47c7ac927d6aa22b.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48dd6f2ca594465b70d46e50a9b4cd7b = L.marker(
+                [19.350866, -99.2935395],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_305d97a8b1813c6916256351597310aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1e960b2afc30c83c781ba374ceab99e = $(`<div id="html_e1e960b2afc30c83c781ba374ceab99e" style="width: 100.0%; height: 100.0%;">CULTURA Y RECREACIÓN MOZART</div>`)[0];
+            popup_305d97a8b1813c6916256351597310aa.setContent(html_e1e960b2afc30c83c781ba374ceab99e);
+        
+
+        marker_48dd6f2ca594465b70d46e50a9b4cd7b.bindPopup(popup_305d97a8b1813c6916256351597310aa)
+        ;
+
+        
+    
+    
+            marker_48dd6f2ca594465b70d46e50a9b4cd7b.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c0a42b5510dd2923186f61f4af6513f = L.marker(
+                [19.3726982, -99.276752],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_7c8c7738e7a5f7aca1a5bc8a4ac25033 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c43b488dcafe83d78a5d9bf0f978b3f = $(`<div id="html_8c43b488dcafe83d78a5d9bf0f978b3f" style="width: 100.0%; height: 100.0%;">TALLER EDUCATIVO MONTESSORI</div>`)[0];
+            popup_7c8c7738e7a5f7aca1a5bc8a4ac25033.setContent(html_8c43b488dcafe83d78a5d9bf0f978b3f);
+        
+
+        marker_3c0a42b5510dd2923186f61f4af6513f.bindPopup(popup_7c8c7738e7a5f7aca1a5bc8a4ac25033)
+        ;
+
+        
+    
+    
+            marker_3c0a42b5510dd2923186f61f4af6513f.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3f22894efeb0962fc3a82c784021521 = L.marker(
+                [19.4009987, -99.2573883],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_ad5c9f3296320f8fc45a47616382478a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c9d14c1e5798b1029834c423a575118 = $(`<div id="html_3c9d14c1e5798b1029834c423a575118" style="width: 100.0%; height: 100.0%;">SEFARADI</div>`)[0];
+            popup_ad5c9f3296320f8fc45a47616382478a.setContent(html_3c9d14c1e5798b1029834c423a575118);
+        
+
+        marker_a3f22894efeb0962fc3a82c784021521.bindPopup(popup_ad5c9f3296320f8fc45a47616382478a)
+        ;
+
+        
+    
+    
+            marker_a3f22894efeb0962fc3a82c784021521.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42223f35da8fed9188203060abf3ec37 = L.marker(
+                [19.3437164, -99.3011302],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_409685242b875940447c7ae06a10a265 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92779edb0d062a7c0a96198d87f41bd1 = $(`<div id="html_92779edb0d062a7c0a96198d87f41bd1" style="width: 100.0%; height: 100.0%;">ESCUELA CAMPESTRE DE MÉXICO</div>`)[0];
+            popup_409685242b875940447c7ae06a10a265.setContent(html_92779edb0d062a7c0a96198d87f41bd1);
+        
+
+        marker_42223f35da8fed9188203060abf3ec37.bindPopup(popup_409685242b875940447c7ae06a10a265)
+        ;
+
+        
+    
+    
+            marker_42223f35da8fed9188203060abf3ec37.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17c9f3db1c876f3dce590cb20f248e17 = L.marker(
+                [19.3564739, -99.2662522],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_ad7a2928828c5354efe4d28ff9c76855 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4900004701732967b37ddf3d20105280 = $(`<div id="html_4900004701732967b37ddf3d20105280" style="width: 100.0%; height: 100.0%;">COLEGIO MONTEVERDE</div>`)[0];
+            popup_ad7a2928828c5354efe4d28ff9c76855.setContent(html_4900004701732967b37ddf3d20105280);
+        
+
+        marker_17c9f3db1c876f3dce590cb20f248e17.bindPopup(popup_ad7a2928828c5354efe4d28ff9c76855)
+        ;
+
+        
+    
+    
+            marker_17c9f3db1c876f3dce590cb20f248e17.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ae938f265649b511eccb6651c83b3bc = L.marker(
+                [19.3564739, -99.2662522],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_ae34d73e24265b80f3195cf65a743f70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b26c4d00041f315bbd1725dbedb23d73 = $(`<div id="html_b26c4d00041f315bbd1725dbedb23d73" style="width: 100.0%; height: 100.0%;">COLEGIO SANTA FE</div>`)[0];
+            popup_ae34d73e24265b80f3195cf65a743f70.setContent(html_b26c4d00041f315bbd1725dbedb23d73);
+        
+
+        marker_6ae938f265649b511eccb6651c83b3bc.bindPopup(popup_ae34d73e24265b80f3195cf65a743f70)
+        ;
+
+        
+    
+    
+            marker_6ae938f265649b511eccb6651c83b3bc.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa2353a8bc0bacc0df9b7b3699d967c1 = L.marker(
+                [19.3620184, -99.3007852],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_edc79bb4c21a6134e1184675183f2ff6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3a936dfddbf4838ed9276836b90e468 = $(`<div id="html_f3a936dfddbf4838ed9276836b90e468" style="width: 100.0%; height: 100.0%;">COLEGIO FRESNOS</div>`)[0];
+            popup_edc79bb4c21a6134e1184675183f2ff6.setContent(html_f3a936dfddbf4838ed9276836b90e468);
+        
+
+        marker_aa2353a8bc0bacc0df9b7b3699d967c1.bindPopup(popup_edc79bb4c21a6134e1184675183f2ff6)
+        ;
+
+        
+    
+    
+            marker_aa2353a8bc0bacc0df9b7b3699d967c1.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_70162733eb040d8b8612483e81130f10 = L.marker(
+                [19.34022, -99.279777],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_f60cbfdfb262207ba0cb3af444004025 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a37ac8cd847884a02b074bc4d9b69a1d = $(`<div id="html_a37ac8cd847884a02b074bc4d9b69a1d" style="width: 100.0%; height: 100.0%;">INSTITUTO ROSNER S.C.</div>`)[0];
+            popup_f60cbfdfb262207ba0cb3af444004025.setContent(html_a37ac8cd847884a02b074bc4d9b69a1d);
+        
+
+        marker_70162733eb040d8b8612483e81130f10.bindPopup(popup_f60cbfdfb262207ba0cb3af444004025)
+        ;
+
+        
+    
+    
+            marker_70162733eb040d8b8612483e81130f10.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a9abfc30f6361416b58800b23f7f2647 = L.marker(
+                [19.3689927, -99.2887804],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_5b14cbbf0596c6e620f63f0504754150 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7b4948bccc9742c1fafa1ed0fe2fe70 = $(`<div id="html_e7b4948bccc9742c1fafa1ed0fe2fe70" style="width: 100.0%; height: 100.0%;">"CANADIAN SCHOOL SANTA FE"</div>`)[0];
+            popup_5b14cbbf0596c6e620f63f0504754150.setContent(html_e7b4948bccc9742c1fafa1ed0fe2fe70);
+        
+
+        marker_a9abfc30f6361416b58800b23f7f2647.bindPopup(popup_5b14cbbf0596c6e620f63f0504754150)
+        ;
+
+        
+    
+    
+            marker_a9abfc30f6361416b58800b23f7f2647.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0743e8bd322be8764e464799d071b63 = L.marker(
+                [19.3557551, -99.2916101],
+                {}
+            ).addTo(feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a);
+        
+    
+        var popup_211ed741a0e85edddcdb96e2bf2692dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec22ab5e112d8b0647329469a670129b = $(`<div id="html_ec22ab5e112d8b0647329469a670129b" style="width: 100.0%; height: 100.0%;">TIYOLI</div>`)[0];
+            popup_211ed741a0e85edddcdb96e2bf2692dd.setContent(html_ec22ab5e112d8b0647329469a670129b);
+        
+
+        marker_a0743e8bd322be8764e464799d071b63.bindPopup(popup_211ed741a0e85edddcdb96e2bf2692dd)
+        ;
+
+        
+    
+    
+            marker_a0743e8bd322be8764e464799d071b63.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69 = L.featureGroup.subGroup(
+                marker_cluster_a10ee7850a7b6a727ef330bc0cffdc9a
+            );
+            feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69.addTo(map_bb49e81640459fc382feda3b1cff61ca);
+        
+    
+            var marker_8100f8ace15686b0e3602cb7ddc89760 = L.marker(
+                [19.3437164, -99.3011302],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_6c5cab9a11359243af4f896ed76aeb2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa92ccb16deadf4dffe2a0cb3dccd2c7 = $(`<div id="html_aa92ccb16deadf4dffe2a0cb3dccd2c7" style="width: 100.0%; height: 100.0%;">CAMPESTRE DE MÉXICO</div>`)[0];
+            popup_6c5cab9a11359243af4f896ed76aeb2f.setContent(html_aa92ccb16deadf4dffe2a0cb3dccd2c7);
+        
+
+        marker_8100f8ace15686b0e3602cb7ddc89760.bindPopup(popup_6c5cab9a11359243af4f896ed76aeb2f)
+        ;
+
+        
+    
+    
+            marker_8100f8ace15686b0e3602cb7ddc89760.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1fa750491363c4855c6a96083ab1868d = L.marker(
+                [19.3796757, -99.2699458],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_1e04005558332a55a64add963c72350b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e5c0527110e0d30f3eccd79fba73741 = $(`<div id="html_9e5c0527110e0d30f3eccd79fba73741" style="width: 100.0%; height: 100.0%;">COLEGIO ISRAELITA DE MÉXICO</div>`)[0];
+            popup_1e04005558332a55a64add963c72350b.setContent(html_9e5c0527110e0d30f3eccd79fba73741);
+        
+
+        marker_1fa750491363c4855c6a96083ab1868d.bindPopup(popup_1e04005558332a55a64add963c72350b)
+        ;
+
+        
+    
+    
+            marker_1fa750491363c4855c6a96083ab1868d.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0030a497dfe081fdcaaf7d7f878ab04b = L.marker(
+                [19.3831071, -99.2552818],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_2648162be768b5c16203fdbd5a571a0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f247e15498b47ec1e36559aa09d6e5dd = $(`<div id="html_f247e15498b47ec1e36559aa09d6e5dd" style="width: 100.0%; height: 100.0%;">COLEGIO MERICI</div>`)[0];
+            popup_2648162be768b5c16203fdbd5a571a0c.setContent(html_f247e15498b47ec1e36559aa09d6e5dd);
+        
+
+        marker_0030a497dfe081fdcaaf7d7f878ab04b.bindPopup(popup_2648162be768b5c16203fdbd5a571a0c)
+        ;
+
+        
+    
+    
+            marker_0030a497dfe081fdcaaf7d7f878ab04b.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59b5b628b495a9cbd03be830ee9dc9ac = L.marker(
+                [19.3889883, -99.2577837],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_fb8d4993317fcbdbacee727da857e64e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd840e2215c1a1ee3d5490eae69d852a = $(`<div id="html_bd840e2215c1a1ee3d5490eae69d852a" style="width: 100.0%; height: 100.0%;">COLEGIO DEL BOSQUE</div>`)[0];
+            popup_fb8d4993317fcbdbacee727da857e64e.setContent(html_bd840e2215c1a1ee3d5490eae69d852a);
+        
+
+        marker_59b5b628b495a9cbd03be830ee9dc9ac.bindPopup(popup_fb8d4993317fcbdbacee727da857e64e)
+        ;
+
+        
+    
+    
+            marker_59b5b628b495a9cbd03be830ee9dc9ac.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_08823405685a16a58f66d239fcfe042a = L.marker(
+                [19.3759707, -99.2756858],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_f2a37c42f21b77d35639224a3bdec548 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e68350df996018b1b1b1d8364fabc315 = $(`<div id="html_e68350df996018b1b1b1d8364fabc315" style="width: 100.0%; height: 100.0%;">DREAM GARDEN KINDER</div>`)[0];
+            popup_f2a37c42f21b77d35639224a3bdec548.setContent(html_e68350df996018b1b1b1d8364fabc315);
+        
+
+        marker_08823405685a16a58f66d239fcfe042a.bindPopup(popup_f2a37c42f21b77d35639224a3bdec548)
+        ;
+
+        
+    
+    
+            marker_08823405685a16a58f66d239fcfe042a.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_846af9643e6122fb7de6f5e0dec70789 = L.marker(
+                [19.3510651, -99.2931068],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_364cfc2f396dc4fe88a4bf6d3e750f79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ccbdc4562d5e42f615a91d8bec24289 = $(`<div id="html_7ccbdc4562d5e42f615a91d8bec24289" style="width: 100.0%; height: 100.0%;">VINCENT VAN GOGH</div>`)[0];
+            popup_364cfc2f396dc4fe88a4bf6d3e750f79.setContent(html_7ccbdc4562d5e42f615a91d8bec24289);
+        
+
+        marker_846af9643e6122fb7de6f5e0dec70789.bindPopup(popup_364cfc2f396dc4fe88a4bf6d3e750f79)
+        ;
+
+        
+    
+    
+            marker_846af9643e6122fb7de6f5e0dec70789.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c4f2867abb220e962b98371dc9ec2e6 = L.marker(
+                [19.3603876, -99.2923088],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_065f87d3bac1651469471f1943910b24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89a6b30e02a360d90b3d95fbe909ab2d = $(`<div id="html_89a6b30e02a360d90b3d95fbe909ab2d" style="width: 100.0%; height: 100.0%;">COLEGIO WES</div>`)[0];
+            popup_065f87d3bac1651469471f1943910b24.setContent(html_89a6b30e02a360d90b3d95fbe909ab2d);
+        
+
+        marker_2c4f2867abb220e962b98371dc9ec2e6.bindPopup(popup_065f87d3bac1651469471f1943910b24)
+        ;
+
+        
+    
+    
+            marker_2c4f2867abb220e962b98371dc9ec2e6.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf8bd44e5c3bf933ee3955625df10ff7 = L.marker(
+                [19.3504454, -99.282294],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_f1472b4d5ca7e064a5118e435ed109f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66bc4f9789aea096c2581bc4c0f044fe = $(`<div id="html_66bc4f9789aea096c2581bc4c0f044fe" style="width: 100.0%; height: 100.0%;">XUMI MONTESSORI</div>`)[0];
+            popup_f1472b4d5ca7e064a5118e435ed109f4.setContent(html_66bc4f9789aea096c2581bc4c0f044fe);
+        
+
+        marker_cf8bd44e5c3bf933ee3955625df10ff7.bindPopup(popup_f1472b4d5ca7e064a5118e435ed109f4)
+        ;
+
+        
+    
+    
+            marker_cf8bd44e5c3bf933ee3955625df10ff7.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb6c0b1b01d376265b315d3fe9a9c7ad = L.marker(
+                [19.3190479, -99.3347767],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_5430a62b13023e7d5413165b1f653052 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b3ff7cc9dd485811f482bcafc080ecf = $(`<div id="html_6b3ff7cc9dd485811f482bcafc080ecf" style="width: 100.0%; height: 100.0%;">JARDIN DE NIÑOS FEDERICO FROEBEL</div>`)[0];
+            popup_5430a62b13023e7d5413165b1f653052.setContent(html_6b3ff7cc9dd485811f482bcafc080ecf);
+        
+
+        marker_cb6c0b1b01d376265b315d3fe9a9c7ad.bindPopup(popup_5430a62b13023e7d5413165b1f653052)
+        ;
+
+        
+    
+    
+            marker_cb6c0b1b01d376265b315d3fe9a9c7ad.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4342c18b987ee869f19776374b147733 = L.marker(
+                [19.3714553, -99.2799282],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_5ba076a3888cd8368df39dba040e3636 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab93453326118079a6979e5d16a354d2 = $(`<div id="html_ab93453326118079a6979e5d16a354d2" style="width: 100.0%; height: 100.0%;">COLEGIO PETERSON</div>`)[0];
+            popup_5ba076a3888cd8368df39dba040e3636.setContent(html_ab93453326118079a6979e5d16a354d2);
+        
+
+        marker_4342c18b987ee869f19776374b147733.bindPopup(popup_5ba076a3888cd8368df39dba040e3636)
+        ;
+
+        
+    
+    
+            marker_4342c18b987ee869f19776374b147733.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5495a07443ebf75f327e128fabac992 = L.marker(
+                [19.3533632, -99.2978991],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_0def3feb4d3a906f83e253e666eb73c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2686502947fec3896b74587a4892fb06 = $(`<div id="html_2686502947fec3896b74587a4892fb06" style="width: 100.0%; height: 100.0%;">CENTRO INFANTIL MARIA TERESA</div>`)[0];
+            popup_0def3feb4d3a906f83e253e666eb73c6.setContent(html_2686502947fec3896b74587a4892fb06);
+        
+
+        marker_d5495a07443ebf75f327e128fabac992.bindPopup(popup_0def3feb4d3a906f83e253e666eb73c6)
+        ;
+
+        
+    
+    
+            marker_d5495a07443ebf75f327e128fabac992.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d2a61e0f7bad5d8003c5c1ea7a743d24 = L.marker(
+                [19.353334, -99.3007349],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_29bdfa7c88610b39abb97204fa4ba1a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e90692ad32d59c7ea36f63f0ffa5b0f = $(`<div id="html_2e90692ad32d59c7ea36f63f0ffa5b0f" style="width: 100.0%; height: 100.0%;">COLEGIO BOSQUES</div>`)[0];
+            popup_29bdfa7c88610b39abb97204fa4ba1a5.setContent(html_2e90692ad32d59c7ea36f63f0ffa5b0f);
+        
+
+        marker_d2a61e0f7bad5d8003c5c1ea7a743d24.bindPopup(popup_29bdfa7c88610b39abb97204fa4ba1a5)
+        ;
+
+        
+    
+    
+            marker_d2a61e0f7bad5d8003c5c1ea7a743d24.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79b988b62b0c71ea9f2f906da331deeb = L.marker(
+                [19.3824231, -99.2783239],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_06f4118a7e964c17ad5f9f5ac0b48d64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_646f6c078f5f133a79c257eba893aa15 = $(`<div id="html_646f6c078f5f133a79c257eba893aa15" style="width: 100.0%; height: 100.0%;">COLEGIO FRANCO INGLES</div>`)[0];
+            popup_06f4118a7e964c17ad5f9f5ac0b48d64.setContent(html_646f6c078f5f133a79c257eba893aa15);
+        
+
+        marker_79b988b62b0c71ea9f2f906da331deeb.bindPopup(popup_06f4118a7e964c17ad5f9f5ac0b48d64)
+        ;
+
+        
+    
+    
+            marker_79b988b62b0c71ea9f2f906da331deeb.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6632f0e93c8f0023dc21f51ddd2671dd = L.marker(
+                [19.3477318, -99.290236],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_d3c1833738d59fc86aef92fe6d144495 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27dc7a6584387f7e1300a45f939cacd4 = $(`<div id="html_27dc7a6584387f7e1300a45f939cacd4" style="width: 100.0%; height: 100.0%;">TRAMONTANA</div>`)[0];
+            popup_d3c1833738d59fc86aef92fe6d144495.setContent(html_27dc7a6584387f7e1300a45f939cacd4);
+        
+
+        marker_6632f0e93c8f0023dc21f51ddd2671dd.bindPopup(popup_d3c1833738d59fc86aef92fe6d144495)
+        ;
+
+        
+    
+    
+            marker_6632f0e93c8f0023dc21f51ddd2671dd.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_88dd8af8845e7da8249e59c6e46139cb = L.marker(
+                [19.3722023, -99.2769383],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_d84ab2d4221fbea87a0b8c707bb39485 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efd6425e49bf43f7e0d47ab25186689f = $(`<div id="html_efd6425e49bf43f7e0d47ab25186689f" style="width: 100.0%; height: 100.0%;">COLEGIO HEBREO TARBUT</div>`)[0];
+            popup_d84ab2d4221fbea87a0b8c707bb39485.setContent(html_efd6425e49bf43f7e0d47ab25186689f);
+        
+
+        marker_88dd8af8845e7da8249e59c6e46139cb.bindPopup(popup_d84ab2d4221fbea87a0b8c707bb39485)
+        ;
+
+        
+    
+    
+            marker_88dd8af8845e7da8249e59c6e46139cb.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e4019af20508b72c0f4e6a661106fc0 = L.marker(
+                [19.386628, -99.2649705],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_7a068cf80377b4c5c7fc1638b5d21fe8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4b237971f932c1dea566c88e1861b4a = $(`<div id="html_c4b237971f932c1dea566c88e1861b4a" style="width: 100.0%; height: 100.0%;">ALEGRO MONTESSORI</div>`)[0];
+            popup_7a068cf80377b4c5c7fc1638b5d21fe8.setContent(html_c4b237971f932c1dea566c88e1861b4a);
+        
+
+        marker_6e4019af20508b72c0f4e6a661106fc0.bindPopup(popup_7a068cf80377b4c5c7fc1638b5d21fe8)
+        ;
+
+        
+    
+    
+            marker_6e4019af20508b72c0f4e6a661106fc0.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4e6fc3f0f7489b76297538c8c1f898d = L.marker(
+                [19.390886, -99.265168],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_b1b6ab0477f93a7cbf4c98c4b787ef5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20b9f6b11ccde80e45cc2cb7b1af73d3 = $(`<div id="html_20b9f6b11ccde80e45cc2cb7b1af73d3" style="width: 100.0%; height: 100.0%;">KINDER ALPINE</div>`)[0];
+            popup_b1b6ab0477f93a7cbf4c98c4b787ef5d.setContent(html_20b9f6b11ccde80e45cc2cb7b1af73d3);
+        
+
+        marker_c4e6fc3f0f7489b76297538c8c1f898d.bindPopup(popup_b1b6ab0477f93a7cbf4c98c4b787ef5d)
+        ;
+
+        
+    
+    
+            marker_c4e6fc3f0f7489b76297538c8c1f898d.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b119fb76b608ff8503958b11ad30f134 = L.marker(
+                [19.3473866, -99.3031845],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_15740d1ca570baf4764c42bcf8d56fdc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe15b1cac836355a7b706b296299cbbe = $(`<div id="html_fe15b1cac836355a7b706b296299cbbe" style="width: 100.0%; height: 100.0%;">LUDOKID'S KINDER</div>`)[0];
+            popup_15740d1ca570baf4764c42bcf8d56fdc.setContent(html_fe15b1cac836355a7b706b296299cbbe);
+        
+
+        marker_b119fb76b608ff8503958b11ad30f134.bindPopup(popup_15740d1ca570baf4764c42bcf8d56fdc)
+        ;
+
+        
+    
+    
+            marker_b119fb76b608ff8503958b11ad30f134.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_64cf3a92a258e768f3ef899d75b94b85 = L.marker(
+                [19.3846646, -99.25606],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_ddc48ccc173c7c2a5d2927187a689a09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d38f619b2e25f65ea0259c144482266 = $(`<div id="html_5d38f619b2e25f65ea0259c144482266" style="width: 100.0%; height: 100.0%;">KIDS & BABY SCHOOL, SOCIEDAD CIVIL</div>`)[0];
+            popup_ddc48ccc173c7c2a5d2927187a689a09.setContent(html_5d38f619b2e25f65ea0259c144482266);
+        
+
+        marker_64cf3a92a258e768f3ef899d75b94b85.bindPopup(popup_ddc48ccc173c7c2a5d2927187a689a09)
+        ;
+
+        
+    
+    
+            marker_64cf3a92a258e768f3ef899d75b94b85.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_806d1cadc9c5252e0a4deb087d940937 = L.marker(
+                [19.3836077, -99.2786124],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_21150c7e19013b72d2be3bad8c8e8073 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5ef2ca1a7b534c628a71e6634bff07d = $(`<div id="html_c5ef2ca1a7b534c628a71e6634bff07d" style="width: 100.0%; height: 100.0%;">COLEGIO HEBREO MAGUEN DAVID</div>`)[0];
+            popup_21150c7e19013b72d2be3bad8c8e8073.setContent(html_c5ef2ca1a7b534c628a71e6634bff07d);
+        
+
+        marker_806d1cadc9c5252e0a4deb087d940937.bindPopup(popup_21150c7e19013b72d2be3bad8c8e8073)
+        ;
+
+        
+    
+    
+            marker_806d1cadc9c5252e0a4deb087d940937.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c1afeb73bdb95dd85dfd092fa890fe8 = L.marker(
+                [19.3603026, -99.3020654],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_17e599956b03f9935b67766b99ec2a46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2ad3e7fc998fcd1b9e9e1ca1211e9f6 = $(`<div id="html_f2ad3e7fc998fcd1b9e9e1ca1211e9f6" style="width: 100.0%; height: 100.0%;">HILLCREST</div>`)[0];
+            popup_17e599956b03f9935b67766b99ec2a46.setContent(html_f2ad3e7fc998fcd1b9e9e1ca1211e9f6);
+        
+
+        marker_6c1afeb73bdb95dd85dfd092fa890fe8.bindPopup(popup_17e599956b03f9935b67766b99ec2a46)
+        ;
+
+        
+    
+    
+            marker_6c1afeb73bdb95dd85dfd092fa890fe8.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebc06da13fc0d8cec13929681f67e4c0 = L.marker(
+                [19.3605581, -99.299827],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_1aee3efb07ca0e1d2b046968fbbc8a7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5614ae9b1210d62e4a092b20e64002cf = $(`<div id="html_5614ae9b1210d62e4a092b20e64002cf" style="width: 100.0%; height: 100.0%;">JARDÍN DE NIÑOS LA CABAÑA MÁGICA</div>`)[0];
+            popup_1aee3efb07ca0e1d2b046968fbbc8a7a.setContent(html_5614ae9b1210d62e4a092b20e64002cf);
+        
+
+        marker_ebc06da13fc0d8cec13929681f67e4c0.bindPopup(popup_1aee3efb07ca0e1d2b046968fbbc8a7a)
+        ;
+
+        
+    
+    
+            marker_ebc06da13fc0d8cec13929681f67e4c0.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9aa5f82a5468c21466218438deb831fe = L.marker(
+                [19.3510041, -99.2854668],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_13d1a358941fbea5843485c9edb3a469 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a3efdb09085a5f2fbe801619848923a = $(`<div id="html_2a3efdb09085a5f2fbe801619848923a" style="width: 100.0%; height: 100.0%;">KOKONE MONTESSORI</div>`)[0];
+            popup_13d1a358941fbea5843485c9edb3a469.setContent(html_2a3efdb09085a5f2fbe801619848923a);
+        
+
+        marker_9aa5f82a5468c21466218438deb831fe.bindPopup(popup_13d1a358941fbea5843485c9edb3a469)
+        ;
+
+        
+    
+    
+            marker_9aa5f82a5468c21466218438deb831fe.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ffd5fdbde44f12fd908704363470ed99 = L.marker(
+                [19.3442949, -99.2855859],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_754674016abd312b562919660cc2e883 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90189ac8013a0597166b83b75aa303d4 = $(`<div id="html_90189ac8013a0597166b83b75aa303d4" style="width: 100.0%; height: 100.0%;">KINDER BABY STEPS</div>`)[0];
+            popup_754674016abd312b562919660cc2e883.setContent(html_90189ac8013a0597166b83b75aa303d4);
+        
+
+        marker_ffd5fdbde44f12fd908704363470ed99.bindPopup(popup_754674016abd312b562919660cc2e883)
+        ;
+
+        
+    
+    
+            marker_ffd5fdbde44f12fd908704363470ed99.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6e5907ea212faa51ecddda9c685ab60 = L.marker(
+                [19.3481523, -99.3019797],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_e7a9ca91e96a95aa4ceac975d25d212c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36f82684ad16e44375147c898a6f1b06 = $(`<div id="html_36f82684ad16e44375147c898a6f1b06" style="width: 100.0%; height: 100.0%;">ESCUELA EL BOSQUE MICAEL</div>`)[0];
+            popup_e7a9ca91e96a95aa4ceac975d25d212c.setContent(html_36f82684ad16e44375147c898a6f1b06);
+        
+
+        marker_a6e5907ea212faa51ecddda9c685ab60.bindPopup(popup_e7a9ca91e96a95aa4ceac975d25d212c)
+        ;
+
+        
+    
+    
+            marker_a6e5907ea212faa51ecddda9c685ab60.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fbc458f95c13ba7b92ffe6073eb23da6 = L.marker(
+                [19.3626965, -99.2945623],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_ed60aa37e06d33af7fc884ad0eda6ae2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db7dc2b45e9066704dddee7b071cb2e6 = $(`<div id="html_db7dc2b45e9066704dddee7b071cb2e6" style="width: 100.0%; height: 100.0%;">KIDDIES TIME</div>`)[0];
+            popup_ed60aa37e06d33af7fc884ad0eda6ae2.setContent(html_db7dc2b45e9066704dddee7b071cb2e6);
+        
+
+        marker_fbc458f95c13ba7b92ffe6073eb23da6.bindPopup(popup_ed60aa37e06d33af7fc884ad0eda6ae2)
+        ;
+
+        
+    
+    
+            marker_fbc458f95c13ba7b92ffe6073eb23da6.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99a0e790a7fadf1ba3369c7b761fb910 = L.marker(
+                [19.3591396, -99.2704389],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_f688518e633ffcc3cc2324f4e6df51b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c30d5135fdedefcfc6c836ea59c42b2 = $(`<div id="html_8c30d5135fdedefcfc6c836ea59c42b2" style="width: 100.0%; height: 100.0%;">IMPULSO PEDAGÓGICO MEXICANO</div>`)[0];
+            popup_f688518e633ffcc3cc2324f4e6df51b0.setContent(html_8c30d5135fdedefcfc6c836ea59c42b2);
+        
+
+        marker_99a0e790a7fadf1ba3369c7b761fb910.bindPopup(popup_f688518e633ffcc3cc2324f4e6df51b0)
+        ;
+
+        
+    
+    
+            marker_99a0e790a7fadf1ba3369c7b761fb910.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c9b0febb0e39ca2230a53393b34eb12 = L.marker(
+                [19.3529756, -99.3043435],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_a9850f12c9b073697ff6d3f9ad48ef53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10a9f5bb14ae7e02b1682b53b62a081f = $(`<div id="html_10a9f5bb14ae7e02b1682b53b62a081f" style="width: 100.0%; height: 100.0%;">COLEGIO BILINGÜE CIPRES</div>`)[0];
+            popup_a9850f12c9b073697ff6d3f9ad48ef53.setContent(html_10a9f5bb14ae7e02b1682b53b62a081f);
+        
+
+        marker_0c9b0febb0e39ca2230a53393b34eb12.bindPopup(popup_a9850f12c9b073697ff6d3f9ad48ef53)
+        ;
+
+        
+    
+    
+            marker_0c9b0febb0e39ca2230a53393b34eb12.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe439489c41c2d0f422192389c508e74 = L.marker(
+                [19.3660886, -99.2812237],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_c57ce6dfc5d5fe28b5057724213a9add = L.popup({"maxWidth": "100%"});
+
+        
+            var html_842a7f22cb5b34dcd686ae1ad0e4bde6 = $(`<div id="html_842a7f22cb5b34dcd686ae1ad0e4bde6" style="width: 100.0%; height: 100.0%;">KIDS LEARNING WORLD</div>`)[0];
+            popup_c57ce6dfc5d5fe28b5057724213a9add.setContent(html_842a7f22cb5b34dcd686ae1ad0e4bde6);
+        
+
+        marker_fe439489c41c2d0f422192389c508e74.bindPopup(popup_c57ce6dfc5d5fe28b5057724213a9add)
+        ;
+
+        
+    
+    
+            marker_fe439489c41c2d0f422192389c508e74.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13cf33026c2f3e69e626ee96c6007be8 = L.marker(
+                [19.3771375, -99.2721983],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_196e12a02b3c6a51b052eb2b60064244 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f4b8ad34e63a39d4cf2603fcb2832e8 = $(`<div id="html_8f4b8ad34e63a39d4cf2603fcb2832e8" style="width: 100.0%; height: 100.0%;">JARDIN DE NIÑOS DEL COLEGIO VISTA HERMOSA</div>`)[0];
+            popup_196e12a02b3c6a51b052eb2b60064244.setContent(html_8f4b8ad34e63a39d4cf2603fcb2832e8);
+        
+
+        marker_13cf33026c2f3e69e626ee96c6007be8.bindPopup(popup_196e12a02b3c6a51b052eb2b60064244)
+        ;
+
+        
+    
+    
+            marker_13cf33026c2f3e69e626ee96c6007be8.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1cb484b3ca8c647d628046bc22b426ed = L.marker(
+                [19.3768418, -99.2852262],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_eb3a5940b7f1822a1ab684133610ad4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a36b350a42fff84f37768adf34a519b6 = $(`<div id="html_a36b350a42fff84f37768adf34a519b6" style="width: 100.0%; height: 100.0%;">GABRIELA MISTRAL</div>`)[0];
+            popup_eb3a5940b7f1822a1ab684133610ad4d.setContent(html_a36b350a42fff84f37768adf34a519b6);
+        
+
+        marker_1cb484b3ca8c647d628046bc22b426ed.bindPopup(popup_eb3a5940b7f1822a1ab684133610ad4d)
+        ;
+
+        
+    
+    
+            marker_1cb484b3ca8c647d628046bc22b426ed.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d497a6134bdaf1ffac69786bb024975 = L.marker(
+                [19.3741778, -99.2817915],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_6103072d25972c6c722b4ddbca67ad94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce90f14ec5c85e31483964e2a7b24e62 = $(`<div id="html_ce90f14ec5c85e31483964e2a7b24e62" style="width: 100.0%; height: 100.0%;">CENTRO EDUCATIVO NAVIDAD, SOCIEDAD CIVIL</div>`)[0];
+            popup_6103072d25972c6c722b4ddbca67ad94.setContent(html_ce90f14ec5c85e31483964e2a7b24e62);
+        
+
+        marker_7d497a6134bdaf1ffac69786bb024975.bindPopup(popup_6103072d25972c6c722b4ddbca67ad94)
+        ;
+
+        
+    
+    
+            marker_7d497a6134bdaf1ffac69786bb024975.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f71417f4da2c1db3dfecf9b56f23e03e = L.marker(
+                [19.3433672, -99.2793078],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_47e5c67992c6d0a9c8e64c04d0efabbe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eface37370a4d933bc2f49dee90467f1 = $(`<div id="html_eface37370a4d933bc2f49dee90467f1" style="width: 100.0%; height: 100.0%;">CENDI KEY ELLEN</div>`)[0];
+            popup_47e5c67992c6d0a9c8e64c04d0efabbe.setContent(html_eface37370a4d933bc2f49dee90467f1);
+        
+
+        marker_f71417f4da2c1db3dfecf9b56f23e03e.bindPopup(popup_47e5c67992c6d0a9c8e64c04d0efabbe)
+        ;
+
+        
+    
+    
+            marker_f71417f4da2c1db3dfecf9b56f23e03e.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e15de6d3a425b8d4530bc5ea70775fd5 = L.marker(
+                [19.3466476, -99.2757864],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_d17a826b4ea08f3cb9427f445155d3fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b088b59b07a2f003226b564b1a0427e9 = $(`<div id="html_b088b59b07a2f003226b564b1a0427e9" style="width: 100.0%; height: 100.0%;">COLEGIO BILBAO</div>`)[0];
+            popup_d17a826b4ea08f3cb9427f445155d3fe.setContent(html_b088b59b07a2f003226b564b1a0427e9);
+        
+
+        marker_e15de6d3a425b8d4530bc5ea70775fd5.bindPopup(popup_d17a826b4ea08f3cb9427f445155d3fe)
+        ;
+
+        
+    
+    
+            marker_e15de6d3a425b8d4530bc5ea70775fd5.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c9fc1d3a6956fb05d0fb77326a00ea1 = L.marker(
+                [19.3408532, -99.2809842],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_4d82fe491a8e111e12104912c0e624f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0341c46d931bf8d402159395c386381c = $(`<div id="html_0341c46d931bf8d402159395c386381c" style="width: 100.0%; height: 100.0%;">TLALTENANGO</div>`)[0];
+            popup_4d82fe491a8e111e12104912c0e624f3.setContent(html_0341c46d931bf8d402159395c386381c);
+        
+
+        marker_7c9fc1d3a6956fb05d0fb77326a00ea1.bindPopup(popup_4d82fe491a8e111e12104912c0e624f3)
+        ;
+
+        
+    
+    
+            marker_7c9fc1d3a6956fb05d0fb77326a00ea1.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5996d521bce003c947b1ad9236516fd9 = L.marker(
+                [19.3734839, -99.2838568],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_b7b318678649cbb2d4c09072ba6cba72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa83c9bc96394f1927d88b0147761b11 = $(`<div id="html_fa83c9bc96394f1927d88b0147761b11" style="width: 100.0%; height: 100.0%;">JARDIN DE NIÑOS MI FANTASIA</div>`)[0];
+            popup_b7b318678649cbb2d4c09072ba6cba72.setContent(html_fa83c9bc96394f1927d88b0147761b11);
+        
+
+        marker_5996d521bce003c947b1ad9236516fd9.bindPopup(popup_b7b318678649cbb2d4c09072ba6cba72)
+        ;
+
+        
+    
+    
+            marker_5996d521bce003c947b1ad9236516fd9.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a7ecb2bc8364f4e2c0971165068a50f4 = L.marker(
+                [19.310371, -99.335725],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_d464749ca549ea92d504fcbd2179b1f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9eeac7c998827a0b2434184f788845c4 = $(`<div id="html_9eeac7c998827a0b2434184f788845c4" style="width: 100.0%; height: 100.0%;">TECILLI MONTESSORI</div>`)[0];
+            popup_d464749ca549ea92d504fcbd2179b1f5.setContent(html_9eeac7c998827a0b2434184f788845c4);
+        
+
+        marker_a7ecb2bc8364f4e2c0971165068a50f4.bindPopup(popup_d464749ca549ea92d504fcbd2179b1f5)
+        ;
+
+        
+    
+    
+            marker_a7ecb2bc8364f4e2c0971165068a50f4.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d1dbbbcc5d00f641746ccec523547e1 = L.marker(
+                [19.3554414, -99.289227],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_0d77313060281f38539d95e009f9a7ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84e3805e1e2c032fbe15120def199d6f = $(`<div id="html_84e3805e1e2c032fbe15120def199d6f" style="width: 100.0%; height: 100.0%;">HILLSIDE SCHOOL</div>`)[0];
+            popup_0d77313060281f38539d95e009f9a7ab.setContent(html_84e3805e1e2c032fbe15120def199d6f);
+        
+
+        marker_5d1dbbbcc5d00f641746ccec523547e1.bindPopup(popup_0d77313060281f38539d95e009f9a7ab)
+        ;
+
+        
+    
+    
+            marker_5d1dbbbcc5d00f641746ccec523547e1.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98525ee61411241866610581b4f40941 = L.marker(
+                [19.3564504, -99.2652214],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_16955348f01e31747b060e0e335645b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc4c9535e5f6a381242d4997723679bd = $(`<div id="html_cc4c9535e5f6a381242d4997723679bd" style="width: 100.0%; height: 100.0%;">COLEGIO EUGENIO DE MAZENOD</div>`)[0];
+            popup_16955348f01e31747b060e0e335645b6.setContent(html_cc4c9535e5f6a381242d4997723679bd);
+        
+
+        marker_98525ee61411241866610581b4f40941.bindPopup(popup_16955348f01e31747b060e0e335645b6)
+        ;
+
+        
+    
+    
+            marker_98525ee61411241866610581b4f40941.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e3bdc957a55e463518c17734cf2e9698 = L.marker(
+                [19.3894121, -99.2596429],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_7c1ca2187b1c947dd06d09d862378a26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e5da6b74069ff6b5f7fbfaa5f52ea9d = $(`<div id="html_7e5da6b74069ff6b5f7fbfaa5f52ea9d" style="width: 100.0%; height: 100.0%;">EL COLE MONTESSORI</div>`)[0];
+            popup_7c1ca2187b1c947dd06d09d862378a26.setContent(html_7e5da6b74069ff6b5f7fbfaa5f52ea9d);
+        
+
+        marker_e3bdc957a55e463518c17734cf2e9698.bindPopup(popup_7c1ca2187b1c947dd06d09d862378a26)
+        ;
+
+        
+    
+    
+            marker_e3bdc957a55e463518c17734cf2e9698.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4cf83de4ceb9f23330afc54e01c7173 = L.marker(
+                [19.3620184, -99.3007852],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_eb10ccb73183de0486ffbbb7ef1531e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55048593453071f6950996b44d7bc716 = $(`<div id="html_55048593453071f6950996b44d7bc716" style="width: 100.0%; height: 100.0%;">COLEGIO FRESNOS</div>`)[0];
+            popup_eb10ccb73183de0486ffbbb7ef1531e3.setContent(html_55048593453071f6950996b44d7bc716);
+        
+
+        marker_c4cf83de4ceb9f23330afc54e01c7173.bindPopup(popup_eb10ccb73183de0486ffbbb7ef1531e3)
+        ;
+
+        
+    
+    
+            marker_c4cf83de4ceb9f23330afc54e01c7173.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6312bb9297633efcab05ce291245c874 = L.marker(
+                [19.4009987, -99.2573883],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_040e6ab1d27583d4f8576bc3bfc60ca8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3245e2f7fc7886b2b0855a31cff8fff = $(`<div id="html_c3245e2f7fc7886b2b0855a31cff8fff" style="width: 100.0%; height: 100.0%;">KINDER SEFARADI</div>`)[0];
+            popup_040e6ab1d27583d4f8576bc3bfc60ca8.setContent(html_c3245e2f7fc7886b2b0855a31cff8fff);
+        
+
+        marker_6312bb9297633efcab05ce291245c874.bindPopup(popup_040e6ab1d27583d4f8576bc3bfc60ca8)
+        ;
+
+        
+    
+    
+            marker_6312bb9297633efcab05ce291245c874.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ce3972a936b61aa6deb965a37c2c51b = L.marker(
+                [19.3391124, -99.2808461],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_5acddde4b83a93529558c13f5240b40e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28ce6fc730394a0e48c33db3e2bd93e3 = $(`<div id="html_28ce6fc730394a0e48c33db3e2bd93e3" style="width: 100.0%; height: 100.0%;">KINDER FIRST SKILLS</div>`)[0];
+            popup_5acddde4b83a93529558c13f5240b40e.setContent(html_28ce6fc730394a0e48c33db3e2bd93e3);
+        
+
+        marker_3ce3972a936b61aa6deb965a37c2c51b.bindPopup(popup_5acddde4b83a93529558c13f5240b40e)
+        ;
+
+        
+    
+    
+            marker_3ce3972a936b61aa6deb965a37c2c51b.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_524777a63f5710ebdd08e933e505a6fc = L.marker(
+                [19.37245, -99.291322],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_28cd335e170cb25531006502bc9a7577 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bcee98ce3d3bc77f769b69039ebfb01 = $(`<div id="html_1bcee98ce3d3bc77f769b69039ebfb01" style="width: 100.0%; height: 100.0%;">COLEGIO PERSONALIZADO ALAMO</div>`)[0];
+            popup_28cd335e170cb25531006502bc9a7577.setContent(html_1bcee98ce3d3bc77f769b69039ebfb01);
+        
+
+        marker_524777a63f5710ebdd08e933e505a6fc.bindPopup(popup_28cd335e170cb25531006502bc9a7577)
+        ;
+
+        
+    
+    
+            marker_524777a63f5710ebdd08e933e505a6fc.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b272a6b130a1918b000c04e8328acd3 = L.marker(
+                [19.3646311, -99.2842517],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_663e8ab75261317e376d9c666017c576 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbe138eeb8f0c49b9ec5429c7290f238 = $(`<div id="html_fbe138eeb8f0c49b9ec5429c7290f238" style="width: 100.0%; height: 100.0%;">KINDERGYM CUAJIMALPA</div>`)[0];
+            popup_663e8ab75261317e376d9c666017c576.setContent(html_fbe138eeb8f0c49b9ec5429c7290f238);
+        
+
+        marker_4b272a6b130a1918b000c04e8328acd3.bindPopup(popup_663e8ab75261317e376d9c666017c576)
+        ;
+
+        
+    
+    
+            marker_4b272a6b130a1918b000c04e8328acd3.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1def26530670dfabde9129be976f70c1 = L.marker(
+                [19.3597431, -99.2659063],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_53e2d527be2c2f69de530f245e570c2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc2ce4639dcadd28283f85408b88ef1b = $(`<div id="html_dc2ce4639dcadd28283f85408b88ef1b" style="width: 100.0%; height: 100.0%;">PINECREST INSTITUTE</div>`)[0];
+            popup_53e2d527be2c2f69de530f245e570c2f.setContent(html_dc2ce4639dcadd28283f85408b88ef1b);
+        
+
+        marker_1def26530670dfabde9129be976f70c1.bindPopup(popup_53e2d527be2c2f69de530f245e570c2f)
+        ;
+
+        
+    
+    
+            marker_1def26530670dfabde9129be976f70c1.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0d94b83a99705946172ee44664d12d0 = L.marker(
+                [19.3533549, -99.2901474],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_42b6e3b0200b75a9baf703e259083295 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e37acf8c0869758d8678b4c3d46caf4d = $(`<div id="html_e37acf8c0869758d8678b4c3d46caf4d" style="width: 100.0%; height: 100.0%;">COLEGIO CONTADERO</div>`)[0];
+            popup_42b6e3b0200b75a9baf703e259083295.setContent(html_e37acf8c0869758d8678b4c3d46caf4d);
+        
+
+        marker_f0d94b83a99705946172ee44664d12d0.bindPopup(popup_42b6e3b0200b75a9baf703e259083295)
+        ;
+
+        
+    
+    
+            marker_f0d94b83a99705946172ee44664d12d0.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b49f19edff2661eabf58a89eb3c1bd1 = L.marker(
+                [19.3651701, -99.2838045],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_dc739896c564387d19ca2b4d4850ab00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_734bf03f10ac3d2b851f048c2576986d = $(`<div id="html_734bf03f10ac3d2b851f048c2576986d" style="width: 100.0%; height: 100.0%;">LA MAGIA DE MERLIN</div>`)[0];
+            popup_dc739896c564387d19ca2b4d4850ab00.setContent(html_734bf03f10ac3d2b851f048c2576986d);
+        
+
+        marker_2b49f19edff2661eabf58a89eb3c1bd1.bindPopup(popup_dc739896c564387d19ca2b4d4850ab00)
+        ;
+
+        
+    
+    
+            marker_2b49f19edff2661eabf58a89eb3c1bd1.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_553938d9b3593ee251924b4ff19492ff = L.marker(
+                [19.352059, -99.3014416],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_f9d0bf915636734eb54a382c5ec05716 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_248a5f4b4aedfbd90885c5192e9ef5bb = $(`<div id="html_248a5f4b4aedfbd90885c5192e9ef5bb" style="width: 100.0%; height: 100.0%;">COLEGIO LOMAS HILL PRESCHOOL</div>`)[0];
+            popup_f9d0bf915636734eb54a382c5ec05716.setContent(html_248a5f4b4aedfbd90885c5192e9ef5bb);
+        
+
+        marker_553938d9b3593ee251924b4ff19492ff.bindPopup(popup_f9d0bf915636734eb54a382c5ec05716)
+        ;
+
+        
+    
+    
+            marker_553938d9b3593ee251924b4ff19492ff.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3916d3eff0b53ed8c7377be97a99d4f7 = L.marker(
+                [19.3613871, -99.2922723],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_eedc5c5906302a66e41b69600253eb8a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63661ce314df968a4631026d24a0fc3b = $(`<div id="html_63661ce314df968a4631026d24a0fc3b" style="width: 100.0%; height: 100.0%;">JUGAR Y APRENDER</div>`)[0];
+            popup_eedc5c5906302a66e41b69600253eb8a.setContent(html_63661ce314df968a4631026d24a0fc3b);
+        
+
+        marker_3916d3eff0b53ed8c7377be97a99d4f7.bindPopup(popup_eedc5c5906302a66e41b69600253eb8a)
+        ;
+
+        
+    
+    
+            marker_3916d3eff0b53ed8c7377be97a99d4f7.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aef820a840368751a736a2eb8b4bd2cd = L.marker(
+                [19.3825557, -99.2562347],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_09c295166d349a9600a2ae2c0e002928 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_885cefcd10237a066c09ce928e743f86 = $(`<div id="html_885cefcd10237a066c09ce928e743f86" style="width: 100.0%; height: 100.0%;">CENTRO AAMI</div>`)[0];
+            popup_09c295166d349a9600a2ae2c0e002928.setContent(html_885cefcd10237a066c09ce928e743f86);
+        
+
+        marker_aef820a840368751a736a2eb8b4bd2cd.bindPopup(popup_09c295166d349a9600a2ae2c0e002928)
+        ;
+
+        
+    
+    
+            marker_aef820a840368751a736a2eb8b4bd2cd.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9dd23aa9a95227030eb7cec1a5615f2d = L.marker(
+                [19.3504179, -99.2954576],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_94f3911bcfe05c1ccbfea170613b93f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e57122887462d90fef6a5ff90af4d7a9 = $(`<div id="html_e57122887462d90fef6a5ff90af4d7a9" style="width: 100.0%; height: 100.0%;">ELLWOOD KINDER</div>`)[0];
+            popup_94f3911bcfe05c1ccbfea170613b93f6.setContent(html_e57122887462d90fef6a5ff90af4d7a9);
+        
+
+        marker_9dd23aa9a95227030eb7cec1a5615f2d.bindPopup(popup_94f3911bcfe05c1ccbfea170613b93f6)
+        ;
+
+        
+    
+    
+            marker_9dd23aa9a95227030eb7cec1a5615f2d.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0107e1c0fe90e547b008d7cadd8e9aee = L.marker(
+                [19.3822082, -99.2562057],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_a50543fad53e5fecad27fdad8da0e45b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a69caff2ae6d143f23180d66568f6342 = $(`<div id="html_a69caff2ae6d143f23180d66568f6342" style="width: 100.0%; height: 100.0%;">OR SAMEAJ</div>`)[0];
+            popup_a50543fad53e5fecad27fdad8da0e45b.setContent(html_a69caff2ae6d143f23180d66568f6342);
+        
+
+        marker_0107e1c0fe90e547b008d7cadd8e9aee.bindPopup(popup_a50543fad53e5fecad27fdad8da0e45b)
+        ;
+
+        
+    
+    
+            marker_0107e1c0fe90e547b008d7cadd8e9aee.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e682490f6dda35aa2373a55ce5893f6 = L.marker(
+                [19.3465528, -99.2978991],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_cdca78c18e2f65e5c27655a803c359d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35db2f1ff8498e464cedaf881023bc29 = $(`<div id="html_35db2f1ff8498e464cedaf881023bc29" style="width: 100.0%; height: 100.0%;">SUNNY HILL LEARNING CENTER</div>`)[0];
+            popup_cdca78c18e2f65e5c27655a803c359d1.setContent(html_35db2f1ff8498e464cedaf881023bc29);
+        
+
+        marker_1e682490f6dda35aa2373a55ce5893f6.bindPopup(popup_cdca78c18e2f65e5c27655a803c359d1)
+        ;
+
+        
+    
+    
+            marker_1e682490f6dda35aa2373a55ce5893f6.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d39f4641f27568f0feb5bd1e6052dda = L.marker(
+                [19.3726982, -99.276752],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_8c0c3e72a7f24eb07eb2fbf68aea2b47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1696656d0babfad4aea4870f4c6166c = $(`<div id="html_d1696656d0babfad4aea4870f4c6166c" style="width: 100.0%; height: 100.0%;">TALLER EDUCATIVO MONTESSORI</div>`)[0];
+            popup_8c0c3e72a7f24eb07eb2fbf68aea2b47.setContent(html_d1696656d0babfad4aea4870f4c6166c);
+        
+
+        marker_8d39f4641f27568f0feb5bd1e6052dda.bindPopup(popup_8c0c3e72a7f24eb07eb2fbf68aea2b47)
+        ;
+
+        
+    
+    
+            marker_8d39f4641f27568f0feb5bd1e6052dda.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4241f2dfe903f14d32e84c294457294c = L.marker(
+                [19.3616179, -99.2895458],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_d672ac44a99aba8541e2375695deee9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe5ccf19e932e583797c2dadf4673546 = $(`<div id="html_fe5ccf19e932e583797c2dadf4673546" style="width: 100.0%; height: 100.0%;">COLEGIO VON GLÜMER</div>`)[0];
+            popup_d672ac44a99aba8541e2375695deee9d.setContent(html_fe5ccf19e932e583797c2dadf4673546);
+        
+
+        marker_4241f2dfe903f14d32e84c294457294c.bindPopup(popup_d672ac44a99aba8541e2375695deee9d)
+        ;
+
+        
+    
+    
+            marker_4241f2dfe903f14d32e84c294457294c.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c2190085bf2442422f27dac64ee700dc = L.marker(
+                [19.3626419, -99.2909804],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_5e878f788db734e41fda77f6ba221d5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d15f8c6a341970d827f11d025c4612d = $(`<div id="html_3d15f8c6a341970d827f11d025c4612d" style="width: 100.0%; height: 100.0%;">CENTRO EDUCATIVO TOMAS MORO</div>`)[0];
+            popup_5e878f788db734e41fda77f6ba221d5f.setContent(html_3d15f8c6a341970d827f11d025c4612d);
+        
+
+        marker_c2190085bf2442422f27dac64ee700dc.bindPopup(popup_5e878f788db734e41fda77f6ba221d5f)
+        ;
+
+        
+    
+    
+            marker_c2190085bf2442422f27dac64ee700dc.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa47bdb414126b857522d647329fc15a = L.marker(
+                [19.3564739, -99.2662522],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_fa93b8241a1fc096739b8cf1e5254bde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_629cfa11ee84c05179edc6211ed07060 = $(`<div id="html_629cfa11ee84c05179edc6211ed07060" style="width: 100.0%; height: 100.0%;">COLEGIO MONTEVERDE</div>`)[0];
+            popup_fa93b8241a1fc096739b8cf1e5254bde.setContent(html_629cfa11ee84c05179edc6211ed07060);
+        
+
+        marker_aa47bdb414126b857522d647329fc15a.bindPopup(popup_fa93b8241a1fc096739b8cf1e5254bde)
+        ;
+
+        
+    
+    
+            marker_aa47bdb414126b857522d647329fc15a.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b17629bcfdddb30fa10c2ca783faf4a = L.marker(
+                [19.3703129, -99.2779191],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_8bd6cb705681ea10ec4a84c2a6ec7a52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5772f3bf3819acc738bc0e8cd070f3bb = $(`<div id="html_5772f3bf3819acc738bc0e8cd070f3bb" style="width: 100.0%; height: 100.0%;">COLEGIO ATID</div>`)[0];
+            popup_8bd6cb705681ea10ec4a84c2a6ec7a52.setContent(html_5772f3bf3819acc738bc0e8cd070f3bb);
+        
+
+        marker_2b17629bcfdddb30fa10c2ca783faf4a.bindPopup(popup_8bd6cb705681ea10ec4a84c2a6ec7a52)
+        ;
+
+        
+    
+    
+            marker_2b17629bcfdddb30fa10c2ca783faf4a.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9cb201e8cfc50b8e93e6cf0a4a800e5d = L.marker(
+                [19.3557551, -99.2916101],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_d20f8bd83221548a4d87bd9002d71d21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8456718e4f936698ea46ec2ab032ddee = $(`<div id="html_8456718e4f936698ea46ec2ab032ddee" style="width: 100.0%; height: 100.0%;">TIYOLI</div>`)[0];
+            popup_d20f8bd83221548a4d87bd9002d71d21.setContent(html_8456718e4f936698ea46ec2ab032ddee);
+        
+
+        marker_9cb201e8cfc50b8e93e6cf0a4a800e5d.bindPopup(popup_d20f8bd83221548a4d87bd9002d71d21)
+        ;
+
+        
+    
+    
+            marker_9cb201e8cfc50b8e93e6cf0a4a800e5d.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f207eee1beb035706eeb9c8fa12044b7 = L.marker(
+                [19.3854366, -99.2655443],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_35bd30bc0e3cee867d4ee8eef7375a85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3aec13b57c516662a960687387ee964 = $(`<div id="html_a3aec13b57c516662a960687387ee964" style="width: 100.0%; height: 100.0%;">GAN MONTESSORI</div>`)[0];
+            popup_35bd30bc0e3cee867d4ee8eef7375a85.setContent(html_a3aec13b57c516662a960687387ee964);
+        
+
+        marker_f207eee1beb035706eeb9c8fa12044b7.bindPopup(popup_35bd30bc0e3cee867d4ee8eef7375a85)
+        ;
+
+        
+    
+    
+            marker_f207eee1beb035706eeb9c8fa12044b7.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d2fa919ab6077a61678617531d3de7e = L.marker(
+                [19.3578017, -99.2654125],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_b5e8f0aa72694cf67de730f447418683 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32eb41538c05ec860b75b48013700ac1 = $(`<div id="html_32eb41538c05ec860b75b48013700ac1" style="width: 100.0%; height: 100.0%;">WESTHILL INSTITUTE</div>`)[0];
+            popup_b5e8f0aa72694cf67de730f447418683.setContent(html_32eb41538c05ec860b75b48013700ac1);
+        
+
+        marker_7d2fa919ab6077a61678617531d3de7e.bindPopup(popup_b5e8f0aa72694cf67de730f447418683)
+        ;
+
+        
+    
+    
+            marker_7d2fa919ab6077a61678617531d3de7e.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d9971cc8e1b0c7a74a1f7f329b650e6 = L.marker(
+                [19.3812235, -99.2562635],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_dddfc47dd7e5610ce57f56d7469672c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_242723db1563b06073f4c9f90afee9fd = $(`<div id="html_242723db1563b06073f4c9f90afee9fd" style="width: 100.0%; height: 100.0%;">CARACOLETA</div>`)[0];
+            popup_dddfc47dd7e5610ce57f56d7469672c7.setContent(html_242723db1563b06073f4c9f90afee9fd);
+        
+
+        marker_2d9971cc8e1b0c7a74a1f7f329b650e6.bindPopup(popup_dddfc47dd7e5610ce57f56d7469672c7)
+        ;
+
+        
+    
+    
+            marker_2d9971cc8e1b0c7a74a1f7f329b650e6.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_87b47d826b5672d7c89b95f63d0d4afe = L.marker(
+                [19.3494661, -99.295343],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_d51b6f7f94c34238278bf7ac8b2fefef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04731eeef4e8bc5a83229d596bf976b5 = $(`<div id="html_04731eeef4e8bc5a83229d596bf976b5" style="width: 100.0%; height: 100.0%;">KINDER KARE GUARDERIA</div>`)[0];
+            popup_d51b6f7f94c34238278bf7ac8b2fefef.setContent(html_04731eeef4e8bc5a83229d596bf976b5);
+        
+
+        marker_87b47d826b5672d7c89b95f63d0d4afe.bindPopup(popup_d51b6f7f94c34238278bf7ac8b2fefef)
+        ;
+
+        
+    
+    
+            marker_87b47d826b5672d7c89b95f63d0d4afe.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_189245eda6055d0c6168d8ee31f0a71c = L.marker(
+                [19.3764625, -99.2849823],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_70c34268ea1fe484ccb6625a5378e881 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46967c200094d480569b7f0910436160 = $(`<div id="html_46967c200094d480569b7f0910436160" style="width: 100.0%; height: 100.0%;">ARNOLD GESELL</div>`)[0];
+            popup_70c34268ea1fe484ccb6625a5378e881.setContent(html_46967c200094d480569b7f0910436160);
+        
+
+        marker_189245eda6055d0c6168d8ee31f0a71c.bindPopup(popup_70c34268ea1fe484ccb6625a5378e881)
+        ;
+
+        
+    
+    
+            marker_189245eda6055d0c6168d8ee31f0a71c.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f049632d89312268e112dfb77e165a72 = L.marker(
+                [19.3893415, -99.260778],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_7566afc1e846a061718637c1c2228e01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e5f8abb86dcdfd6d764e02eb8ff8925 = $(`<div id="html_0e5f8abb86dcdfd6d764e02eb8ff8925" style="width: 100.0%; height: 100.0%;">COMUNIDAD MONTESSORI BOSQUES</div>`)[0];
+            popup_7566afc1e846a061718637c1c2228e01.setContent(html_0e5f8abb86dcdfd6d764e02eb8ff8925);
+        
+
+        marker_f049632d89312268e112dfb77e165a72.bindPopup(popup_7566afc1e846a061718637c1c2228e01)
+        ;
+
+        
+    
+    
+            marker_f049632d89312268e112dfb77e165a72.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e611a1042f02a2561f7b50faca322c0 = L.marker(
+                [19.3895872, -99.2653187],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_5f8425b494a77f876a14a21dd3bbe60c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_caa71427869cbede5713a36df2900ef1 = $(`<div id="html_caa71427869cbede5713a36df2900ef1" style="width: 100.0%; height: 100.0%;">OAK'S LEADERSHIP SCHOOL</div>`)[0];
+            popup_5f8425b494a77f876a14a21dd3bbe60c.setContent(html_caa71427869cbede5713a36df2900ef1);
+        
+
+        marker_6e611a1042f02a2561f7b50faca322c0.bindPopup(popup_5f8425b494a77f876a14a21dd3bbe60c)
+        ;
+
+        
+    
+    
+            marker_6e611a1042f02a2561f7b50faca322c0.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8537e439a77de290d678e40d721077a7 = L.marker(
+                [19.3572011, -99.293439],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_47e80ea8b43abe5c756e9c4f846cc86c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c69fa8894698f4021f898654e47b35eb = $(`<div id="html_c69fa8894698f4021f898654e47b35eb" style="width: 100.0%; height: 100.0%;">COLEGIO BOSQUES DE COAHUILA</div>`)[0];
+            popup_47e80ea8b43abe5c756e9c4f846cc86c.setContent(html_c69fa8894698f4021f898654e47b35eb);
+        
+
+        marker_8537e439a77de290d678e40d721077a7.bindPopup(popup_47e80ea8b43abe5c756e9c4f846cc86c)
+        ;
+
+        
+    
+    
+            marker_8537e439a77de290d678e40d721077a7.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_813300e35c03cea6afb1730005c6ebc3 = L.marker(
+                [19.3669119, -99.2886896],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_a803a0a2eedc7177a45e843364b582e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_295844289ddb9583101d9f4e71f894b9 = $(`<div id="html_295844289ddb9583101d9f4e71f894b9" style="width: 100.0%; height: 100.0%;">CENTRO EDUCATIVO INFANTIL CEIMAG</div>`)[0];
+            popup_a803a0a2eedc7177a45e843364b582e9.setContent(html_295844289ddb9583101d9f4e71f894b9);
+        
+
+        marker_813300e35c03cea6afb1730005c6ebc3.bindPopup(popup_a803a0a2eedc7177a45e843364b582e9)
+        ;
+
+        
+    
+    
+            marker_813300e35c03cea6afb1730005c6ebc3.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29b43338e2708fa2d65fdda57dcf3e2f = L.marker(
+                [19.3630679, -99.2980487],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_c78894c1f7859a2c322d8fba324fb807 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c1c39b88fcba22a47aaa86a5baa9ebc = $(`<div id="html_8c1c39b88fcba22a47aaa86a5baa9ebc" style="width: 100.0%; height: 100.0%;">VILLAGE MONTESSORI</div>`)[0];
+            popup_c78894c1f7859a2c322d8fba324fb807.setContent(html_8c1c39b88fcba22a47aaa86a5baa9ebc);
+        
+
+        marker_29b43338e2708fa2d65fdda57dcf3e2f.bindPopup(popup_c78894c1f7859a2c322d8fba324fb807)
+        ;
+
+        
+    
+    
+            marker_29b43338e2708fa2d65fdda57dcf3e2f.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a7df7b495162a23cba696ce122025bf9 = L.marker(
+                [19.3809872, -99.26862],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_60d7305f5c132f00fa251642aa2159d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69e7f4e1badca5225104994144cec9e7 = $(`<div id="html_69e7f4e1badca5225104994144cec9e7" style="width: 100.0%; height: 100.0%;">OAKHILL PRESCHOOL MÉXICO</div>`)[0];
+            popup_60d7305f5c132f00fa251642aa2159d0.setContent(html_69e7f4e1badca5225104994144cec9e7);
+        
+
+        marker_a7df7b495162a23cba696ce122025bf9.bindPopup(popup_60d7305f5c132f00fa251642aa2159d0)
+        ;
+
+        
+    
+    
+            marker_a7df7b495162a23cba696ce122025bf9.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd965cac6445954b0a5831ad187fd776 = L.marker(
+                [19.3669535, -99.2891877],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_c5d6f06da0345580cb1d991eff0dedae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26ef184c1d509e6b9da5972f6fd95a89 = $(`<div id="html_26ef184c1d509e6b9da5972f6fd95a89" style="width: 100.0%; height: 100.0%;">CENTRO PEDAGOGICO INFANTIL ABRAHAM LINCOLN</div>`)[0];
+            popup_c5d6f06da0345580cb1d991eff0dedae.setContent(html_26ef184c1d509e6b9da5972f6fd95a89);
+        
+
+        marker_fd965cac6445954b0a5831ad187fd776.bindPopup(popup_c5d6f06da0345580cb1d991eff0dedae)
+        ;
+
+        
+    
+    
+            marker_fd965cac6445954b0a5831ad187fd776.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6809075faed1afb2795f788f250db2a7 = L.marker(
+                [19.3701915, -99.2939404],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_4971709951a0f000716ac8dd395cb03f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2159332af1b018f60ce78d6927ab828e = $(`<div id="html_2159332af1b018f60ce78d6927ab828e" style="width: 100.0%; height: 100.0%;">CENTRO DE APRENDIZAJE INFANTIL EDUKIDS</div>`)[0];
+            popup_4971709951a0f000716ac8dd395cb03f.setContent(html_2159332af1b018f60ce78d6927ab828e);
+        
+
+        marker_6809075faed1afb2795f788f250db2a7.bindPopup(popup_4971709951a0f000716ac8dd395cb03f)
+        ;
+
+        
+    
+    
+            marker_6809075faed1afb2795f788f250db2a7.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ddb7abbac62b7717dc99383b647288a2 = L.marker(
+                [19.3482633, -99.3027659],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_c033a8861aab3a945704709d5c936b5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc7ad30feb8a7fd4cf2a30d110df980c = $(`<div id="html_cc7ad30feb8a7fd4cf2a30d110df980c" style="width: 100.0%; height: 100.0%;">LA ESCUELITA</div>`)[0];
+            popup_c033a8861aab3a945704709d5c936b5e.setContent(html_cc7ad30feb8a7fd4cf2a30d110df980c);
+        
+
+        marker_ddb7abbac62b7717dc99383b647288a2.bindPopup(popup_c033a8861aab3a945704709d5c936b5e)
+        ;
+
+        
+    
+    
+            marker_ddb7abbac62b7717dc99383b647288a2.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6bcaceb708c1ade3dbda61e803891a94 = L.marker(
+                [19.3479346, -99.2975622],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_12c57ad9b219345ff207510dcffdfb32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0633393ab824a8a7e116d4be024d7c3 = $(`<div id="html_b0633393ab824a8a7e116d4be024d7c3" style="width: 100.0%; height: 100.0%;">CENTRO EDUCATIVO INSPIRA</div>`)[0];
+            popup_12c57ad9b219345ff207510dcffdfb32.setContent(html_b0633393ab824a8a7e116d4be024d7c3);
+        
+
+        marker_6bcaceb708c1ade3dbda61e803891a94.bindPopup(popup_12c57ad9b219345ff207510dcffdfb32)
+        ;
+
+        
+    
+    
+            marker_6bcaceb708c1ade3dbda61e803891a94.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ee9f689fe921807033162421c0701f7 = L.marker(
+                [19.3877646, -99.2620908],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_4ac1e870fe3c5f2c72c412c8e30ec9e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa941d83af204fac462ec006bd3ed5a5 = $(`<div id="html_fa941d83af204fac462ec006bd3ed5a5" style="width: 100.0%; height: 100.0%;">PUPA HOUSE</div>`)[0];
+            popup_4ac1e870fe3c5f2c72c412c8e30ec9e0.setContent(html_fa941d83af204fac462ec006bd3ed5a5);
+        
+
+        marker_6ee9f689fe921807033162421c0701f7.bindPopup(popup_4ac1e870fe3c5f2c72c412c8e30ec9e0)
+        ;
+
+        
+    
+    
+            marker_6ee9f689fe921807033162421c0701f7.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66631706fb27561b5f4d99d68fdc14ea = L.marker(
+                [19.3843849, -99.2739674],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_56f0371fae91a8b2312cf7135378dce2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a85c5c32611c202be89faf2a52e6082e = $(`<div id="html_a85c5c32611c202be89faf2a52e6082e" style="width: 100.0%; height: 100.0%;">JARDÍN DE NIÑOS MONTE SINAÍ SALOMÓN Y FEDERICA KALACH</div>`)[0];
+            popup_56f0371fae91a8b2312cf7135378dce2.setContent(html_a85c5c32611c202be89faf2a52e6082e);
+        
+
+        marker_66631706fb27561b5f4d99d68fdc14ea.bindPopup(popup_56f0371fae91a8b2312cf7135378dce2)
+        ;
+
+        
+    
+    
+            marker_66631706fb27561b5f4d99d68fdc14ea.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_460a399bf8de92f33f44ee87a1bcd576 = L.marker(
+                [19.3418681, -99.3128502],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_53351bc11aa934be5e374913ba707ebe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06e7e77f387f663bc981986821581ee7 = $(`<div id="html_06e7e77f387f663bc981986821581ee7" style="width: 100.0%; height: 100.0%;">COLEGIO MERKAZ MONTESSORI</div>`)[0];
+            popup_53351bc11aa934be5e374913ba707ebe.setContent(html_06e7e77f387f663bc981986821581ee7);
+        
+
+        marker_460a399bf8de92f33f44ee87a1bcd576.bindPopup(popup_53351bc11aa934be5e374913ba707ebe)
+        ;
+
+        
+    
+    
+            marker_460a399bf8de92f33f44ee87a1bcd576.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f549fda94e9a062c7ee58b4c4b5b1c5b = L.marker(
+                [19.3421018, -99.2823168],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_98427b3635f368aad1e365549f87c29d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2d44294deb0b719053ebf0522f8d204 = $(`<div id="html_c2d44294deb0b719053ebf0522f8d204" style="width: 100.0%; height: 100.0%;">COLEGIO MONTE CASANA</div>`)[0];
+            popup_98427b3635f368aad1e365549f87c29d.setContent(html_c2d44294deb0b719053ebf0522f8d204);
+        
+
+        marker_f549fda94e9a062c7ee58b4c4b5b1c5b.bindPopup(popup_98427b3635f368aad1e365549f87c29d)
+        ;
+
+        
+    
+    
+            marker_f549fda94e9a062c7ee58b4c4b5b1c5b.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b67f58b6885b7a084307bb6ccfc0c7d = L.marker(
+                [19.350866, -99.2935395],
+                {}
+            ).addTo(feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69);
+        
+    
+        var popup_c4615856ba4bf9a59453262dd7fc2898 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8cfc26b39cae7587afc96b9d1c61ce1 = $(`<div id="html_e8cfc26b39cae7587afc96b9d1c61ce1" style="width: 100.0%; height: 100.0%;">CULTURA Y RECREACIÓN MOZART, S.C.</div>`)[0];
+            popup_c4615856ba4bf9a59453262dd7fc2898.setContent(html_e8cfc26b39cae7587afc96b9d1c61ce1);
+        
+
+        marker_6b67f58b6885b7a084307bb6ccfc0c7d.bindPopup(popup_c4615856ba4bf9a59453262dd7fc2898)
+        ;
+
+        
+    
+    
+            marker_6b67f58b6885b7a084307bb6ccfc0c7d.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c = L.featureGroup.subGroup(
+                marker_cluster_a10ee7850a7b6a727ef330bc0cffdc9a
+            );
+            feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c.addTo(map_bb49e81640459fc382feda3b1cff61ca);
+        
+    
+            var marker_a9e2367ee0499de7d2cb3de4c094e7ef = L.marker(
+                [19.3796757, -99.2699458],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_43322d41e2897ea0fa4b073f894c99a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bef5ba8dbc0d53c2aa4d09b4d7b15aa = $(`<div id="html_1bef5ba8dbc0d53c2aa4d09b4d7b15aa" style="width: 100.0%; height: 100.0%;">COLEGIO ISRAELITA DE MÉXICO</div>`)[0];
+            popup_43322d41e2897ea0fa4b073f894c99a0.setContent(html_1bef5ba8dbc0d53c2aa4d09b4d7b15aa);
+        
+
+        marker_a9e2367ee0499de7d2cb3de4c094e7ef.bindPopup(popup_43322d41e2897ea0fa4b073f894c99a0)
+        ;
+
+        
+    
+    
+            marker_a9e2367ee0499de7d2cb3de4c094e7ef.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4501bffbf19ecfaadb732b5d16e17876 = L.marker(
+                [19.3876706, -99.2509925],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_864cf0adc5055946c732f736854eb1a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0b07924aaa5a5f5e6a9561527f1e10f = $(`<div id="html_f0b07924aaa5a5f5e6a9561527f1e10f" style="width: 100.0%; height: 100.0%;">COLEGIO ETON</div>`)[0];
+            popup_864cf0adc5055946c732f736854eb1a3.setContent(html_f0b07924aaa5a5f5e6a9561527f1e10f);
+        
+
+        marker_4501bffbf19ecfaadb732b5d16e17876.bindPopup(popup_864cf0adc5055946c732f736854eb1a3)
+        ;
+
+        
+    
+    
+            marker_4501bffbf19ecfaadb732b5d16e17876.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55917b8b1f31b90e46b493f9368237e9 = L.marker(
+                [19.3626419, -99.2909804],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_249dbe7270a02dadbd7a9b430243026a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17bd577516108424fe4b784d9f602366 = $(`<div id="html_17bd577516108424fe4b784d9f602366" style="width: 100.0%; height: 100.0%;">CENTRO EDUCATIVO TOMÁS MORO</div>`)[0];
+            popup_249dbe7270a02dadbd7a9b430243026a.setContent(html_17bd577516108424fe4b784d9f602366);
+        
+
+        marker_55917b8b1f31b90e46b493f9368237e9.bindPopup(popup_249dbe7270a02dadbd7a9b430243026a)
+        ;
+
+        
+    
+    
+            marker_55917b8b1f31b90e46b493f9368237e9.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ecfb41b310f2301347e4be989c4c1987 = L.marker(
+                [19.3572011, -99.293439],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_f7b78dc0cbf7e9897b618220b5ffe1a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f8a7ec9e8f451125a41fd2ee16e7179 = $(`<div id="html_0f8a7ec9e8f451125a41fd2ee16e7179" style="width: 100.0%; height: 100.0%;">COLEGIO BOSQUES DEL CONTADERO</div>`)[0];
+            popup_f7b78dc0cbf7e9897b618220b5ffe1a7.setContent(html_0f8a7ec9e8f451125a41fd2ee16e7179);
+        
+
+        marker_ecfb41b310f2301347e4be989c4c1987.bindPopup(popup_f7b78dc0cbf7e9897b618220b5ffe1a7)
+        ;
+
+        
+    
+    
+            marker_ecfb41b310f2301347e4be989c4c1987.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_906a2675bc922c1a938de0b572fc8e63 = L.marker(
+                [19.3578017, -99.2654125],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_21ecf02a24854e1215939016a9d169b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c547bafd74e4d1f289432e549b96048 = $(`<div id="html_2c547bafd74e4d1f289432e549b96048" style="width: 100.0%; height: 100.0%;">WESTHILL INSTITUTE</div>`)[0];
+            popup_21ecf02a24854e1215939016a9d169b9.setContent(html_2c547bafd74e4d1f289432e549b96048);
+        
+
+        marker_906a2675bc922c1a938de0b572fc8e63.bindPopup(popup_21ecf02a24854e1215939016a9d169b9)
+        ;
+
+        
+    
+    
+            marker_906a2675bc922c1a938de0b572fc8e63.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c62595102317dfe3aa0ee724e89a6434 = L.marker(
+                [19.3703129, -99.2779191],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_a20027669cdfe6becb4d29304663f488 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0375143df73fb533b70d44bb9118f32f = $(`<div id="html_0375143df73fb533b70d44bb9118f32f" style="width: 100.0%; height: 100.0%;">COLEGIO ATID</div>`)[0];
+            popup_a20027669cdfe6becb4d29304663f488.setContent(html_0375143df73fb533b70d44bb9118f32f);
+        
+
+        marker_c62595102317dfe3aa0ee724e89a6434.bindPopup(popup_a20027669cdfe6becb4d29304663f488)
+        ;
+
+        
+    
+    
+            marker_c62595102317dfe3aa0ee724e89a6434.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_395d159b00f898fec9213ab2fb45d4dc = L.marker(
+                [19.3503783, -99.3009233],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_fe804b2c0bd26b4bbe49cf89a2cefcb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c398e6de7146ea3ac77a4910cf44599 = $(`<div id="html_8c398e6de7146ea3ac77a4910cf44599" style="width: 100.0%; height: 100.0%;">TIYOLI</div>`)[0];
+            popup_fe804b2c0bd26b4bbe49cf89a2cefcb9.setContent(html_8c398e6de7146ea3ac77a4910cf44599);
+        
+
+        marker_395d159b00f898fec9213ab2fb45d4dc.bindPopup(popup_fe804b2c0bd26b4bbe49cf89a2cefcb9)
+        ;
+
+        
+    
+    
+            marker_395d159b00f898fec9213ab2fb45d4dc.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_38ea928cbb696b68b8fe1b1618e1aa08 = L.marker(
+                [19.3533632, -99.2978991],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_089ac0acb336ae64b250260db3bb5a90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6796c7d604fa2c086e7431cb11c2b404 = $(`<div id="html_6796c7d604fa2c086e7431cb11c2b404" style="width: 100.0%; height: 100.0%;">CENTRO INFANTIL MARÍA TERESA S. C.</div>`)[0];
+            popup_089ac0acb336ae64b250260db3bb5a90.setContent(html_6796c7d604fa2c086e7431cb11c2b404);
+        
+
+        marker_38ea928cbb696b68b8fe1b1618e1aa08.bindPopup(popup_089ac0acb336ae64b250260db3bb5a90)
+        ;
+
+        
+    
+    
+            marker_38ea928cbb696b68b8fe1b1618e1aa08.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2a4f3f2511034a98a417cb602fd1bc8 = L.marker(
+                [19.3603876, -99.2923088],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_321d7dec7f2b90ed67f131c9436c55bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5bc14b1a113f1a49aa058fb8e209312 = $(`<div id="html_c5bc14b1a113f1a49aa058fb8e209312" style="width: 100.0%; height: 100.0%;">WINPENNY SCHOOL</div>`)[0];
+            popup_321d7dec7f2b90ed67f131c9436c55bc.setContent(html_c5bc14b1a113f1a49aa058fb8e209312);
+        
+
+        marker_e2a4f3f2511034a98a417cb602fd1bc8.bindPopup(popup_321d7dec7f2b90ed67f131c9436c55bc)
+        ;
+
+        
+    
+    
+            marker_e2a4f3f2511034a98a417cb602fd1bc8.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8df8a68849b10121f99a4a69cd6ec17b = L.marker(
+                [19.3620184, -99.3007852],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_8b6d9222864ac5ed4fd17689a557f1de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e42d1398a01e1e4c9cf8b8c93b10333e = $(`<div id="html_e42d1398a01e1e4c9cf8b8c93b10333e" style="width: 100.0%; height: 100.0%;">COLEGIO FRESNOS</div>`)[0];
+            popup_8b6d9222864ac5ed4fd17689a557f1de.setContent(html_e42d1398a01e1e4c9cf8b8c93b10333e);
+        
+
+        marker_8df8a68849b10121f99a4a69cd6ec17b.bindPopup(popup_8b6d9222864ac5ed4fd17689a557f1de)
+        ;
+
+        
+    
+    
+            marker_8df8a68849b10121f99a4a69cd6ec17b.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3c8826fb00ec9506f513934228b4c78 = L.marker(
+                [19.3726982, -99.276752],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_e3d7d42cd6a037afae11fff044e3bc68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3167195644003420413fd02e8c49f2f = $(`<div id="html_d3167195644003420413fd02e8c49f2f" style="width: 100.0%; height: 100.0%;">TALLER EDUCATIVO MONTESSORI</div>`)[0];
+            popup_e3d7d42cd6a037afae11fff044e3bc68.setContent(html_d3167195644003420413fd02e8c49f2f);
+        
+
+        marker_b3c8826fb00ec9506f513934228b4c78.bindPopup(popup_e3d7d42cd6a037afae11fff044e3bc68)
+        ;
+
+        
+    
+    
+            marker_b3c8826fb00ec9506f513934228b4c78.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_df871b2f12c85af18fc6375ce186c986 = L.marker(
+                [19.3692881, -99.2982264],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_d8ef3c0a6ed9189b6a9525b44a3d261e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_047b69114672f899415465930f5954fc = $(`<div id="html_047b69114672f899415465930f5954fc" style="width: 100.0%; height: 100.0%;">NORTHRIDGE SCHOOL MÉXICO</div>`)[0];
+            popup_d8ef3c0a6ed9189b6a9525b44a3d261e.setContent(html_047b69114672f899415465930f5954fc);
+        
+
+        marker_df871b2f12c85af18fc6375ce186c986.bindPopup(popup_d8ef3c0a6ed9189b6a9525b44a3d261e)
+        ;
+
+        
+    
+    
+            marker_df871b2f12c85af18fc6375ce186c986.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f5728694c36924cc1dd0a0296632197 = L.marker(
+                [19.3605581, -99.299827],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_189a5ccdf08a74befb300340e02237bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29ce74229b758295217ed3771c8db0ba = $(`<div id="html_29ce74229b758295217ed3771c8db0ba" style="width: 100.0%; height: 100.0%;">COLEGIO NUEVA GENERACIÓN</div>`)[0];
+            popup_189a5ccdf08a74befb300340e02237bf.setContent(html_29ce74229b758295217ed3771c8db0ba);
+        
+
+        marker_0f5728694c36924cc1dd0a0296632197.bindPopup(popup_189a5ccdf08a74befb300340e02237bf)
+        ;
+
+        
+    
+    
+            marker_0f5728694c36924cc1dd0a0296632197.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d43633575a8f453f349230f3eb7fef7 = L.marker(
+                [19.3714553, -99.2799282],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_a7f602f2a8a7fe5bd25a5600bd6bea98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6f18bd92aeff483ec932b61d56e7fd0 = $(`<div id="html_e6f18bd92aeff483ec932b61d56e7fd0" style="width: 100.0%; height: 100.0%;">COLEGIO PETERSON</div>`)[0];
+            popup_a7f602f2a8a7fe5bd25a5600bd6bea98.setContent(html_e6f18bd92aeff483ec932b61d56e7fd0);
+        
+
+        marker_2d43633575a8f453f349230f3eb7fef7.bindPopup(popup_a7f602f2a8a7fe5bd25a5600bd6bea98)
+        ;
+
+        
+    
+    
+            marker_2d43633575a8f453f349230f3eb7fef7.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc1753a7b39a6c778cb7e4237ed8e75e = L.marker(
+                [19.3202999, -99.2868276],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_ffdfecab0ab0af9ca8905cef254b6e3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ebe9791ba30c5dc47ca18a5b41056dde = $(`<div id="html_ebe9791ba30c5dc47ca18a5b41056dde" style="width: 100.0%; height: 100.0%;">COLEGIO BILBAO</div>`)[0];
+            popup_ffdfecab0ab0af9ca8905cef254b6e3b.setContent(html_ebe9791ba30c5dc47ca18a5b41056dde);
+        
+
+        marker_cc1753a7b39a6c778cb7e4237ed8e75e.bindPopup(popup_ffdfecab0ab0af9ca8905cef254b6e3b)
+        ;
+
+        
+    
+    
+            marker_cc1753a7b39a6c778cb7e4237ed8e75e.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_625353fa20bc50b49c7562e20526fff8 = L.marker(
+                [19.3809872, -99.26862],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_0b7fdc3796085b2a6c6a9c6e208465c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b986807a9ade14a3c7c43882c690b636 = $(`<div id="html_b986807a9ade14a3c7c43882c690b636" style="width: 100.0%; height: 100.0%;">INSTITUTO CUMBRES</div>`)[0];
+            popup_0b7fdc3796085b2a6c6a9c6e208465c8.setContent(html_b986807a9ade14a3c7c43882c690b636);
+        
+
+        marker_625353fa20bc50b49c7562e20526fff8.bindPopup(popup_0b7fdc3796085b2a6c6a9c6e208465c8)
+        ;
+
+        
+    
+    
+            marker_625353fa20bc50b49c7562e20526fff8.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_feb59f88e697c5e705148ed4060158fa = L.marker(
+                [19.3564504, -99.2652214],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_8b640971fd438746d5aff8835a59f959 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72b586a54db977d80f6bef6a3bf57043 = $(`<div id="html_72b586a54db977d80f6bef6a3bf57043" style="width: 100.0%; height: 100.0%;">COLEGIO EUGENIO DE MAZENOD, A. C.</div>`)[0];
+            popup_8b640971fd438746d5aff8835a59f959.setContent(html_72b586a54db977d80f6bef6a3bf57043);
+        
+
+        marker_feb59f88e697c5e705148ed4060158fa.bindPopup(popup_8b640971fd438746d5aff8835a59f959)
+        ;
+
+        
+    
+    
+            marker_feb59f88e697c5e705148ed4060158fa.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f6a30aa603943f3d709bf1baf11e4d7 = L.marker(
+                [19.3831312, -99.27875],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_7d4a205f51225e68c97aba9860b2cc13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a15dce83936dbe13cefca89de3c5368 = $(`<div id="html_5a15dce83936dbe13cefca89de3c5368" style="width: 100.0%; height: 100.0%;">COLEGIO FRANCO INGLÉS</div>`)[0];
+            popup_7d4a205f51225e68c97aba9860b2cc13.setContent(html_5a15dce83936dbe13cefca89de3c5368);
+        
+
+        marker_1f6a30aa603943f3d709bf1baf11e4d7.bindPopup(popup_7d4a205f51225e68c97aba9860b2cc13)
+        ;
+
+        
+    
+    
+            marker_1f6a30aa603943f3d709bf1baf11e4d7.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48f12b5cc76e57ac056ac703b26fe2e4 = L.marker(
+                [19.3710585, -99.291462],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_3c42341d1d7fb8dbdbd5e9023e8f6a18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88c07cddfba36acf805a4ef1bc086c5c = $(`<div id="html_88c07cddfba36acf805a4ef1bc086c5c" style="width: 100.0%; height: 100.0%;">COLEGIO ÁLAMO</div>`)[0];
+            popup_3c42341d1d7fb8dbdbd5e9023e8f6a18.setContent(html_88c07cddfba36acf805a4ef1bc086c5c);
+        
+
+        marker_48f12b5cc76e57ac056ac703b26fe2e4.bindPopup(popup_3c42341d1d7fb8dbdbd5e9023e8f6a18)
+        ;
+
+        
+    
+    
+            marker_48f12b5cc76e57ac056ac703b26fe2e4.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a7392170ecc79a1201e304866a86b73 = L.marker(
+                [19.3831071, -99.2552818],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_d7e776319ff0136b66ec475e1e7b8b4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c927e5db9b12bbce04965dd27d1cd58 = $(`<div id="html_7c927e5db9b12bbce04965dd27d1cd58" style="width: 100.0%; height: 100.0%;">COLEGIO MERICI</div>`)[0];
+            popup_d7e776319ff0136b66ec475e1e7b8b4c.setContent(html_7c927e5db9b12bbce04965dd27d1cd58);
+        
+
+        marker_7a7392170ecc79a1201e304866a86b73.bindPopup(popup_d7e776319ff0136b66ec475e1e7b8b4c)
+        ;
+
+        
+    
+    
+            marker_7a7392170ecc79a1201e304866a86b73.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_579b281ee98671bcd849b1e6af8bf98c = L.marker(
+                [19.401021, -99.2557803],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_c0724935c5c3440e480a93b8b143758a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0f8c988427ac1fcab6574dcf86efae2 = $(`<div id="html_f0f8c988427ac1fcab6574dcf86efae2" style="width: 100.0%; height: 100.0%;">INSTITUTO CUMBRES BOSQUES SECUNDARIA</div>`)[0];
+            popup_c0724935c5c3440e480a93b8b143758a.setContent(html_f0f8c988427ac1fcab6574dcf86efae2);
+        
+
+        marker_579b281ee98671bcd849b1e6af8bf98c.bindPopup(popup_c0724935c5c3440e480a93b8b143758a)
+        ;
+
+        
+    
+    
+            marker_579b281ee98671bcd849b1e6af8bf98c.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_14dc4d32d0126cf79b87194bc65d1ce3 = L.marker(
+                [19.3597431, -99.2659063],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_86df12845daf86816903803ca31ea6bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0aca817025786996d15aed01664cc205 = $(`<div id="html_0aca817025786996d15aed01664cc205" style="width: 100.0%; height: 100.0%;">PINECREST INTERNATIONAL SCHOOL</div>`)[0];
+            popup_86df12845daf86816903803ca31ea6bf.setContent(html_0aca817025786996d15aed01664cc205);
+        
+
+        marker_14dc4d32d0126cf79b87194bc65d1ce3.bindPopup(popup_86df12845daf86816903803ca31ea6bf)
+        ;
+
+        
+    
+    
+            marker_14dc4d32d0126cf79b87194bc65d1ce3.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1bc92f245bf5040f02e285cdce0381fd = L.marker(
+                [19.3533549, -99.2901474],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_7716e45cc18cf9db8f004c1eecd8c4d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3a6447beffd6792d9769d9f265854a6 = $(`<div id="html_b3a6447beffd6792d9769d9f265854a6" style="width: 100.0%; height: 100.0%;">COLEGIO CONTADERO</div>`)[0];
+            popup_7716e45cc18cf9db8f004c1eecd8c4d1.setContent(html_b3a6447beffd6792d9769d9f265854a6);
+        
+
+        marker_1bc92f245bf5040f02e285cdce0381fd.bindPopup(popup_7716e45cc18cf9db8f004c1eecd8c4d1)
+        ;
+
+        
+    
+    
+            marker_1bc92f245bf5040f02e285cdce0381fd.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5f72a4807b341fcc730f7b8a69f28e2 = L.marker(
+                [19.3564739, -99.2662522],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_da9dd1636d048982bd33e87fdb792925 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b7f719a38ab08d8e297ae7207c43451 = $(`<div id="html_6b7f719a38ab08d8e297ae7207c43451" style="width: 100.0%; height: 100.0%;">COLEGIO SANTA FE</div>`)[0];
+            popup_da9dd1636d048982bd33e87fdb792925.setContent(html_6b7f719a38ab08d8e297ae7207c43451);
+        
+
+        marker_c5f72a4807b341fcc730f7b8a69f28e2.bindPopup(popup_da9dd1636d048982bd33e87fdb792925)
+        ;
+
+        
+    
+    
+            marker_c5f72a4807b341fcc730f7b8a69f28e2.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65290b966eaee763555968011cf5b608 = L.marker(
+                [19.3722023, -99.2769383],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_db4086995793817bc0c65b4be0290c63 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c05faa969562ba50929655f77bd1d5e = $(`<div id="html_1c05faa969562ba50929655f77bd1d5e" style="width: 100.0%; height: 100.0%;">COLEGIO HEBREO TARBUT</div>`)[0];
+            popup_db4086995793817bc0c65b4be0290c63.setContent(html_1c05faa969562ba50929655f77bd1d5e);
+        
+
+        marker_65290b966eaee763555968011cf5b608.bindPopup(popup_db4086995793817bc0c65b4be0290c63)
+        ;
+
+        
+    
+    
+            marker_65290b966eaee763555968011cf5b608.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47a0e36ec88f142cf8383aafbd184b6f = L.marker(
+                [19.4009987, -99.2573883],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_a1ddb322fdd5e4a13ac0e95cef0dd031 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8716036858baf174a31798c50c17edea = $(`<div id="html_8716036858baf174a31798c50c17edea" style="width: 100.0%; height: 100.0%;">SEFARADÍ</div>`)[0];
+            popup_a1ddb322fdd5e4a13ac0e95cef0dd031.setContent(html_8716036858baf174a31798c50c17edea);
+        
+
+        marker_47a0e36ec88f142cf8383aafbd184b6f.bindPopup(popup_a1ddb322fdd5e4a13ac0e95cef0dd031)
+        ;
+
+        
+    
+    
+            marker_47a0e36ec88f142cf8383aafbd184b6f.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8881b33060cb147f7d0e25956e2dec1 = L.marker(
+                [19.3889883, -99.2577837],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_9ae1169fc3909ab76474d11ed42f3a68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_588a05dfd4b4cc75fae3568c88ee7fa8 = $(`<div id="html_588a05dfd4b4cc75fae3568c88ee7fa8" style="width: 100.0%; height: 100.0%;">DEL BOSQUE INTERNATIONAL SCHOOL</div>`)[0];
+            popup_9ae1169fc3909ab76474d11ed42f3a68.setContent(html_588a05dfd4b4cc75fae3568c88ee7fa8);
+        
+
+        marker_f8881b33060cb147f7d0e25956e2dec1.bindPopup(popup_9ae1169fc3909ab76474d11ed42f3a68)
+        ;
+
+        
+    
+    
+            marker_f8881b33060cb147f7d0e25956e2dec1.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96d45b734920326f19c051544b91bff3 = L.marker(
+                [19.3381884, -99.3020524],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_c40c226ed4c3ae5256dedcdbbe3f226c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd7bddba590e28debd7fd1402b4e02ea = $(`<div id="html_bd7bddba590e28debd7fd1402b4e02ea" style="width: 100.0%; height: 100.0%;">CAMPESTRE DE MÉXICO</div>`)[0];
+            popup_c40c226ed4c3ae5256dedcdbbe3f226c.setContent(html_bd7bddba590e28debd7fd1402b4e02ea);
+        
+
+        marker_96d45b734920326f19c051544b91bff3.bindPopup(popup_c40c226ed4c3ae5256dedcdbbe3f226c)
+        ;
+
+        
+    
+    
+            marker_96d45b734920326f19c051544b91bff3.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6abbf919ffb73b6a718404f6b1838ffc = L.marker(
+                [19.3824231, -99.2783239],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_f6531348c39ec5bc3cec027eed49b44d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6aaf58944f55679ba00f556f78abac5 = $(`<div id="html_b6aaf58944f55679ba00f556f78abac5" style="width: 100.0%; height: 100.0%;">COLEGIO HEBREO MAGUEN DAVID</div>`)[0];
+            popup_f6531348c39ec5bc3cec027eed49b44d.setContent(html_b6aaf58944f55679ba00f556f78abac5);
+        
+
+        marker_6abbf919ffb73b6a718404f6b1838ffc.bindPopup(popup_f6531348c39ec5bc3cec027eed49b44d)
+        ;
+
+        
+    
+    
+            marker_6abbf919ffb73b6a718404f6b1838ffc.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_492f39bea5d2be7f5be4e8454d0bace3 = L.marker(
+                [19.3768418, -99.2852262],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_3f6a0557ebaab1f3312d0d1dc5a8eb48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1846ccf783b011a00e5a8541cc67a50 = $(`<div id="html_e1846ccf783b011a00e5a8541cc67a50" style="width: 100.0%; height: 100.0%;">GABRIELA MISTRAL</div>`)[0];
+            popup_3f6a0557ebaab1f3312d0d1dc5a8eb48.setContent(html_e1846ccf783b011a00e5a8541cc67a50);
+        
+
+        marker_492f39bea5d2be7f5be4e8454d0bace3.bindPopup(popup_3f6a0557ebaab1f3312d0d1dc5a8eb48)
+        ;
+
+        
+    
+    
+            marker_492f39bea5d2be7f5be4e8454d0bace3.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_298cf48b0e81eddc45a753e7d211908c = L.marker(
+                [19.3843849, -99.2739674],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_2d30083fb34e2abaa5322f1a23b09752 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9a4310cd29dd302098654b33b3298ad = $(`<div id="html_e9a4310cd29dd302098654b33b3298ad" style="width: 100.0%; height: 100.0%;">COLEGIO HEBREO MONTE SINAÍ</div>`)[0];
+            popup_2d30083fb34e2abaa5322f1a23b09752.setContent(html_e9a4310cd29dd302098654b33b3298ad);
+        
+
+        marker_298cf48b0e81eddc45a753e7d211908c.bindPopup(popup_2d30083fb34e2abaa5322f1a23b09752)
+        ;
+
+        
+    
+    
+            marker_298cf48b0e81eddc45a753e7d211908c.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b915d7d05a91410d53a103db0e0c4900 = L.marker(
+                [19.3709773, -99.2141125],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_aaae029b9a33f12f0ba3902e774a8198 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46a3beaaabf80a26d0ed9d9cbcc65d3b = $(`<div id="html_46a3beaaabf80a26d0ed9d9cbcc65d3b" style="width: 100.0%; height: 100.0%;">COLEGIO MONTEVERDE</div>`)[0];
+            popup_aaae029b9a33f12f0ba3902e774a8198.setContent(html_46a3beaaabf80a26d0ed9d9cbcc65d3b);
+        
+
+        marker_b915d7d05a91410d53a103db0e0c4900.bindPopup(popup_aaae029b9a33f12f0ba3902e774a8198)
+        ;
+
+        
+    
+    
+            marker_b915d7d05a91410d53a103db0e0c4900.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_820c76b9f471655d63440a867e506437 = L.marker(
+                [19.3778526, -99.2711802],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_80842d456a6e6b299aa325fe177f3c2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6881e7df1b3ea27f2507fee65cbe9ed = $(`<div id="html_d6881e7df1b3ea27f2507fee65cbe9ed" style="width: 100.0%; height: 100.0%;">COLEGIO VISTA HERMOSA</div>`)[0];
+            popup_80842d456a6e6b299aa325fe177f3c2a.setContent(html_d6881e7df1b3ea27f2507fee65cbe9ed);
+        
+
+        marker_820c76b9f471655d63440a867e506437.bindPopup(popup_80842d456a6e6b299aa325fe177f3c2a)
+        ;
+
+        
+    
+    
+            marker_820c76b9f471655d63440a867e506437.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7399112cd5be355450532390130c6b00 = L.marker(
+                [19.34022, -99.279777],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_0cad48d0015424f307fcd3381372b5f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5327084f7a07c6dcc00f06228f3ef821 = $(`<div id="html_5327084f7a07c6dcc00f06228f3ef821" style="width: 100.0%; height: 100.0%;">INSTITUTO ROSNER</div>`)[0];
+            popup_0cad48d0015424f307fcd3381372b5f4.setContent(html_5327084f7a07c6dcc00f06228f3ef821);
+        
+
+        marker_7399112cd5be355450532390130c6b00.bindPopup(popup_0cad48d0015424f307fcd3381372b5f4)
+        ;
+
+        
+    
+    
+            marker_7399112cd5be355450532390130c6b00.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3718b5b53b6b874caaa0c5170bd929a1 = L.marker(
+                [19.3705556, -99.2863889],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_2d0c3fb3ef92a7b614fd1fdecb28b9d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_026b8344659632d60f847b0664b74c7c = $(`<div id="html_026b8344659632d60f847b0664b74c7c" style="width: 100.0%; height: 100.0%;">CENTRO EDUCATIVO EMMANUEL MOUNIER SECUNDARIA</div>`)[0];
+            popup_2d0c3fb3ef92a7b614fd1fdecb28b9d4.setContent(html_026b8344659632d60f847b0664b74c7c);
+        
+
+        marker_3718b5b53b6b874caaa0c5170bd929a1.bindPopup(popup_2d0c3fb3ef92a7b614fd1fdecb28b9d4)
+        ;
+
+        
+    
+    
+            marker_3718b5b53b6b874caaa0c5170bd929a1.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c340834e8e9e8c55f8de16988f53ee62 = L.marker(
+                [19.3764313, -99.2834937],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_5e28eec9c1a78714d3da57ce2aa323da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_008d325891f6f3788fdd5b3478877cc1 = $(`<div id="html_008d325891f6f3788fdd5b3478877cc1" style="width: 100.0%; height: 100.0%;">ARNOLD GESELL</div>`)[0];
+            popup_5e28eec9c1a78714d3da57ce2aa323da.setContent(html_008d325891f6f3788fdd5b3478877cc1);
+        
+
+        marker_c340834e8e9e8c55f8de16988f53ee62.bindPopup(popup_5e28eec9c1a78714d3da57ce2aa323da)
+        ;
+
+        
+    
+    
+            marker_c340834e8e9e8c55f8de16988f53ee62.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9515f773ebbae7274e14c9a07e3bec3e = L.marker(
+                [19.352059, -99.3014416],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_f8f10c216d3bcc907d43946d4e211e58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d90445dd78adffb0136e56942905cf0 = $(`<div id="html_0d90445dd78adffb0136e56942905cf0" style="width: 100.0%; height: 100.0%;">COLEGIO LOMAS HILL</div>`)[0];
+            popup_f8f10c216d3bcc907d43946d4e211e58.setContent(html_0d90445dd78adffb0136e56942905cf0);
+        
+
+        marker_9515f773ebbae7274e14c9a07e3bec3e.bindPopup(popup_f8f10c216d3bcc907d43946d4e211e58)
+        ;
+
+        
+    
+    
+            marker_9515f773ebbae7274e14c9a07e3bec3e.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b6aad9d768e7133d7e2617f301501ce = L.marker(
+                [19.3529756, -99.3043435],
+                {}
+            ).addTo(feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c);
+        
+    
+        var popup_985e7dba695d064a5c5235ed00e6196d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df0816d3864a6b7eae92e24af42e3e96 = $(`<div id="html_df0816d3864a6b7eae92e24af42e3e96" style="width: 100.0%; height: 100.0%;">COLEGIO CIPRES</div>`)[0];
+            popup_985e7dba695d064a5c5235ed00e6196d.setContent(html_df0816d3864a6b7eae92e24af42e3e96);
+        
+
+        marker_7b6aad9d768e7133d7e2617f301501ce.bindPopup(popup_985e7dba695d064a5c5235ed00e6196d)
+        ;
+
+        
+    
+    
+            marker_7b6aad9d768e7133d7e2617f301501ce.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_sub_group_bd512b76069ad968b3b42d6f1fbe3972 = L.featureGroup.subGroup(
+                marker_cluster_a10ee7850a7b6a727ef330bc0cffdc9a
+            );
+            feature_group_sub_group_bd512b76069ad968b3b42d6f1fbe3972.addTo(map_bb49e81640459fc382feda3b1cff61ca);
+        
+    
+            var marker_7efd5c904297587f3c2dc61ee501042c = L.marker(
+                [19.3812215, -99.2562091],
+                {}
+            ).addTo(feature_group_sub_group_bd512b76069ad968b3b42d6f1fbe3972);
+        
+    
+        var popup_efe8010bf20620a7e48f9d2dc1190a42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_566a95b2ba0492ea678c4fda92fd3d05 = $(`<div id="html_566a95b2ba0492ea678c4fda92fd3d05" style="width: 100.0%; height: 100.0%;">CENDI PART. CENTRO EDUCATIVO CARACOLETA</div>`)[0];
+            popup_efe8010bf20620a7e48f9d2dc1190a42.setContent(html_566a95b2ba0492ea678c4fda92fd3d05);
+        
+
+        marker_7efd5c904297587f3c2dc61ee501042c.bindPopup(popup_efe8010bf20620a7e48f9d2dc1190a42)
+        ;
+
+        
+    
+    
+            marker_7efd5c904297587f3c2dc61ee501042c.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b5a7f0a3d226b59dba9c3896572dc4b = L.marker(
+                [19.3893415, -99.260778],
+                {}
+            ).addTo(feature_group_sub_group_bd512b76069ad968b3b42d6f1fbe3972);
+        
+    
+        var popup_7907b7aac72e3c3772d5cb3f4b43252f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7d53f264ec817ca0ee62362b59eae6d = $(`<div id="html_b7d53f264ec817ca0ee62362b59eae6d" style="width: 100.0%; height: 100.0%;">CENDI PART. COMUNIDAD MONTESSORI BOSQUES</div>`)[0];
+            popup_7907b7aac72e3c3772d5cb3f4b43252f.setContent(html_b7d53f264ec817ca0ee62362b59eae6d);
+        
+
+        marker_7b5a7f0a3d226b59dba9c3896572dc4b.bindPopup(popup_7907b7aac72e3c3772d5cb3f4b43252f)
+        ;
+
+        
+    
+    
+            marker_7b5a7f0a3d226b59dba9c3896572dc4b.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebdd5758f95f8d93c72d8922ea10fea3 = L.marker(
+                [19.3494661, -99.295343],
+                {}
+            ).addTo(feature_group_sub_group_bd512b76069ad968b3b42d6f1fbe3972);
+        
+    
+        var popup_182a9c93bca7918cbc6662dc90b6e8a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffbdffa4db5ae34d09c38762b4c1f321 = $(`<div id="html_ffbdffa4db5ae34d09c38762b4c1f321" style="width: 100.0%; height: 100.0%;">CENDI PART KINDER KARE</div>`)[0];
+            popup_182a9c93bca7918cbc6662dc90b6e8a9.setContent(html_ffbdffa4db5ae34d09c38762b4c1f321);
+        
+
+        marker_ebdd5758f95f8d93c72d8922ea10fea3.bindPopup(popup_182a9c93bca7918cbc6662dc90b6e8a9)
+        ;
+
+        
+    
+    
+            marker_ebdd5758f95f8d93c72d8922ea10fea3.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db5b3e2df4fe7d814540165a3000d7ab = L.marker(
+                [19.3450473, -99.2826093],
+                {}
+            ).addTo(feature_group_sub_group_bd512b76069ad968b3b42d6f1fbe3972);
+        
+    
+        var popup_822c1152256fbe3533ff0bc8744e071a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d781c17ab457a98c15b76d5e3a6fbf4 = $(`<div id="html_7d781c17ab457a98c15b76d5e3a6fbf4" style="width: 100.0%; height: 100.0%;">CENDI PART EL BOSQUE ANIMADO S.C.</div>`)[0];
+            popup_822c1152256fbe3533ff0bc8744e071a.setContent(html_7d781c17ab457a98c15b76d5e3a6fbf4);
+        
+
+        marker_db5b3e2df4fe7d814540165a3000d7ab.bindPopup(popup_822c1152256fbe3533ff0bc8744e071a)
+        ;
+
+        
+    
+    
+            marker_db5b3e2df4fe7d814540165a3000d7ab.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16c9ad00e702b4aff0cec9e22bb23b1f = L.marker(
+                [19.4009987, -99.2573883],
+                {}
+            ).addTo(feature_group_sub_group_bd512b76069ad968b3b42d6f1fbe3972);
+        
+    
+        var popup_d74c0ca8b4005f0ab01bd605af7fc776 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32c8cccd766ad9f380c178b230ce6428 = $(`<div id="html_32c8cccd766ad9f380c178b230ce6428" style="width: 100.0%; height: 100.0%;">KINDER SEFARADI</div>`)[0];
+            popup_d74c0ca8b4005f0ab01bd605af7fc776.setContent(html_32c8cccd766ad9f380c178b230ce6428);
+        
+
+        marker_16c9ad00e702b4aff0cec9e22bb23b1f.bindPopup(popup_d74c0ca8b4005f0ab01bd605af7fc776)
+        ;
+
+        
+    
+    
+            marker_16c9ad00e702b4aff0cec9e22bb23b1f.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_sub_group_ecbc4bf5835d82795f1589c0dfb09630 = L.featureGroup.subGroup(
+                marker_cluster_a10ee7850a7b6a727ef330bc0cffdc9a
+            );
+            feature_group_sub_group_ecbc4bf5835d82795f1589c0dfb09630.addTo(map_bb49e81640459fc382feda3b1cff61ca);
+        
+    
+            var marker_aab64e1ac147e8d30836668f1ad3f52b = L.marker(
+                [19.3450473, -99.2826093],
+                {}
+            ).addTo(feature_group_sub_group_ecbc4bf5835d82795f1589c0dfb09630);
+        
+    
+        var popup_daffd1f0873ffec078582c90e9492dc9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef3a57a9a793a7c894e4181590be98a7 = $(`<div id="html_ef3a57a9a793a7c894e4181590be98a7" style="width: 100.0%; height: 100.0%;">CENDI PART EL BOSQUE ANIMADO S.C.</div>`)[0];
+            popup_daffd1f0873ffec078582c90e9492dc9.setContent(html_ef3a57a9a793a7c894e4181590be98a7);
+        
+
+        marker_aab64e1ac147e8d30836668f1ad3f52b.bindPopup(popup_daffd1f0873ffec078582c90e9492dc9)
+        ;
+
+        
+    
+    
+            marker_aab64e1ac147e8d30836668f1ad3f52b.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_sub_group_fdd6480bcee04c076a10598e6c33d7a9 = L.featureGroup.subGroup(
+                marker_cluster_a10ee7850a7b6a727ef330bc0cffdc9a
+            );
+            feature_group_sub_group_fdd6480bcee04c076a10598e6c33d7a9.addTo(map_bb49e81640459fc382feda3b1cff61ca);
+        
+    
+            var feature_group_sub_group_2432324fb73488d525b54752a0671353 = L.featureGroup.subGroup(
+                marker_cluster_a10ee7850a7b6a727ef330bc0cffdc9a
+            );
+            feature_group_sub_group_2432324fb73488d525b54752a0671353.addTo(map_bb49e81640459fc382feda3b1cff61ca);
+        
+    
+            var layer_control_37c5fed6d68d25fef0c653d5eb505b17 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_4dfd552491201cbcec6c4745ed847563,
+                },
+                overlays :  {
+                    "Primarias" : feature_group_sub_group_22e57eac34a17f3fee9e1976c9382b4a,
+                    "Preescolar" : feature_group_sub_group_25f8fb52244b4922e4737f51c6bf4c69,
+                    "Secundaria" : feature_group_sub_group_ea0ada65a249060e7f3a552bbdcc708c,
+                    "INICIAL" : feature_group_sub_group_bd512b76069ad968b3b42d6f1fbe3972,
+                    "Preescolar - Inicial" : feature_group_sub_group_ecbc4bf5835d82795f1589c0dfb09630,
+                    "CAM" : feature_group_sub_group_fdd6480bcee04c076a10598e6c33d7a9,
+                    "Adultos" : feature_group_sub_group_2432324fb73488d525b54752a0671353,
+                },
+            };
+            L.control.layers(
+                layer_control_37c5fed6d68d25fef0c653d5eb505b17.base_layers,
+                layer_control_37c5fed6d68d25fef0c653d5eb505b17.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_bb49e81640459fc382feda3b1cff61ca);
+        
+</script>
