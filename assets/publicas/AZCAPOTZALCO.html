@@ -1,0 +1,4383 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d83d8500b5e7e61211490b4a6b1578a2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+    <script src="https://unpkg.com/leaflet.featuregroup.subgroup@1.0.2/dist/leaflet.featuregroup.subgroup.js"></script>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d83d8500b5e7e61211490b4a6b1578a2" ></div>
+        
+</body>
+<script>    
+    
+            var map_d83d8500b5e7e61211490b4a6b1578a2 = L.map(
+                "map_d83d8500b5e7e61211490b4a6b1578a2",
+                {
+                    center: [19.388775211193565, -99.1223589439649],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ceee0c5f555ffcebb73f92dd6a184893 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d83d8500b5e7e61211490b4a6b1578a2);
+        
+    
+            var marker_cluster_aa84e980f18bc22f590238d6bf496e39 = L.markerClusterGroup(
+                {}
+            );
+            map_d83d8500b5e7e61211490b4a6b1578a2.addLayer(marker_cluster_aa84e980f18bc22f590238d6bf496e39);
+        
+    
+            var feature_group_sub_group_8dd372c0416785b1279d86983546ade5 = L.featureGroup.subGroup(
+                marker_cluster_aa84e980f18bc22f590238d6bf496e39
+            );
+            feature_group_sub_group_8dd372c0416785b1279d86983546ade5.addTo(map_d83d8500b5e7e61211490b4a6b1578a2);
+        
+    
+            var marker_4fa0a13668d65fed169d583ff5cb4ede = L.marker(
+                [19.49071100004872, -99.19981800000888],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_0628575cc16232152cc4e80c9e8a1df0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7c27500059b3816c6783b57e76f6f0d = $(`<div id="html_b7c27500059b3816c6783b57e76f6f0d" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - ROBERTO OWEN</div>`)[0];
+            popup_0628575cc16232152cc4e80c9e8a1df0.setContent(html_b7c27500059b3816c6783b57e76f6f0d);
+        
+
+        marker_4fa0a13668d65fed169d583ff5cb4ede.bindPopup(popup_0628575cc16232152cc4e80c9e8a1df0)
+        ;
+
+        
+    
+    
+            marker_4fa0a13668d65fed169d583ff5cb4ede.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4a4d90e11bdf1d12f349cbfe1fe0a11 = L.marker(
+                [19.47928700008749, -99.1871100002866],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_c4497f0d3646396665882b340594545e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db3f55dc5c0fd22ac0ccc473a5cd595e = $(`<div id="html_db3f55dc5c0fd22ac0ccc473a5cd595e" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - MARTIRES DE LA LIBERTAD</div>`)[0];
+            popup_c4497f0d3646396665882b340594545e.setContent(html_db3f55dc5c0fd22ac0ccc473a5cd595e);
+        
+
+        marker_c4a4d90e11bdf1d12f349cbfe1fe0a11.bindPopup(popup_c4497f0d3646396665882b340594545e)
+        ;
+
+        
+    
+    
+            marker_c4a4d90e11bdf1d12f349cbfe1fe0a11.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_efae15835c447f81031e7284c6b4474f = L.marker(
+                [19.46751955571641, -99.15429328087536],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_49c9cf9d1164b1825bba64e53251f9a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26b3a75a8d8338348740e7c6064ff643 = $(`<div id="html_26b3a75a8d8338348740e7c6064ff643" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - VIDAL RIVERO</div>`)[0];
+            popup_49c9cf9d1164b1825bba64e53251f9a7.setContent(html_26b3a75a8d8338348740e7c6064ff643);
+        
+
+        marker_efae15835c447f81031e7284c6b4474f.bindPopup(popup_49c9cf9d1164b1825bba64e53251f9a7)
+        ;
+
+        
+    
+    
+            marker_efae15835c447f81031e7284c6b4474f.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_597362bd5256b732417cd982828bd465 = L.marker(
+                [19.49852699991352, -99.19247899989288],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_98132d9f0e35fbb227573db86bb268dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_952e3351c6ca0bc5e25b3053eb2bf03b = $(`<div id="html_952e3351c6ca0bc5e25b3053eb2bf03b" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - CARLOS MARX</div>`)[0];
+            popup_98132d9f0e35fbb227573db86bb268dd.setContent(html_952e3351c6ca0bc5e25b3053eb2bf03b);
+        
+
+        marker_597362bd5256b732417cd982828bd465.bindPopup(popup_98132d9f0e35fbb227573db86bb268dd)
+        ;
+
+        
+    
+    
+            marker_597362bd5256b732417cd982828bd465.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99d1fc36f9b413f90676cc90ea9673bc = L.marker(
+                [19.51204899999884, -99.2082779999399],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_ab122a487e975b8be2380a4abe4add3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_654218207eb5326d99b6cd7b03f09ee9 = $(`<div id="html_654218207eb5326d99b6cd7b03f09ee9" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - NARCISO BASSOLS</div>`)[0];
+            popup_ab122a487e975b8be2380a4abe4add3c.setContent(html_654218207eb5326d99b6cd7b03f09ee9);
+        
+
+        marker_99d1fc36f9b413f90676cc90ea9673bc.bindPopup(popup_ab122a487e975b8be2380a4abe4add3c)
+        ;
+
+        
+    
+    
+            marker_99d1fc36f9b413f90676cc90ea9673bc.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9fb1bb3d3dac3e2a75b3259098b00694 = L.marker(
+                [19.47946600018419, -99.18989400003582],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_c00e62f3ed51df539509676e7fe588ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_501abdd659abb5d559c373936f8239a6 = $(`<div id="html_501abdd659abb5d559c373936f8239a6" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - EMPERADOR CUITLAHUAC</div>`)[0];
+            popup_c00e62f3ed51df539509676e7fe588ce.setContent(html_501abdd659abb5d559c373936f8239a6);
+        
+
+        marker_9fb1bb3d3dac3e2a75b3259098b00694.bindPopup(popup_c00e62f3ed51df539509676e7fe588ce)
+        ;
+
+        
+    
+    
+            marker_9fb1bb3d3dac3e2a75b3259098b00694.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16c8c7952ea165779d84fefdeb6d7a59 = L.marker(
+                [19.48555299988975, -99.18547599991656],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_0d39a738d86c00dcb4112a5e0d22203b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5583197db8adcdb9d4bbb7dbbca40ff1 = $(`<div id="html_5583197db8adcdb9d4bbb7dbbca40ff1" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - TEMACHTIANI</div>`)[0];
+            popup_0d39a738d86c00dcb4112a5e0d22203b.setContent(html_5583197db8adcdb9d4bbb7dbbca40ff1);
+        
+
+        marker_16c8c7952ea165779d84fefdeb6d7a59.bindPopup(popup_0d39a738d86c00dcb4112a5e0d22203b)
+        ;
+
+        
+    
+    
+            marker_16c8c7952ea165779d84fefdeb6d7a59.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_513c463e1e909d1b2f14f22165fc53af = L.marker(
+                [19.47332399995189, -99.16777099981316],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_75979a08e174ba27ac4d93553d72de03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5ec293abbbd32762102ca8b7b084a5f = $(`<div id="html_f5ec293abbbd32762102ca8b7b084a5f" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - REPUBLICA DE COREA</div>`)[0];
+            popup_75979a08e174ba27ac4d93553d72de03.setContent(html_f5ec293abbbd32762102ca8b7b084a5f);
+        
+
+        marker_513c463e1e909d1b2f14f22165fc53af.bindPopup(popup_75979a08e174ba27ac4d93553d72de03)
+        ;
+
+        
+    
+    
+            marker_513c463e1e909d1b2f14f22165fc53af.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b00e60d5391ff2955bc38c0fee900f92 = L.marker(
+                [19.48110600006766, -99.20410300006677],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_29a64e6b9957db261e305d166cdae684 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b6c2fb7bfeaff3498e26c253b377c68 = $(`<div id="html_0b6c2fb7bfeaff3498e26c253b377c68" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - EL NIÑO AGRARISTA</div>`)[0];
+            popup_29a64e6b9957db261e305d166cdae684.setContent(html_0b6c2fb7bfeaff3498e26c253b377c68);
+        
+
+        marker_b00e60d5391ff2955bc38c0fee900f92.bindPopup(popup_29a64e6b9957db261e305d166cdae684)
+        ;
+
+        
+    
+    
+            marker_b00e60d5391ff2955bc38c0fee900f92.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ca31afc69d110f8543827c40d70fcb5 = L.marker(
+                [19.47560444602165, -99.17890874074632],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_21ba92739f9bc97e8f674f89bb12ea24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a8efa2c169a0fdf979e7962ad417369 = $(`<div id="html_6a8efa2c169a0fdf979e7962ad417369" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - CENTENARIO DE LA CONSTITUCION DEL 57</div>`)[0];
+            popup_21ba92739f9bc97e8f674f89bb12ea24.setContent(html_6a8efa2c169a0fdf979e7962ad417369);
+        
+
+        marker_0ca31afc69d110f8543827c40d70fcb5.bindPopup(popup_21ba92739f9bc97e8f674f89bb12ea24)
+        ;
+
+        
+    
+    
+            marker_0ca31afc69d110f8543827c40d70fcb5.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_753ac109271ba62d62c45d192a24b87b = L.marker(
+                [19.48834000016944, -99.17232099980112],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_cd0a3ee017637886be9069abed5b2439 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b46ff8829a09ad6b0c8bc0245c600f3 = $(`<div id="html_3b46ff8829a09ad6b0c8bc0245c600f3" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - MARIANO MATAMOROS</div>`)[0];
+            popup_cd0a3ee017637886be9069abed5b2439.setContent(html_3b46ff8829a09ad6b0c8bc0245c600f3);
+        
+
+        marker_753ac109271ba62d62c45d192a24b87b.bindPopup(popup_cd0a3ee017637886be9069abed5b2439)
+        ;
+
+        
+    
+    
+            marker_753ac109271ba62d62c45d192a24b87b.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2a1c4263178f6deda1cc947decc6038 = L.marker(
+                [19.47939724426706, -99.20870257731993],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_f57db73c0037b97d5070c0d35caceca1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04d54005226495ea1427876054aedf8a = $(`<div id="html_04d54005226495ea1427876054aedf8a" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - MEXITLI</div>`)[0];
+            popup_f57db73c0037b97d5070c0d35caceca1.setContent(html_04d54005226495ea1427876054aedf8a);
+        
+
+        marker_e2a1c4263178f6deda1cc947decc6038.bindPopup(popup_f57db73c0037b97d5070c0d35caceca1)
+        ;
+
+        
+    
+    
+            marker_e2a1c4263178f6deda1cc947decc6038.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_533a0255509a2bda963b3443b9b0f50c = L.marker(
+                [19.48187300011534, -99.15343200004224],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_8cf93bf589d3e1b59c311f44766377e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4051b6f9fd9a7feb149cb05a52889655 = $(`<div id="html_4051b6f9fd9a7feb149cb05a52889655" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - TRABAJADORES DEL HIERRO</div>`)[0];
+            popup_8cf93bf589d3e1b59c311f44766377e5.setContent(html_4051b6f9fd9a7feb149cb05a52889655);
+        
+
+        marker_533a0255509a2bda963b3443b9b0f50c.bindPopup(popup_8cf93bf589d3e1b59c311f44766377e5)
+        ;
+
+        
+    
+    
+            marker_533a0255509a2bda963b3443b9b0f50c.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_20ed23a9320f10a9b7c5f6dc3350540c = L.marker(
+                [19.47537499997546, -99.1506729999424],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_731caf441c0030b259a3927579fc5135 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fab66834cb59882e08e7fbe68b242450 = $(`<div id="html_fab66834cb59882e08e7fbe68b242450" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - MAESTRA JUANA PALACIOS</div>`)[0];
+            popup_731caf441c0030b259a3927579fc5135.setContent(html_fab66834cb59882e08e7fbe68b242450);
+        
+
+        marker_20ed23a9320f10a9b7c5f6dc3350540c.bindPopup(popup_731caf441c0030b259a3927579fc5135)
+        ;
+
+        
+    
+    
+            marker_20ed23a9320f10a9b7c5f6dc3350540c.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d4b08b74aaa2feab30737e82ff40de9 = L.marker(
+                [19.46471800569493, -99.16316859302644],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_064e0edaf1924c1271944a0a1d0acd72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2d6e3d16d5b09ef2e35e25524ad79ec = $(`<div id="html_b2d6e3d16d5b09ef2e35e25524ad79ec" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - EMPERADOR CUAUHTEMOC</div>`)[0];
+            popup_064e0edaf1924c1271944a0a1d0acd72.setContent(html_b2d6e3d16d5b09ef2e35e25524ad79ec);
+        
+
+        marker_3d4b08b74aaa2feab30737e82ff40de9.bindPopup(popup_064e0edaf1924c1271944a0a1d0acd72)
+        ;
+
+        
+    
+    
+            marker_3d4b08b74aaa2feab30737e82ff40de9.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61354854ae8509fa6f32cac594634de0 = L.marker(
+                [19.4921384822288, -99.20862689634323],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_0d532619a7064e07b1a13f0d7a9aed4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f45365966d49d851f08c995be1f76334 = $(`<div id="html_f45365966d49d851f08c995be1f76334" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - LIBERACION CAMPESINA</div>`)[0];
+            popup_0d532619a7064e07b1a13f0d7a9aed4e.setContent(html_f45365966d49d851f08c995be1f76334);
+        
+
+        marker_61354854ae8509fa6f32cac594634de0.bindPopup(popup_0d532619a7064e07b1a13f0d7a9aed4e)
+        ;
+
+        
+    
+    
+            marker_61354854ae8509fa6f32cac594634de0.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72e0b01937b280bc49bde860e75ab57a = L.marker(
+                [19.48340499989032, -99.2007589997919],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_5f5385f80b8ab2a6eec9347b09330630 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61406ffe6866b65e00be42b519eb9f92 = $(`<div id="html_61406ffe6866b65e00be42b519eb9f92" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - MARTIRES DEL AGRARISMO</div>`)[0];
+            popup_5f5385f80b8ab2a6eec9347b09330630.setContent(html_61406ffe6866b65e00be42b519eb9f92);
+        
+
+        marker_72e0b01937b280bc49bde860e75ab57a.bindPopup(popup_5f5385f80b8ab2a6eec9347b09330630)
+        ;
+
+        
+    
+    
+            marker_72e0b01937b280bc49bde860e75ab57a.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3598f71a25211daa443e013f97149ef = L.marker(
+                [19.47321199977542, -99.17432899979492],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_358c0c76d7d7ae50beb98bef2e8bba18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2a4616369ed2526a9e70c57bd1cee39 = $(`<div id="html_a2a4616369ed2526a9e70c57bd1cee39" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - GRAL. ADALBERTO TEJEDA</div>`)[0];
+            popup_358c0c76d7d7ae50beb98bef2e8bba18.setContent(html_a2a4616369ed2526a9e70c57bd1cee39);
+        
+
+        marker_c3598f71a25211daa443e013f97149ef.bindPopup(popup_358c0c76d7d7ae50beb98bef2e8bba18)
+        ;
+
+        
+    
+    
+            marker_c3598f71a25211daa443e013f97149ef.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a639cb576caba82bca06a3b0628ec6b = L.marker(
+                [19.50950921289907, -99.19195057199364],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_2ec295c58a3ea67312770e8f07571cef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb865c283ea682d9a32bb43408226c16 = $(`<div id="html_bb865c283ea682d9a32bb43408226c16" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - PROFR. MANUEL S. HIDALGO</div>`)[0];
+            popup_2ec295c58a3ea67312770e8f07571cef.setContent(html_bb865c283ea682d9a32bb43408226c16);
+        
+
+        marker_9a639cb576caba82bca06a3b0628ec6b.bindPopup(popup_2ec295c58a3ea67312770e8f07571cef)
+        ;
+
+        
+    
+    
+            marker_9a639cb576caba82bca06a3b0628ec6b.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62bc34bb917f070db9bc78288fe3b828 = L.marker(
+                [19.47008199998913, -99.15724799985776],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_dbfbc7ec525c13a928bf0c4ee6c0e6c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f76a0249b479e407732bb36befdc5794 = $(`<div id="html_f76a0249b479e407732bb36befdc5794" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - 14 DE JULIO</div>`)[0];
+            popup_dbfbc7ec525c13a928bf0c4ee6c0e6c1.setContent(html_f76a0249b479e407732bb36befdc5794);
+        
+
+        marker_62bc34bb917f070db9bc78288fe3b828.bindPopup(popup_dbfbc7ec525c13a928bf0c4ee6c0e6c1)
+        ;
+
+        
+    
+    
+            marker_62bc34bb917f070db9bc78288fe3b828.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29a5318496e50e76be17bd6765aafc1f = L.marker(
+                [19.50557500011736, -99.20671299999128],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_a351dce51a5eb151b0d985dc9b8c3da7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecd98cc37f78a0102ba6922d768a95ad = $(`<div id="html_ecd98cc37f78a0102ba6922d768a95ad" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - PROFRA. ELMIRA ROCHA GARCIA</div>`)[0];
+            popup_a351dce51a5eb151b0d985dc9b8c3da7.setContent(html_ecd98cc37f78a0102ba6922d768a95ad);
+        
+
+        marker_29a5318496e50e76be17bd6765aafc1f.bindPopup(popup_a351dce51a5eb151b0d985dc9b8c3da7)
+        ;
+
+        
+    
+    
+            marker_29a5318496e50e76be17bd6765aafc1f.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d1707e839a749f6d4fe08c5302a2043 = L.marker(
+                [19.4772391943793, -99.21017839004398],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_2a56dcee79d4f625de46588906babf5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f41aa9df335229cbf68bedca5b31640 = $(`<div id="html_3f41aa9df335229cbf68bedca5b31640" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - POLONIA</div>`)[0];
+            popup_2a56dcee79d4f625de46588906babf5e.setContent(html_3f41aa9df335229cbf68bedca5b31640);
+        
+
+        marker_4d1707e839a749f6d4fe08c5302a2043.bindPopup(popup_2a56dcee79d4f625de46588906babf5e)
+        ;
+
+        
+    
+    
+            marker_4d1707e839a749f6d4fe08c5302a2043.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c052b3948539de5c6a4e25c864130dc8 = L.marker(
+                [19.49079295470141, -99.21270489894997],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_3b01dd3e5a70ed4fa6cebd7fdbc01c56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d489c7e9fafc53b47cd8780064936cd0 = $(`<div id="html_d489c7e9fafc53b47cd8780064936cd0" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - LIC. ADOLFO LOPEZ MATEOS</div>`)[0];
+            popup_3b01dd3e5a70ed4fa6cebd7fdbc01c56.setContent(html_d489c7e9fafc53b47cd8780064936cd0);
+        
+
+        marker_c052b3948539de5c6a4e25c864130dc8.bindPopup(popup_3b01dd3e5a70ed4fa6cebd7fdbc01c56)
+        ;
+
+        
+    
+    
+            marker_c052b3948539de5c6a4e25c864130dc8.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0df42942076080ddad7344a74322c50a = L.marker(
+                [19.49715799983211, -99.19740699989552],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_0ce7f19f6b56cb7f7ab893dfedd78644 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65d110a6083d446b046a9030186d24c9 = $(`<div id="html_65d110a6083d446b046a9030186d24c9" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - MARTIN OYAMBURU</div>`)[0];
+            popup_0ce7f19f6b56cb7f7ab893dfedd78644.setContent(html_65d110a6083d446b046a9030186d24c9);
+        
+
+        marker_0df42942076080ddad7344a74322c50a.bindPopup(popup_0ce7f19f6b56cb7f7ab893dfedd78644)
+        ;
+
+        
+    
+    
+            marker_0df42942076080ddad7344a74322c50a.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e3b6863d9d07a0ae3bfd8fe2f9a27b3 = L.marker(
+                [19.48100000017201, -99.18406000007424],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_4d4af1d0f94fadea1701531348e1577c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a497ec36cbe030ce525e4fd98176729 = $(`<div id="html_8a497ec36cbe030ce525e4fd98176729" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - VICENTE ALCARAZ</div>`)[0];
+            popup_4d4af1d0f94fadea1701531348e1577c.setContent(html_8a497ec36cbe030ce525e4fd98176729);
+        
+
+        marker_4e3b6863d9d07a0ae3bfd8fe2f9a27b3.bindPopup(popup_4d4af1d0f94fadea1701531348e1577c)
+        ;
+
+        
+    
+    
+            marker_4e3b6863d9d07a0ae3bfd8fe2f9a27b3.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f2b1426741c4d6c1ac16ec9909afa27 = L.marker(
+                [19.49296799975597, -99.18556099985408],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_9feb2517bd575b94224b5dc641102299 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5511b6e40c8f953c83340be8512ca4a4 = $(`<div id="html_5511b6e40c8f953c83340be8512ca4a4" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - ESTADO DE GUANAJUATO</div>`)[0];
+            popup_9feb2517bd575b94224b5dc641102299.setContent(html_5511b6e40c8f953c83340be8512ca4a4);
+        
+
+        marker_3f2b1426741c4d6c1ac16ec9909afa27.bindPopup(popup_9feb2517bd575b94224b5dc641102299)
+        ;
+
+        
+    
+    
+            marker_3f2b1426741c4d6c1ac16ec9909afa27.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0937c887cd6bf72578c0e8475b2e500 = L.marker(
+                [19.47320200013237, -99.1983880001516],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_a64f204a4e06c84510b0a17e0b8f13d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78d4229117b036f7b49cf699bb4e20ab = $(`<div id="html_78d4229117b036f7b49cf699bb4e20ab" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - EL MAESTRO MEXICANO</div>`)[0];
+            popup_a64f204a4e06c84510b0a17e0b8f13d5.setContent(html_78d4229117b036f7b49cf699bb4e20ab);
+        
+
+        marker_f0937c887cd6bf72578c0e8475b2e500.bindPopup(popup_a64f204a4e06c84510b0a17e0b8f13d5)
+        ;
+
+        
+    
+    
+            marker_f0937c887cd6bf72578c0e8475b2e500.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_873ad8bfd901f1d98cf0d9f0f93ec5cf = L.marker(
+                [19.48564000036565, -99.19508600033762],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_586fc924a0792a69ece2b14ca1451f11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f1e1d3618bd74510ec8750b20f64143 = $(`<div id="html_2f1e1d3618bd74510ec8750b20f64143" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - PABLO NERUDA</div>`)[0];
+            popup_586fc924a0792a69ece2b14ca1451f11.setContent(html_2f1e1d3618bd74510ec8750b20f64143);
+        
+
+        marker_873ad8bfd901f1d98cf0d9f0f93ec5cf.bindPopup(popup_586fc924a0792a69ece2b14ca1451f11)
+        ;
+
+        
+    
+    
+            marker_873ad8bfd901f1d98cf0d9f0f93ec5cf.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06fe6c72250f8063fa0d69199935638e = L.marker(
+                [19.49071399993012, -99.19814699991451],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_e292da389df38ae46fe89f5a62c18324 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e393a6fab275d406067daf506edacca = $(`<div id="html_5e393a6fab275d406067daf506edacca" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - KYOTO</div>`)[0];
+            popup_e292da389df38ae46fe89f5a62c18324.setContent(html_5e393a6fab275d406067daf506edacca);
+        
+
+        marker_06fe6c72250f8063fa0d69199935638e.bindPopup(popup_e292da389df38ae46fe89f5a62c18324)
+        ;
+
+        
+    
+    
+            marker_06fe6c72250f8063fa0d69199935638e.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8006217b0ef369bff9ac6cf38b8143cd = L.marker(
+                [19.48981414569294, -99.17820501973443],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_e9314e910b1a2e179b6c9684ab1122d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3398060a19ed3cbb7b79f3a54f340be7 = $(`<div id="html_3398060a19ed3cbb7b79f3a54f340be7" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - CANDIDO NAVARRO</div>`)[0];
+            popup_e9314e910b1a2e179b6c9684ab1122d7.setContent(html_3398060a19ed3cbb7b79f3a54f340be7);
+        
+
+        marker_8006217b0ef369bff9ac6cf38b8143cd.bindPopup(popup_e9314e910b1a2e179b6c9684ab1122d7)
+        ;
+
+        
+    
+    
+            marker_8006217b0ef369bff9ac6cf38b8143cd.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4c0a6599162f5516d456f30042cc8df3 = L.marker(
+                [19.49897600032447, -99.19374200011411],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_a4937a32303f2fc66f20d36e42cf93fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfefd40e43156051c8093cd65b09d955 = $(`<div id="html_dfefd40e43156051c8093cd65b09d955" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - MANUEL BELGRANO</div>`)[0];
+            popup_a4937a32303f2fc66f20d36e42cf93fe.setContent(html_dfefd40e43156051c8093cd65b09d955);
+        
+
+        marker_4c0a6599162f5516d456f30042cc8df3.bindPopup(popup_a4937a32303f2fc66f20d36e42cf93fe)
+        ;
+
+        
+    
+    
+            marker_4c0a6599162f5516d456f30042cc8df3.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f76246cbb58d45d36641259bda6ed8a = L.marker(
+                [19.51306899996737, -99.20156200006984],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_8c6b5da51592279e3795d12d47e35d68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a69c26c9012cbdfa8c5987dee69e277a = $(`<div id="html_a69c26c9012cbdfa8c5987dee69e277a" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - GRAL. FRANCISCO VILLA</div>`)[0];
+            popup_8c6b5da51592279e3795d12d47e35d68.setContent(html_a69c26c9012cbdfa8c5987dee69e277a);
+        
+
+        marker_6f76246cbb58d45d36641259bda6ed8a.bindPopup(popup_8c6b5da51592279e3795d12d47e35d68)
+        ;
+
+        
+    
+    
+            marker_6f76246cbb58d45d36641259bda6ed8a.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95b0feee335dd5d4b63fbd433857a3f8 = L.marker(
+                [19.46190541165546, -99.1633644324688],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_2a6f5f7e6e5a4cbd477ebe90b8079374 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f8da119fbee128a1a16861e2407a561 = $(`<div id="html_6f8da119fbee128a1a16861e2407a561" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - MAESTRO JOSE VASCONCELOS</div>`)[0];
+            popup_2a6f5f7e6e5a4cbd477ebe90b8079374.setContent(html_6f8da119fbee128a1a16861e2407a561);
+        
+
+        marker_95b0feee335dd5d4b63fbd433857a3f8.bindPopup(popup_2a6f5f7e6e5a4cbd477ebe90b8079374)
+        ;
+
+        
+    
+    
+            marker_95b0feee335dd5d4b63fbd433857a3f8.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6834fc7051fd2101c197a1cb8c8da81c = L.marker(
+                [19.47428699991464, -99.21610399991656],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_a7859fc902a83103e0566c8582a39330 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1888db1b508cec36d7bcfd26035079b7 = $(`<div id="html_1888db1b508cec36d7bcfd26035079b7" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - NORMAN E. BORLAUG</div>`)[0];
+            popup_a7859fc902a83103e0566c8582a39330.setContent(html_1888db1b508cec36d7bcfd26035079b7);
+        
+
+        marker_6834fc7051fd2101c197a1cb8c8da81c.bindPopup(popup_a7859fc902a83103e0566c8582a39330)
+        ;
+
+        
+    
+    
+            marker_6834fc7051fd2101c197a1cb8c8da81c.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8ee67ccac4d8e69d6804a9e6a1d021a = L.marker(
+                [19.49541315717577, -99.20551443969104],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_f948259e7f72d2e7a1876b4092e53103 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b355aaf8bea15cdb5c4dfe5452a0be7 = $(`<div id="html_7b355aaf8bea15cdb5c4dfe5452a0be7" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - FERNANDO MONTES DE OCA</div>`)[0];
+            popup_f948259e7f72d2e7a1876b4092e53103.setContent(html_7b355aaf8bea15cdb5c4dfe5452a0be7);
+        
+
+        marker_f8ee67ccac4d8e69d6804a9e6a1d021a.bindPopup(popup_f948259e7f72d2e7a1876b4092e53103)
+        ;
+
+        
+    
+    
+            marker_f8ee67ccac4d8e69d6804a9e6a1d021a.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c0ccecc811a0f3ec4623399e9b31975 = L.marker(
+                [19.48130850523701, -99.20432289753415],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_5db085692be2eb8e601189297d9f1f20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c31b59395b9ad862789125fccf1cac1 = $(`<div id="html_0c31b59395b9ad862789125fccf1cac1" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - REPUBLICA MEXICANA</div>`)[0];
+            popup_5db085692be2eb8e601189297d9f1f20.setContent(html_0c31b59395b9ad862789125fccf1cac1);
+        
+
+        marker_2c0ccecc811a0f3ec4623399e9b31975.bindPopup(popup_5db085692be2eb8e601189297d9f1f20)
+        ;
+
+        
+    
+    
+            marker_2c0ccecc811a0f3ec4623399e9b31975.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98aaf22f1f6868724164142696fb621c = L.marker(
+                [19.51082473070553, -99.20195877361412],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_e123e4cb06cdd9c9d63e41ad7b4d7aca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f594161d515407325f1c9e8251c9bf4a = $(`<div id="html_f594161d515407325f1c9e8251c9bf4a" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - AMALIA GONZALEZ CABALLERO</div>`)[0];
+            popup_e123e4cb06cdd9c9d63e41ad7b4d7aca.setContent(html_f594161d515407325f1c9e8251c9bf4a);
+        
+
+        marker_98aaf22f1f6868724164142696fb621c.bindPopup(popup_e123e4cb06cdd9c9d63e41ad7b4d7aca)
+        ;
+
+        
+    
+    
+            marker_98aaf22f1f6868724164142696fb621c.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e498e62cc2e033853afd52f74554bf0 = L.marker(
+                [19.48705900009571, -99.15838399989131],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_1babe48fac7b406b3a8982908b4fc911 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbd440daeab4434dc5950723f358a78a = $(`<div id="html_bbd440daeab4434dc5950723f358a78a" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - PROFR. LUIS DE LA BRENA</div>`)[0];
+            popup_1babe48fac7b406b3a8982908b4fc911.setContent(html_bbd440daeab4434dc5950723f358a78a);
+        
+
+        marker_1e498e62cc2e033853afd52f74554bf0.bindPopup(popup_1babe48fac7b406b3a8982908b4fc911)
+        ;
+
+        
+    
+    
+            marker_1e498e62cc2e033853afd52f74554bf0.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e5b0ada31e1b169b3cb084d8b1997b2 = L.marker(
+                [19.50261444723732, -99.18346241141651],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_be1d914b84f415c43cc8714b005fc561 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0e559470dc5cb8c38e780b337cd087d = $(`<div id="html_f0e559470dc5cb8c38e780b337cd087d" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - JESUS SOTELO INCLAN</div>`)[0];
+            popup_be1d914b84f415c43cc8714b005fc561.setContent(html_f0e559470dc5cb8c38e780b337cd087d);
+        
+
+        marker_3e5b0ada31e1b169b3cb084d8b1997b2.bindPopup(popup_be1d914b84f415c43cc8714b005fc561)
+        ;
+
+        
+    
+    
+            marker_3e5b0ada31e1b169b3cb084d8b1997b2.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c56f458725a8ba7494e8814808708ed5 = L.marker(
+                [19.4930179662997, -99.18838405099956],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_eded1c19d75123cd662626afbdfff715 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15166d0db87835385da69dc8020180b0 = $(`<div id="html_15166d0db87835385da69dc8020180b0" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - CIUDAD REYNOSA</div>`)[0];
+            popup_eded1c19d75123cd662626afbdfff715.setContent(html_15166d0db87835385da69dc8020180b0);
+        
+
+        marker_c56f458725a8ba7494e8814808708ed5.bindPopup(popup_eded1c19d75123cd662626afbdfff715)
+        ;
+
+        
+    
+    
+            marker_c56f458725a8ba7494e8814808708ed5.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa9c691fcbf4c3766732a762eac34e5e = L.marker(
+                [19.47246600009306, -99.15381399974164],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_e5dc404a02c6480c8894c95ef44f66c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa2ba1563386537af38bba67fd7540d2 = $(`<div id="html_fa2ba1563386537af38bba67fd7540d2" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - LIC. ATENEDORO MONROY</div>`)[0];
+            popup_e5dc404a02c6480c8894c95ef44f66c4.setContent(html_fa2ba1563386537af38bba67fd7540d2);
+        
+
+        marker_aa9c691fcbf4c3766732a762eac34e5e.bindPopup(popup_e5dc404a02c6480c8894c95ef44f66c4)
+        ;
+
+        
+    
+    
+            marker_aa9c691fcbf4c3766732a762eac34e5e.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ccacbd664583d61bb85eba2fa9215c12 = L.marker(
+                [19.46964461886078, -99.15865174871936],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_40f0e30344f6e58b3ce4b5ae681f372f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbcbf2a571b532994408b149a2fa49c1 = $(`<div id="html_bbcbf2a571b532994408b149a2fa49c1" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - REPUBLICA DE FRANCIA</div>`)[0];
+            popup_40f0e30344f6e58b3ce4b5ae681f372f.setContent(html_bbcbf2a571b532994408b149a2fa49c1);
+        
+
+        marker_ccacbd664583d61bb85eba2fa9215c12.bindPopup(popup_40f0e30344f6e58b3ce4b5ae681f372f)
+        ;
+
+        
+    
+    
+            marker_ccacbd664583d61bb85eba2fa9215c12.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_15268ec351af4378d0196f562fb2df54 = L.marker(
+                [19.46409200022177, -99.1482320002734],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_932bc56b16b1c9f0f14ccb5f40798d19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62ee093fd2936041ba83b1334b6339f3 = $(`<div id="html_62ee093fd2936041ba83b1334b6339f3" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - CLUB DE LEONES NUMERO 1</div>`)[0];
+            popup_932bc56b16b1c9f0f14ccb5f40798d19.setContent(html_62ee093fd2936041ba83b1334b6339f3);
+        
+
+        marker_15268ec351af4378d0196f562fb2df54.bindPopup(popup_932bc56b16b1c9f0f14ccb5f40798d19)
+        ;
+
+        
+    
+    
+            marker_15268ec351af4378d0196f562fb2df54.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2987e7983a84a9d7fe962f41eff6526 = L.marker(
+                [19.48556000005243, -99.18547399994004],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_0a4f8c691ff939bff2d7bf91ef9fa980 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1fc4c1c3ed0362c657a3be9d2ce065d = $(`<div id="html_f1fc4c1c3ed0362c657a3be9d2ce065d" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - ING. GUILLERMO GONZALEZ CAMARENA</div>`)[0];
+            popup_0a4f8c691ff939bff2d7bf91ef9fa980.setContent(html_f1fc4c1c3ed0362c657a3be9d2ce065d);
+        
+
+        marker_f2987e7983a84a9d7fe962f41eff6526.bindPopup(popup_0a4f8c691ff939bff2d7bf91ef9fa980)
+        ;
+
+        
+    
+    
+            marker_f2987e7983a84a9d7fe962f41eff6526.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6eebc8d7929179986fce24c1d3fa6aa7 = L.marker(
+                [19.47695887072658, -99.159889723423],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_d4be1cc248f9c37a00c398a91ddd0856 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b779d1e1eb2d79a2da58244a6ddc576 = $(`<div id="html_3b779d1e1eb2d79a2da58244a6ddc576" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - GENERAL FELIPE ANGELES RAMIREZ</div>`)[0];
+            popup_d4be1cc248f9c37a00c398a91ddd0856.setContent(html_3b779d1e1eb2d79a2da58244a6ddc576);
+        
+
+        marker_6eebc8d7929179986fce24c1d3fa6aa7.bindPopup(popup_d4be1cc248f9c37a00c398a91ddd0856)
+        ;
+
+        
+    
+    
+            marker_6eebc8d7929179986fce24c1d3fa6aa7.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46375a76f59b84b199d422b2e9e8a294 = L.marker(
+                [19.49282200012041, -99.18786399992332],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_088acf4fc26e193ce80e72fd37242787 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3987f566b535c4f128105be29ce707d1 = $(`<div id="html_3987f566b535c4f128105be29ce707d1" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - HEROES DEL SUR</div>`)[0];
+            popup_088acf4fc26e193ce80e72fd37242787.setContent(html_3987f566b535c4f128105be29ce707d1);
+        
+
+        marker_46375a76f59b84b199d422b2e9e8a294.bindPopup(popup_088acf4fc26e193ce80e72fd37242787)
+        ;
+
+        
+    
+    
+            marker_46375a76f59b84b199d422b2e9e8a294.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f7a0198a4981d23f3a5fc56b1181756a = L.marker(
+                [19.48997699989863, -99.19793400002588],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_a1e3f0b9865467b83e31073d3e773024 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0c9f36332212d323369a209ec428ee3 = $(`<div id="html_a0c9f36332212d323369a209ec428ee3" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - MAGISTERIO MEXICANO</div>`)[0];
+            popup_a1e3f0b9865467b83e31073d3e773024.setContent(html_a0c9f36332212d323369a209ec428ee3);
+        
+
+        marker_f7a0198a4981d23f3a5fc56b1181756a.bindPopup(popup_a1e3f0b9865467b83e31073d3e773024)
+        ;
+
+        
+    
+    
+            marker_f7a0198a4981d23f3a5fc56b1181756a.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_edaaf330a6bbe6ff7bcc22134b7a71aa = L.marker(
+                [19.48257249263784, -99.18371346753784],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_4213f708382fd6f02852db5e2fbe884a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36b7db95f5bcd42b754af2cef837ea44 = $(`<div id="html_36b7db95f5bcd42b754af2cef837ea44" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - MAESTRO JULIO GARCIA</div>`)[0];
+            popup_4213f708382fd6f02852db5e2fbe884a.setContent(html_36b7db95f5bcd42b754af2cef837ea44);
+        
+
+        marker_edaaf330a6bbe6ff7bcc22134b7a71aa.bindPopup(popup_4213f708382fd6f02852db5e2fbe884a)
+        ;
+
+        
+    
+    
+            marker_edaaf330a6bbe6ff7bcc22134b7a71aa.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_68a813b5de0b59c33538530682a7503e = L.marker(
+                [19.5095178430086, -99.20203773414954],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_3dae8742332d2ba63ca1a9034535c2a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d3fab3f40e2c4260f5fc151f412a9a1 = $(`<div id="html_6d3fab3f40e2c4260f5fc151f412a9a1" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - PROFR. SALVADOR VARELA RESENDIZ</div>`)[0];
+            popup_3dae8742332d2ba63ca1a9034535c2a6.setContent(html_6d3fab3f40e2c4260f5fc151f412a9a1);
+        
+
+        marker_68a813b5de0b59c33538530682a7503e.bindPopup(popup_3dae8742332d2ba63ca1a9034535c2a6)
+        ;
+
+        
+    
+    
+            marker_68a813b5de0b59c33538530682a7503e.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1fdcc1f6e9c209620ce2f0c1321088cc = L.marker(
+                [19.50276416622518, -99.2080106330014],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_cd88233f7692b90e290676b8f51db3a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3abdac96edb70805c12b098843c327b4 = $(`<div id="html_3abdac96edb70805c12b098843c327b4" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - FAJA DE ORO</div>`)[0];
+            popup_cd88233f7692b90e290676b8f51db3a7.setContent(html_3abdac96edb70805c12b098843c327b4);
+        
+
+        marker_1fdcc1f6e9c209620ce2f0c1321088cc.bindPopup(popup_cd88233f7692b90e290676b8f51db3a7)
+        ;
+
+        
+    
+    
+            marker_1fdcc1f6e9c209620ce2f0c1321088cc.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_80ce8eb672f5916aa7f608b1de2a9ed7 = L.marker(
+                [19.48170799988354, -99.2042649999964],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_7d22a59e0c5961a9d7e7932e8652ffee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eba66750526af457b2c53ba4f8286680 = $(`<div id="html_eba66750526af457b2c53ba4f8286680" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - PETROLEOS MEXICANOS</div>`)[0];
+            popup_7d22a59e0c5961a9d7e7932e8652ffee.setContent(html_eba66750526af457b2c53ba4f8286680);
+        
+
+        marker_80ce8eb672f5916aa7f608b1de2a9ed7.bindPopup(popup_7d22a59e0c5961a9d7e7932e8652ffee)
+        ;
+
+        
+    
+    
+            marker_80ce8eb672f5916aa7f608b1de2a9ed7.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3fa6da11767aabb9486a4d18634b57cf = L.marker(
+                [19.46764241718224, -99.18847904218296],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_29e38b632d889b3e506242c5582e36d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51a531b0c5dcc1218edab2a147731a26 = $(`<div id="html_51a531b0c5dcc1218edab2a147731a26" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - JOSE ARTURO PICHARDO</div>`)[0];
+            popup_29e38b632d889b3e506242c5582e36d9.setContent(html_51a531b0c5dcc1218edab2a147731a26);
+        
+
+        marker_3fa6da11767aabb9486a4d18634b57cf.bindPopup(popup_29e38b632d889b3e506242c5582e36d9)
+        ;
+
+        
+    
+    
+            marker_3fa6da11767aabb9486a4d18634b57cf.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e729c589b4174ba9044269c7682cd447 = L.marker(
+                [19.47444099982331, -99.1616479997439],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_0f4bf0854298b8392ef82883903363ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e736c34bdab59738c767ce1488320791 = $(`<div id="html_e736c34bdab59738c767ce1488320791" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - PRESIDENTES DE MEXICO</div>`)[0];
+            popup_0f4bf0854298b8392ef82883903363ea.setContent(html_e736c34bdab59738c767ce1488320791);
+        
+
+        marker_e729c589b4174ba9044269c7682cd447.bindPopup(popup_0f4bf0854298b8392ef82883903363ea)
+        ;
+
+        
+    
+    
+            marker_e729c589b4174ba9044269c7682cd447.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef9e37965d24793c1b2b55e41a06a718 = L.marker(
+                [19.46095523738087, -99.17163477789089],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_89c6a752a5b639ea55d64b78d8dea055 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_571a90060b7c9688279518a0f6905382 = $(`<div id="html_571a90060b7c9688279518a0f6905382" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - AMERICA LATINA</div>`)[0];
+            popup_89c6a752a5b639ea55d64b78d8dea055.setContent(html_571a90060b7c9688279518a0f6905382);
+        
+
+        marker_ef9e37965d24793c1b2b55e41a06a718.bindPopup(popup_89c6a752a5b639ea55d64b78d8dea055)
+        ;
+
+        
+    
+    
+            marker_ef9e37965d24793c1b2b55e41a06a718.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49282f816421df1c14a9e04629c2f9e1 = L.marker(
+                [19.4902256911113, -99.17729395013208],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_9df65b645c95639fc13605ad9c2ee79f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_acd8d05ba41497c3137780e9e74751e8 = $(`<div id="html_acd8d05ba41497c3137780e9e74751e8" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - SOTERO PRIETO</div>`)[0];
+            popup_9df65b645c95639fc13605ad9c2ee79f.setContent(html_acd8d05ba41497c3137780e9e74751e8);
+        
+
+        marker_49282f816421df1c14a9e04629c2f9e1.bindPopup(popup_9df65b645c95639fc13605ad9c2ee79f)
+        ;
+
+        
+    
+    
+            marker_49282f816421df1c14a9e04629c2f9e1.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29450aa522be6f4139d568b5505d14d9 = L.marker(
+                [19.50504830720887, -99.19687731097711],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_31cf9e1f60db6d6b235b460bf5feeb03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ebe7bb32055a60623f5d4337ddb93f23 = $(`<div id="html_ebe7bb32055a60623f5d4337ddb93f23" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - ESPERANZA VELASCO ZULETA</div>`)[0];
+            popup_31cf9e1f60db6d6b235b460bf5feeb03.setContent(html_ebe7bb32055a60623f5d4337ddb93f23);
+        
+
+        marker_29450aa522be6f4139d568b5505d14d9.bindPopup(popup_31cf9e1f60db6d6b235b460bf5feeb03)
+        ;
+
+        
+    
+    
+            marker_29450aa522be6f4139d568b5505d14d9.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ec9f689cdb38e47375c95f951625db2f = L.marker(
+                [19.48413299995856, -99.21319499988476],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_5dbbb07a586086eed504ac925994910f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_205e6f56af8506d56365d0cb8920b1d6 = $(`<div id="html_205e6f56af8506d56365d0cb8920b1d6" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - JUSTO SIERRA</div>`)[0];
+            popup_5dbbb07a586086eed504ac925994910f.setContent(html_205e6f56af8506d56365d0cb8920b1d6);
+        
+
+        marker_ec9f689cdb38e47375c95f951625db2f.bindPopup(popup_5dbbb07a586086eed504ac925994910f)
+        ;
+
+        
+    
+    
+            marker_ec9f689cdb38e47375c95f951625db2f.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4a8d652cdf69465e57912f9547bcfb3 = L.marker(
+                [19.49751210266956, -99.19175320581084],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_147d2a9103e9295d7bb216821feb1eb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ecd69f0a43ca3b9adae1bd42bfa1951 = $(`<div id="html_9ecd69f0a43ca3b9adae1bd42bfa1951" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - TIERRA Y LIBERTAD</div>`)[0];
+            popup_147d2a9103e9295d7bb216821feb1eb1.setContent(html_9ecd69f0a43ca3b9adae1bd42bfa1951);
+        
+
+        marker_e4a8d652cdf69465e57912f9547bcfb3.bindPopup(popup_147d2a9103e9295d7bb216821feb1eb1)
+        ;
+
+        
+    
+    
+            marker_e4a8d652cdf69465e57912f9547bcfb3.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed964c7026c8d20665a155d88f3339ba = L.marker(
+                [19.47316700013455, -99.16602600023548],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_a16d438814a5c2c23e27b6ef7898fef3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f95c4647645003c6a91dde74c5de5a0 = $(`<div id="html_1f95c4647645003c6a91dde74c5de5a0" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - PROFRA. EMMA GODOY</div>`)[0];
+            popup_a16d438814a5c2c23e27b6ef7898fef3.setContent(html_1f95c4647645003c6a91dde74c5de5a0);
+        
+
+        marker_ed964c7026c8d20665a155d88f3339ba.bindPopup(popup_a16d438814a5c2c23e27b6ef7898fef3)
+        ;
+
+        
+    
+    
+            marker_ed964c7026c8d20665a155d88f3339ba.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bde38afe5530133375e329eb0da526e = L.marker(
+                [19.47077799999525, -99.15162199983382],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_08e7afba130f17dc9b3b531842935a15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c4c7227f4a40ef37effb74225f35cee = $(`<div id="html_3c4c7227f4a40ef37effb74225f35cee" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - FRANCISCO DE PAULA HERRASTI</div>`)[0];
+            popup_08e7afba130f17dc9b3b531842935a15.setContent(html_3c4c7227f4a40ef37effb74225f35cee);
+        
+
+        marker_4bde38afe5530133375e329eb0da526e.bindPopup(popup_08e7afba130f17dc9b3b531842935a15)
+        ;
+
+        
+    
+    
+            marker_4bde38afe5530133375e329eb0da526e.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_08532009959d94bcfff3a6c7031e275a = L.marker(
+                [19.46765300017475, -99.1569350002238],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_29a4ae0dc54e1e67eb9dc22ffc3ff4e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4be7e5d32cedf61fe11fffd8ddbb72ad = $(`<div id="html_4be7e5d32cedf61fe11fffd8ddbb72ad" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - EMILIANO ZAPATA</div>`)[0];
+            popup_29a4ae0dc54e1e67eb9dc22ffc3ff4e0.setContent(html_4be7e5d32cedf61fe11fffd8ddbb72ad);
+        
+
+        marker_08532009959d94bcfff3a6c7031e275a.bindPopup(popup_29a4ae0dc54e1e67eb9dc22ffc3ff4e0)
+        ;
+
+        
+    
+    
+            marker_08532009959d94bcfff3a6c7031e275a.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0b1220fcad8d38fd3020876302be086 = L.marker(
+                [19.50911399984286, -99.20623900004529],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_9bd3bb464a83b0b354c9a4655b4587f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b220a1a1bec784eb74745735815b1f10 = $(`<div id="html_b220a1a1bec784eb74745735815b1f10" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - PROFRA. ROSA TORRE GONZALEZ</div>`)[0];
+            popup_9bd3bb464a83b0b354c9a4655b4587f1.setContent(html_b220a1a1bec784eb74745735815b1f10);
+        
+
+        marker_e0b1220fcad8d38fd3020876302be086.bindPopup(popup_9bd3bb464a83b0b354c9a4655b4587f1)
+        ;
+
+        
+    
+    
+            marker_e0b1220fcad8d38fd3020876302be086.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2613c556da4015a21ab68e5ac2d1e32 = L.marker(
+                [19.48542599991349, -99.2017100000226],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_81eb50bfde9dba59379661e6983e0425 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4b2299401c7cbbccb4c5c6930072eaf = $(`<div id="html_b4b2299401c7cbbccb4c5c6930072eaf" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - MI PATRIA ES PRIMERO</div>`)[0];
+            popup_81eb50bfde9dba59379661e6983e0425.setContent(html_b4b2299401c7cbbccb4c5c6930072eaf);
+        
+
+        marker_f2613c556da4015a21ab68e5ac2d1e32.bindPopup(popup_81eb50bfde9dba59379661e6983e0425)
+        ;
+
+        
+    
+    
+            marker_f2613c556da4015a21ab68e5ac2d1e32.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c5008e09630708e2190ccf83b6d396c = L.marker(
+                [19.49007399998946, -99.1775430001076],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_a2a5c355ef7d8576e9efc47b01748474 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf709c8382f4a96a375488380cc1e68d = $(`<div id="html_cf709c8382f4a96a375488380cc1e68d" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL CON SERVICIO DE INTERNADO - EJERCITO MEXICANO</div>`)[0];
+            popup_a2a5c355ef7d8576e9efc47b01748474.setContent(html_cf709c8382f4a96a375488380cc1e68d);
+        
+
+        marker_8c5008e09630708e2190ccf83b6d396c.bindPopup(popup_a2a5c355ef7d8576e9efc47b01748474)
+        ;
+
+        
+    
+    
+            marker_8c5008e09630708e2190ccf83b6d396c.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e72133987f38f7b7ac10a962f0ba3d7 = L.marker(
+                [19.49774400011138, -99.18352899991248],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_b1bc61659501cca1726a47d99e207e03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_983dd7fd0cddb2008caa0e883b8b0e12 = $(`<div id="html_983dd7fd0cddb2008caa0e883b8b0e12" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - GEORGES CUISENAIRE</div>`)[0];
+            popup_b1bc61659501cca1726a47d99e207e03.setContent(html_983dd7fd0cddb2008caa0e883b8b0e12);
+        
+
+        marker_3e72133987f38f7b7ac10a962f0ba3d7.bindPopup(popup_b1bc61659501cca1726a47d99e207e03)
+        ;
+
+        
+    
+    
+            marker_3e72133987f38f7b7ac10a962f0ba3d7.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf86388aba4bfaefec04336ab588f640 = L.marker(
+                [19.45974114450676, -99.14939793361135],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_c3c8935fc3c5614db7b9a81fde6691b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6222c8ebf94dd06ab410aae286958e78 = $(`<div id="html_6222c8ebf94dd06ab410aae286958e78" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - LEYES DE REFORMA</div>`)[0];
+            popup_c3c8935fc3c5614db7b9a81fde6691b6.setContent(html_6222c8ebf94dd06ab410aae286958e78);
+        
+
+        marker_cf86388aba4bfaefec04336ab588f640.bindPopup(popup_c3c8935fc3c5614db7b9a81fde6691b6)
+        ;
+
+        
+    
+    
+            marker_cf86388aba4bfaefec04336ab588f640.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3cf0a5e9b787d117d028cdf703672b02 = L.marker(
+                [19.47425299997841, -99.19618699997372],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_d918ec0952622b39022eaa7a8f0e0619 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b4d73b5c9d2ce7a29186981f552ec2f = $(`<div id="html_5b4d73b5c9d2ce7a29186981f552ec2f" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - PROFR. LEOPOLDO KIEL</div>`)[0];
+            popup_d918ec0952622b39022eaa7a8f0e0619.setContent(html_5b4d73b5c9d2ce7a29186981f552ec2f);
+        
+
+        marker_3cf0a5e9b787d117d028cdf703672b02.bindPopup(popup_d918ec0952622b39022eaa7a8f0e0619)
+        ;
+
+        
+    
+    
+            marker_3cf0a5e9b787d117d028cdf703672b02.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_535a2d79ce635a4533eedb9ba5fa4307 = L.marker(
+                [19.47354753205345, -99.16069235538198],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_def3e818066b07e5f5aed8ddde1c0fec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_520da639ebd9d83896c07e908941047e = $(`<div id="html_520da639ebd9d83896c07e908941047e" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - AUSTRIA</div>`)[0];
+            popup_def3e818066b07e5f5aed8ddde1c0fec.setContent(html_520da639ebd9d83896c07e908941047e);
+        
+
+        marker_535a2d79ce635a4533eedb9ba5fa4307.bindPopup(popup_def3e818066b07e5f5aed8ddde1c0fec)
+        ;
+
+        
+    
+    
+            marker_535a2d79ce635a4533eedb9ba5fa4307.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93973f3c880302622c15a623596be0e6 = L.marker(
+                [19.47952499987578, -99.21201900003932],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_151cff068894939c4fdd1c2e9bb29c8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b6e88cfae63fa16662c2ff48e8f66f0 = $(`<div id="html_5b6e88cfae63fa16662c2ff48e8f66f0" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - GRAL. CESAR LOPEZ DE LARA</div>`)[0];
+            popup_151cff068894939c4fdd1c2e9bb29c8f.setContent(html_5b6e88cfae63fa16662c2ff48e8f66f0);
+        
+
+        marker_93973f3c880302622c15a623596be0e6.bindPopup(popup_151cff068894939c4fdd1c2e9bb29c8f)
+        ;
+
+        
+    
+    
+            marker_93973f3c880302622c15a623596be0e6.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69186cee0b48853943e1babe68823a6f = L.marker(
+                [19.46777282777964, -99.1880391936633],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_39a4aaa3fef628cbe6571d31f5e5fca6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae55d1647ca01ae4363fcd66ecdb4097 = $(`<div id="html_ae55d1647ca01ae4363fcd66ecdb4097" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - TELPUCHCALLI</div>`)[0];
+            popup_39a4aaa3fef628cbe6571d31f5e5fca6.setContent(html_ae55d1647ca01ae4363fcd66ecdb4097);
+        
+
+        marker_69186cee0b48853943e1babe68823a6f.bindPopup(popup_39a4aaa3fef628cbe6571d31f5e5fca6)
+        ;
+
+        
+    
+    
+            marker_69186cee0b48853943e1babe68823a6f.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e6b8eb2554eb0661ac99c8229179792 = L.marker(
+                [19.46847100036276, -99.16985099998976],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_86870c6379177ad0a91b07ecf11e41db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7ef1612b751f954cf3467f4dcd69360 = $(`<div id="html_c7ef1612b751f954cf3467f4dcd69360" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - VEINTE DE NOVIEMBRE</div>`)[0];
+            popup_86870c6379177ad0a91b07ecf11e41db.setContent(html_c7ef1612b751f954cf3467f4dcd69360);
+        
+
+        marker_7e6b8eb2554eb0661ac99c8229179792.bindPopup(popup_86870c6379177ad0a91b07ecf11e41db)
+        ;
+
+        
+    
+    
+            marker_7e6b8eb2554eb0661ac99c8229179792.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_63bf7a0ad9996fe7045071d2ce5a7779 = L.marker(
+                [19.50309100017566, -99.17380599995144],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_38ca123d31ae62e1beffbb079a79bf00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f73f3b7c51e6778384d2e7abfc56b6e = $(`<div id="html_3f73f3b7c51e6778384d2e7abfc56b6e" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - OBRERO MEXICANO</div>`)[0];
+            popup_38ca123d31ae62e1beffbb079a79bf00.setContent(html_3f73f3b7c51e6778384d2e7abfc56b6e);
+        
+
+        marker_63bf7a0ad9996fe7045071d2ce5a7779.bindPopup(popup_38ca123d31ae62e1beffbb079a79bf00)
+        ;
+
+        
+    
+    
+            marker_63bf7a0ad9996fe7045071d2ce5a7779.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee455a35318ca55aaab2c316c4b145dd = L.marker(
+                [19.47764399988547, -99.19716600018944],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_ee570b9a50fa24df576a47b6a9473708 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ec5f0a520f3102af9b44e75cb22ba9d = $(`<div id="html_4ec5f0a520f3102af9b44e75cb22ba9d" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - REPUBLICA DE GHANA</div>`)[0];
+            popup_ee570b9a50fa24df576a47b6a9473708.setContent(html_4ec5f0a520f3102af9b44e75cb22ba9d);
+        
+
+        marker_ee455a35318ca55aaab2c316c4b145dd.bindPopup(popup_ee570b9a50fa24df576a47b6a9473708)
+        ;
+
+        
+    
+    
+            marker_ee455a35318ca55aaab2c316c4b145dd.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06e4bb3654320c740f35a43440ceb058 = L.marker(
+                [19.47885800018467, -99.14894299997889],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_e06c8b45a7e0d965fd20f0c03566740a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9b1bb335ba013841da1009cde11d862 = $(`<div id="html_a9b1bb335ba013841da1009cde11d862" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - ANGELA PERALTA</div>`)[0];
+            popup_e06c8b45a7e0d965fd20f0c03566740a.setContent(html_a9b1bb335ba013841da1009cde11d862);
+        
+
+        marker_06e4bb3654320c740f35a43440ceb058.bindPopup(popup_e06c8b45a7e0d965fd20f0c03566740a)
+        ;
+
+        
+    
+    
+            marker_06e4bb3654320c740f35a43440ceb058.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_daf6a4708c08973ce71e1e13cbaa1032 = L.marker(
+                [19.48873899984912, -99.19037799994352],
+                {}
+            ).addTo(feature_group_sub_group_8dd372c0416785b1279d86983546ade5);
+        
+    
+        var popup_fe3e95953703e46f5ff58bc6798030f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c0ab18e08c427ddbe0ba8bd278a3c02 = $(`<div id="html_8c0ab18e08c427ddbe0ba8bd278a3c02" style="width: 100.0%; height: 100.0%;">PRIMARIA GENERAL - MTRA. ROSARIO CASTELLANOS FIGUEROA</div>`)[0];
+            popup_fe3e95953703e46f5ff58bc6798030f0.setContent(html_8c0ab18e08c427ddbe0ba8bd278a3c02);
+        
+
+        marker_daf6a4708c08973ce71e1e13cbaa1032.bindPopup(popup_fe3e95953703e46f5ff58bc6798030f0)
+        ;
+
+        
+    
+    
+            marker_daf6a4708c08973ce71e1e13cbaa1032.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f = L.featureGroup.subGroup(
+                marker_cluster_aa84e980f18bc22f590238d6bf496e39
+            );
+            feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f.addTo(map_d83d8500b5e7e61211490b4a6b1578a2);
+        
+    
+            var marker_c9d862655a46f3a011873d62055d080b = L.marker(
+                [19.48097346812985, -99.206535306504],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_2f11010e5da7bb68fd084e8537521cff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4d11aafb9551f0978bbe46d07b1fc01 = $(`<div id="html_f4d11aafb9551f0978bbe46d07b1fc01" style="width: 100.0%; height: 100.0%;">SECUNDARIA GENERAL - BERTRAND RUSSELL</div>`)[0];
+            popup_2f11010e5da7bb68fd084e8537521cff.setContent(html_f4d11aafb9551f0978bbe46d07b1fc01);
+        
+
+        marker_c9d862655a46f3a011873d62055d080b.bindPopup(popup_2f11010e5da7bb68fd084e8537521cff)
+        ;
+
+        
+    
+    
+            marker_c9d862655a46f3a011873d62055d080b.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32fd4b77a6a05412d1fa9bf7e174c11a = L.marker(
+                [19.47066926280063, -99.18932823690037],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_7132f1ad568acd5b12827f231798ee8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de1aa025625a720db8ee47a386651328 = $(`<div id="html_de1aa025625a720db8ee47a386651328" style="width: 100.0%; height: 100.0%;">SECUNDARIA GENERAL - NETZAHUALCOYOTL</div>`)[0];
+            popup_7132f1ad568acd5b12827f231798ee8d.setContent(html_de1aa025625a720db8ee47a386651328);
+        
+
+        marker_32fd4b77a6a05412d1fa9bf7e174c11a.bindPopup(popup_7132f1ad568acd5b12827f231798ee8d)
+        ;
+
+        
+    
+    
+            marker_32fd4b77a6a05412d1fa9bf7e174c11a.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1bee38a83c8f4f2210305dc339021d6b = L.marker(
+                [19.4898712916714, -99.2080303210458],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_792c3635cb0e1bdb1eee3965b79827ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48bc8676477ddeefa13a9ef8d8ba5e51 = $(`<div id="html_48bc8676477ddeefa13a9ef8d8ba5e51" style="width: 100.0%; height: 100.0%;">SECUNDARIA GENERAL - ERMILO ABREU GOMEZ</div>`)[0];
+            popup_792c3635cb0e1bdb1eee3965b79827ae.setContent(html_48bc8676477ddeefa13a9ef8d8ba5e51);
+        
+
+        marker_1bee38a83c8f4f2210305dc339021d6b.bindPopup(popup_792c3635cb0e1bdb1eee3965b79827ae)
+        ;
+
+        
+    
+    
+            marker_1bee38a83c8f4f2210305dc339021d6b.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7141c461a9260c8e264d4c9bc32d22fd = L.marker(
+                [19.47934721134488, -99.15086652311903],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_0691d5851095c7072405014d00d03734 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b03c28acc238cac6170745a744558f54 = $(`<div id="html_b03c28acc238cac6170745a744558f54" style="width: 100.0%; height: 100.0%;">SECUNDARIA GENERAL - REPUBLICA DEMOCRATICA ALEMANA</div>`)[0];
+            popup_0691d5851095c7072405014d00d03734.setContent(html_b03c28acc238cac6170745a744558f54);
+        
+
+        marker_7141c461a9260c8e264d4c9bc32d22fd.bindPopup(popup_0691d5851095c7072405014d00d03734)
+        ;
+
+        
+    
+    
+            marker_7141c461a9260c8e264d4c9bc32d22fd.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34e142c648044175745abc5c826354d8 = L.marker(
+                [19.4610158177798, -99.17314316923198],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_a113c8c9fb40da43ff7a4f4b712dfbf6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5edd99e935ea5444bd28a65011c240ae = $(`<div id="html_5edd99e935ea5444bd28a65011c240ae" style="width: 100.0%; height: 100.0%;">SECUNDARIA GENERAL - MEXICO</div>`)[0];
+            popup_a113c8c9fb40da43ff7a4f4b712dfbf6.setContent(html_5edd99e935ea5444bd28a65011c240ae);
+        
+
+        marker_34e142c648044175745abc5c826354d8.bindPopup(popup_a113c8c9fb40da43ff7a4f4b712dfbf6)
+        ;
+
+        
+    
+    
+            marker_34e142c648044175745abc5c826354d8.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e8df92774c88931dafea90bb253f87ce = L.marker(
+                [19.47272100013633, -99.2120969999836],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_1021b24b061d99ed161f5a2705a9a9cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96e2fa94283bf498b172acfe75c93a91 = $(`<div id="html_96e2fa94283bf498b172acfe75c93a91" style="width: 100.0%; height: 100.0%;">SECUNDARIA GENERAL - JOSE PAGES LLERGO</div>`)[0];
+            popup_1021b24b061d99ed161f5a2705a9a9cd.setContent(html_96e2fa94283bf498b172acfe75c93a91);
+        
+
+        marker_e8df92774c88931dafea90bb253f87ce.bindPopup(popup_1021b24b061d99ed161f5a2705a9a9cd)
+        ;
+
+        
+    
+    
+            marker_e8df92774c88931dafea90bb253f87ce.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4d377194c420cc9a1ed577891c1f8db = L.marker(
+                [19.50870599946017, -99.2074879999571],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_5af17646e7f7e483d3c62cd8d81261d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7039e047d9a172b21d9bca9527228d68 = $(`<div id="html_7039e047d9a172b21d9bca9527228d68" style="width: 100.0%; height: 100.0%;">SECUNDARIA GENERAL - VICENTE RIVA PALACIO GUERRERO</div>`)[0];
+            popup_5af17646e7f7e483d3c62cd8d81261d5.setContent(html_7039e047d9a172b21d9bca9527228d68);
+        
+
+        marker_e4d377194c420cc9a1ed577891c1f8db.bindPopup(popup_5af17646e7f7e483d3c62cd8d81261d5)
+        ;
+
+        
+    
+    
+            marker_e4d377194c420cc9a1ed577891c1f8db.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af586597dfc4f0cb7da46fc7185674ec = L.marker(
+                [19.46901899977509, -99.17359999995368],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_203114724e353d8dca7a4ca3d298f4de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d07d2445abdd46b0ddbf83eb474491d = $(`<div id="html_8d07d2445abdd46b0ddbf83eb474491d" style="width: 100.0%; height: 100.0%;">SECUNDARIA GENERAL - SR. DN. VENUSTIANO CARRANZA</div>`)[0];
+            popup_203114724e353d8dca7a4ca3d298f4de.setContent(html_8d07d2445abdd46b0ddbf83eb474491d);
+        
+
+        marker_af586597dfc4f0cb7da46fc7185674ec.bindPopup(popup_203114724e353d8dca7a4ca3d298f4de)
+        ;
+
+        
+    
+    
+            marker_af586597dfc4f0cb7da46fc7185674ec.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ff04d2fe0dc7b6fb99c21a0013a6e3e = L.marker(
+                [19.46561068858716, -99.15954040830913],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_9775e5f03108d85fb6c60b56f20ff4b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8454b90d7459fd6101c170751df6c65b = $(`<div id="html_8454b90d7459fd6101c170751df6c65b" style="width: 100.0%; height: 100.0%;">SECUNDARIA GENERAL - MARGARITA DE GORTARI CARVAJAL DE SALINAS</div>`)[0];
+            popup_9775e5f03108d85fb6c60b56f20ff4b6.setContent(html_8454b90d7459fd6101c170751df6c65b);
+        
+
+        marker_5ff04d2fe0dc7b6fb99c21a0013a6e3e.bindPopup(popup_9775e5f03108d85fb6c60b56f20ff4b6)
+        ;
+
+        
+    
+    
+            marker_5ff04d2fe0dc7b6fb99c21a0013a6e3e.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_971f03fc350c9c2e46f5e028ac10c253 = L.marker(
+                [19.48452407419476, -99.19994102416932],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_5515a0add823b3b329268be9e4ea3549 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bf472f86f6a0b740e4a9fda6627760a = $(`<div id="html_2bf472f86f6a0b740e4a9fda6627760a" style="width: 100.0%; height: 100.0%;">SECUNDARIA GENERAL - JOHN F. KENNEDY</div>`)[0];
+            popup_5515a0add823b3b329268be9e4ea3549.setContent(html_2bf472f86f6a0b740e4a9fda6627760a);
+        
+
+        marker_971f03fc350c9c2e46f5e028ac10c253.bindPopup(popup_5515a0add823b3b329268be9e4ea3549)
+        ;
+
+        
+    
+    
+            marker_971f03fc350c9c2e46f5e028ac10c253.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f67937c1ccab6fb119eeb3c5c18ebb76 = L.marker(
+                [19.47510744361552, -99.1851040294526],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_d206b259b0e941580e5b4f657ce8415a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8faaecb43ff6c059923551690b420b6 = $(`<div id="html_c8faaecb43ff6c059923551690b420b6" style="width: 100.0%; height: 100.0%;">SECUNDARIA PARA TRABAJADORES - PIONEROS DEL COOPERATIVISMO</div>`)[0];
+            popup_d206b259b0e941580e5b4f657ce8415a.setContent(html_c8faaecb43ff6c059923551690b420b6);
+        
+
+        marker_f67937c1ccab6fb119eeb3c5c18ebb76.bindPopup(popup_d206b259b0e941580e5b4f657ce8415a)
+        ;
+
+        
+    
+    
+            marker_f67937c1ccab6fb119eeb3c5c18ebb76.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_174456446c60a4904f68821992f86a22 = L.marker(
+                [19.49965306975717, -99.1913880711613],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_ebbfb50b368ff186eef636bfed0b83c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9e67cc7ef13c8a37fef62ce6c750997 = $(`<div id="html_e9e67cc7ef13c8a37fef62ce6c750997" style="width: 100.0%; height: 100.0%;">SECUNDARIA GENERAL - FERNANDO MONTES DE OCA</div>`)[0];
+            popup_ebbfb50b368ff186eef636bfed0b83c1.setContent(html_e9e67cc7ef13c8a37fef62ce6c750997);
+        
+
+        marker_174456446c60a4904f68821992f86a22.bindPopup(popup_ebbfb50b368ff186eef636bfed0b83c1)
+        ;
+
+        
+    
+    
+            marker_174456446c60a4904f68821992f86a22.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c05e4d46e1d64eedbf18ee6e2795835 = L.marker(
+                [19.51045489763848, -99.19954669172648],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_8a45bebacf26ca0eeea2dc3c3971352a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56f54e531a78e9642da06adc57e5590f = $(`<div id="html_56f54e531a78e9642da06adc57e5590f" style="width: 100.0%; height: 100.0%;">SECUNDARIA GENERAL - JULIAN CARRILLO</div>`)[0];
+            popup_8a45bebacf26ca0eeea2dc3c3971352a.setContent(html_56f54e531a78e9642da06adc57e5590f);
+        
+
+        marker_0c05e4d46e1d64eedbf18ee6e2795835.bindPopup(popup_8a45bebacf26ca0eeea2dc3c3971352a)
+        ;
+
+        
+    
+    
+            marker_0c05e4d46e1d64eedbf18ee6e2795835.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5595de28282252872e386f7cb6feb4c = L.marker(
+                [19.48339971427564, -99.1867158285939],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_f3b9c68d3b10837c642bb9e63172d3a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7effe8e34b955197420f8079ef5e749 = $(`<div id="html_d7effe8e34b955197420f8079ef5e749" style="width: 100.0%; height: 100.0%;">SECUNDARIA GENERAL - IVAN PETROVICH PAVLOV</div>`)[0];
+            popup_f3b9c68d3b10837c642bb9e63172d3a3.setContent(html_d7effe8e34b955197420f8079ef5e749);
+        
+
+        marker_e5595de28282252872e386f7cb6feb4c.bindPopup(popup_f3b9c68d3b10837c642bb9e63172d3a3)
+        ;
+
+        
+    
+    
+            marker_e5595de28282252872e386f7cb6feb4c.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_587104977320dfa4874ddd6a394c1b02 = L.marker(
+                [19.50216451716005, -99.17345470841376],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_aaab77b63a35843622d8a4d30df67c7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5d8502167b18144c64c4431066f9424 = $(`<div id="html_d5d8502167b18144c64c4431066f9424" style="width: 100.0%; height: 100.0%;">SECUNDARIA GENERAL - JESUS F. CONTRERAS</div>`)[0];
+            popup_aaab77b63a35843622d8a4d30df67c7f.setContent(html_d5d8502167b18144c64c4431066f9424);
+        
+
+        marker_587104977320dfa4874ddd6a394c1b02.bindPopup(popup_aaab77b63a35843622d8a4d30df67c7f)
+        ;
+
+        
+    
+    
+            marker_587104977320dfa4874ddd6a394c1b02.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebf188de9b3545286208357daff2c016 = L.marker(
+                [19.48585257314888, -99.20230567222622],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_58d0d9dbb503ae072e8e868b12a3d1cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67675b74187c351585da587d3253ff9b = $(`<div id="html_67675b74187c351585da587d3253ff9b" style="width: 100.0%; height: 100.0%;">SECUNDARIA GENERAL - LAZARO CARDENAS</div>`)[0];
+            popup_58d0d9dbb503ae072e8e868b12a3d1cf.setContent(html_67675b74187c351585da587d3253ff9b);
+        
+
+        marker_ebf188de9b3545286208357daff2c016.bindPopup(popup_58d0d9dbb503ae072e8e868b12a3d1cf)
+        ;
+
+        
+    
+    
+            marker_ebf188de9b3545286208357daff2c016.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61df88c41a4cc908f6fc84a59321fe15 = L.marker(
+                [19.47376092179242, -99.18363675050064],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_ea2863e2724fe4eddd64937564ce0c55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_724cf6cb283dbb69cd88b56900f715ff = $(`<div id="html_724cf6cb283dbb69cd88b56900f715ff" style="width: 100.0%; height: 100.0%;">SECUNDARIA GENERAL -  JUSTO A. ZAMUDIO VARGAS</div>`)[0];
+            popup_ea2863e2724fe4eddd64937564ce0c55.setContent(html_724cf6cb283dbb69cd88b56900f715ff);
+        
+
+        marker_61df88c41a4cc908f6fc84a59321fe15.bindPopup(popup_ea2863e2724fe4eddd64937564ce0c55)
+        ;
+
+        
+    
+    
+            marker_61df88c41a4cc908f6fc84a59321fe15.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f3757d5ec25a82d136580efbc2861cd = L.marker(
+                [19.49774899992672, -99.20488700023228],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_b56951e188256029e07131c384739f61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb01e781494986039f1d59ef8e815f7b = $(`<div id="html_eb01e781494986039f1d59ef8e815f7b" style="width: 100.0%; height: 100.0%;">SECUNDARIA GENERAL - MANUEL M. PONCE</div>`)[0];
+            popup_b56951e188256029e07131c384739f61.setContent(html_eb01e781494986039f1d59ef8e815f7b);
+        
+
+        marker_5f3757d5ec25a82d136580efbc2861cd.bindPopup(popup_b56951e188256029e07131c384739f61)
+        ;
+
+        
+    
+    
+            marker_5f3757d5ec25a82d136580efbc2861cd.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30c740ce53e609e625059871f157e5f6 = L.marker(
+                [19.50211173818977, -99.20717222672737],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_3dd3a4451552352c39a5ec8276a8c295 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_701b343b6d2d639f42487e1a31d971f6 = $(`<div id="html_701b343b6d2d639f42487e1a31d971f6" style="width: 100.0%; height: 100.0%;">SECUNDARIA GENERAL - ESTADO DE ISRAEL</div>`)[0];
+            popup_3dd3a4451552352c39a5ec8276a8c295.setContent(html_701b343b6d2d639f42487e1a31d971f6);
+        
+
+        marker_30c740ce53e609e625059871f157e5f6.bindPopup(popup_3dd3a4451552352c39a5ec8276a8c295)
+        ;
+
+        
+    
+    
+            marker_30c740ce53e609e625059871f157e5f6.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_37430b1cadba48702c3523839b97d4ac = L.marker(
+                [19.47562447817352, -99.21645596139768],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_8a87abfe8d93264a45c9bcc4b9a674aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb6511122badab2abd95cae61dd77548 = $(`<div id="html_eb6511122badab2abd95cae61dd77548" style="width: 100.0%; height: 100.0%;">SECUNDARIA GENERAL - AMADO NERVO</div>`)[0];
+            popup_8a87abfe8d93264a45c9bcc4b9a674aa.setContent(html_eb6511122badab2abd95cae61dd77548);
+        
+
+        marker_37430b1cadba48702c3523839b97d4ac.bindPopup(popup_8a87abfe8d93264a45c9bcc4b9a674aa)
+        ;
+
+        
+    
+    
+            marker_37430b1cadba48702c3523839b97d4ac.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fbc67e4e831d0a064119b9b1b86542f6 = L.marker(
+                [19.49955700012821, -99.19654200009192],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_b98528e4b64a45584f67eececfd24119 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3dc8f30586a9145b0d1ff73c05ef28f = $(`<div id="html_d3dc8f30586a9145b0d1ff73c05ef28f" style="width: 100.0%; height: 100.0%;">SECUNDARIA GENERAL - SOUMAYA DOMIT GEMAYEL</div>`)[0];
+            popup_b98528e4b64a45584f67eececfd24119.setContent(html_d3dc8f30586a9145b0d1ff73c05ef28f);
+        
+
+        marker_fbc67e4e831d0a064119b9b1b86542f6.bindPopup(popup_b98528e4b64a45584f67eececfd24119)
+        ;
+
+        
+    
+    
+            marker_fbc67e4e831d0a064119b9b1b86542f6.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ec2f31a9c83ce36c245e1b2fb9bf69ba = L.marker(
+                [19.47549200953558, -99.17924662125712],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_33dc3bc0f1b9e8139264e834e2e83a40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a93fb24e7c98fe8595dd80233e8b0e28 = $(`<div id="html_a93fb24e7c98fe8595dd80233e8b0e28" style="width: 100.0%; height: 100.0%;">SECUNDARIA GENERAL - REPUBLICA DE EL SALVADOR</div>`)[0];
+            popup_33dc3bc0f1b9e8139264e834e2e83a40.setContent(html_a93fb24e7c98fe8595dd80233e8b0e28);
+        
+
+        marker_ec2f31a9c83ce36c245e1b2fb9bf69ba.bindPopup(popup_33dc3bc0f1b9e8139264e834e2e83a40)
+        ;
+
+        
+    
+    
+            marker_ec2f31a9c83ce36c245e1b2fb9bf69ba.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12068ee68078307badc6c638644bff54 = L.marker(
+                [19.49750613009433, -99.18277924967492],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_c3c742774ea192fbbbc7aa83496b7f81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d70bfcb30e1ce83afaec86107f9b033c = $(`<div id="html_d70bfcb30e1ce83afaec86107f9b033c" style="width: 100.0%; height: 100.0%;">SECUNDARIA GENERAL - AZCAPOTZALCO</div>`)[0];
+            popup_c3c742774ea192fbbbc7aa83496b7f81.setContent(html_d70bfcb30e1ce83afaec86107f9b033c);
+        
+
+        marker_12068ee68078307badc6c638644bff54.bindPopup(popup_c3c742774ea192fbbbc7aa83496b7f81)
+        ;
+
+        
+    
+    
+            marker_12068ee68078307badc6c638644bff54.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_26839d31fa24e695cadb64812dae411b = L.marker(
+                [19.48281700004499, -99.18198200013352],
+                {}
+            ).addTo(feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f);
+        
+    
+        var popup_2f9f871a7fce755832ff50a816438dfb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d5f0443b73437a84910851d2176f91a = $(`<div id="html_1d5f0443b73437a84910851d2176f91a" style="width: 100.0%; height: 100.0%;">SECUNDARIA GENERAL - REPUBLICA DE BOLIVIA</div>`)[0];
+            popup_2f9f871a7fce755832ff50a816438dfb.setContent(html_1d5f0443b73437a84910851d2176f91a);
+        
+
+        marker_26839d31fa24e695cadb64812dae411b.bindPopup(popup_2f9f871a7fce755832ff50a816438dfb)
+        ;
+
+        
+    
+    
+            marker_26839d31fa24e695cadb64812dae411b.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa = L.featureGroup.subGroup(
+                marker_cluster_aa84e980f18bc22f590238d6bf496e39
+            );
+            feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa.addTo(map_d83d8500b5e7e61211490b4a6b1578a2);
+        
+    
+            var marker_2d58c10dedfbc2cc5d48253292d4fda4 = L.marker(
+                [19.4796350000068, -99.21237800031832],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_afc50000f99fda20de795311f7ac5aa7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57ec92d79555f0b2cdeac78c2200fd68 = $(`<div id="html_57ec92d79555f0b2cdeac78c2200fd68" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - SILVINA JARDON</div>`)[0];
+            popup_afc50000f99fda20de795311f7ac5aa7.setContent(html_57ec92d79555f0b2cdeac78c2200fd68);
+        
+
+        marker_2d58c10dedfbc2cc5d48253292d4fda4.bindPopup(popup_afc50000f99fda20de795311f7ac5aa7)
+        ;
+
+        
+    
+    
+            marker_2d58c10dedfbc2cc5d48253292d4fda4.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6991ccadf83c697030a3bee4597d0c4 = L.marker(
+                [19.47398499996309, -99.20483399994512],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_b4d4ad487bc5301da6748ebd2022762b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87600e50b4f2772bd8e4d1d555ff3303 = $(`<div id="html_87600e50b4f2772bd8e4d1d555ff3303" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - AMANTECATL</div>`)[0];
+            popup_b4d4ad487bc5301da6748ebd2022762b.setContent(html_87600e50b4f2772bd8e4d1d555ff3303);
+        
+
+        marker_d6991ccadf83c697030a3bee4597d0c4.bindPopup(popup_b4d4ad487bc5301da6748ebd2022762b)
+        ;
+
+        
+    
+    
+            marker_d6991ccadf83c697030a3bee4597d0c4.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_493e46fba530165af73642672c16b9ce = L.marker(
+                [19.50867588516427, -99.20799633383382],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_b4875e707d617709e9ebabf3a87d7d03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f5d277b436b5062bc4bdec9cc30597e = $(`<div id="html_9f5d277b436b5062bc4bdec9cc30597e" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - ANGEL MARIA GARIBAY KINTANA</div>`)[0];
+            popup_b4875e707d617709e9ebabf3a87d7d03.setContent(html_9f5d277b436b5062bc4bdec9cc30597e);
+        
+
+        marker_493e46fba530165af73642672c16b9ce.bindPopup(popup_b4875e707d617709e9ebabf3a87d7d03)
+        ;
+
+        
+    
+    
+            marker_493e46fba530165af73642672c16b9ce.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35d2bbc7e14aa720e431cbad208dd74b = L.marker(
+                [19.47697194091126, -99.16070771578026],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_35cc9a5af882687b2bceebda1b79ce0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ef9d7a13552b6185f1d93bb12bef60e = $(`<div id="html_7ef9d7a13552b6185f1d93bb12bef60e" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - PROFR. ANTONIO BARBOSA HELDT</div>`)[0];
+            popup_35cc9a5af882687b2bceebda1b79ce0e.setContent(html_7ef9d7a13552b6185f1d93bb12bef60e);
+        
+
+        marker_35d2bbc7e14aa720e431cbad208dd74b.bindPopup(popup_35cc9a5af882687b2bceebda1b79ce0e)
+        ;
+
+        
+    
+    
+            marker_35d2bbc7e14aa720e431cbad208dd74b.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0892286013603849cc2f1523d93ab34 = L.marker(
+                [19.51011270328737, -99.20634450296848],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_93371e1de634e9289dfc1cd6eb1d868a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a26c078cfeff9a206d1be32c3e1f3f35 = $(`<div id="html_a26c078cfeff9a206d1be32c3e1f3f35" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - PROFR. TADEO DE LA GARZA GUTIERREZ</div>`)[0];
+            popup_93371e1de634e9289dfc1cd6eb1d868a.setContent(html_a26c078cfeff9a206d1be32c3e1f3f35);
+        
+
+        marker_b0892286013603849cc2f1523d93ab34.bindPopup(popup_93371e1de634e9289dfc1cd6eb1d868a)
+        ;
+
+        
+    
+    
+            marker_b0892286013603849cc2f1523d93ab34.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8181dff7faf700ae1308a3fe7f6c285 = L.marker(
+                [19.47584600017532, -99.1506419999983],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_b5af152807d082fddb2abcc758689dbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_757a1a11be92b4e74ce951f83046b18a = $(`<div id="html_757a1a11be92b4e74ce951f83046b18a" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - ROBERTO KOCH</div>`)[0];
+            popup_b5af152807d082fddb2abcc758689dbb.setContent(html_757a1a11be92b4e74ce951f83046b18a);
+        
+
+        marker_a8181dff7faf700ae1308a3fe7f6c285.bindPopup(popup_b5af152807d082fddb2abcc758689dbb)
+        ;
+
+        
+    
+    
+            marker_a8181dff7faf700ae1308a3fe7f6c285.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ab8b038526bcaa10b27e5ad8691c850 = L.marker(
+                [19.48840100025155, -99.19389999996343],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_4e6ee043c16683edd26bd8b48ab3dd70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01ef98de9f96755b5d65153e5dd35d28 = $(`<div id="html_01ef98de9f96755b5d65153e5dd35d28" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL CON SERVICIO ASISTENCIAL - TOLTECAYOTL</div>`)[0];
+            popup_4e6ee043c16683edd26bd8b48ab3dd70.setContent(html_01ef98de9f96755b5d65153e5dd35d28);
+        
+
+        marker_5ab8b038526bcaa10b27e5ad8691c850.bindPopup(popup_4e6ee043c16683edd26bd8b48ab3dd70)
+        ;
+
+        
+    
+    
+            marker_5ab8b038526bcaa10b27e5ad8691c850.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8c2433b976555df4aaddf7a24f52e3f = L.marker(
+                [19.50941072516172, -99.20160249577656],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_2db881f9bee3a7500341382e381c8427 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfd859ae01bf20a334a806ba26132c89 = $(`<div id="html_cfd859ae01bf20a334a806ba26132c89" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - RUDYARD KIPLING</div>`)[0];
+            popup_2db881f9bee3a7500341382e381c8427.setContent(html_cfd859ae01bf20a334a806ba26132c89);
+        
+
+        marker_b8c2433b976555df4aaddf7a24f52e3f.bindPopup(popup_2db881f9bee3a7500341382e381c8427)
+        ;
+
+        
+    
+    
+            marker_b8c2433b976555df4aaddf7a24f52e3f.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7125f0eb38023d8578a138483c4789a7 = L.marker(
+                [19.46427206286307, -99.1633260843058],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_0230e6f78f20d0029d84d0ff449d0622 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_908a7c93cb90debc49d0355d822995fe = $(`<div id="html_908a7c93cb90debc49d0355d822995fe" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - TLATILCO</div>`)[0];
+            popup_0230e6f78f20d0029d84d0ff449d0622.setContent(html_908a7c93cb90debc49d0355d822995fe);
+        
+
+        marker_7125f0eb38023d8578a138483c4789a7.bindPopup(popup_0230e6f78f20d0029d84d0ff449d0622)
+        ;
+
+        
+    
+    
+            marker_7125f0eb38023d8578a138483c4789a7.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_509c0b417120e52514bae73fabf89377 = L.marker(
+                [19.49353399994145, -99.18880099994944],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_5a9f73bfbdfafc8e3df532ba3fc6363c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_531075627e53da7f202a6a9020c9b1ea = $(`<div id="html_531075627e53da7f202a6a9020c9b1ea" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - CLOTILDE GONZALEZ GARCIA</div>`)[0];
+            popup_5a9f73bfbdfafc8e3df532ba3fc6363c.setContent(html_531075627e53da7f202a6a9020c9b1ea);
+        
+
+        marker_509c0b417120e52514bae73fabf89377.bindPopup(popup_5a9f73bfbdfafc8e3df532ba3fc6363c)
+        ;
+
+        
+    
+    
+            marker_509c0b417120e52514bae73fabf89377.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76774e4a68bb15dc5f356da59e3d7ac3 = L.marker(
+                [19.4776309999802, -99.19079400004806],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_8da549b9a1813473720278d79ae854e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7348b313c549559731223a702831c77 = $(`<div id="html_f7348b313c549559731223a702831c77" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - NUMUTSHE</div>`)[0];
+            popup_8da549b9a1813473720278d79ae854e7.setContent(html_f7348b313c549559731223a702831c77);
+        
+
+        marker_76774e4a68bb15dc5f356da59e3d7ac3.bindPopup(popup_8da549b9a1813473720278d79ae854e7)
+        ;
+
+        
+    
+    
+            marker_76774e4a68bb15dc5f356da59e3d7ac3.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f49ecee86f16e2bb424c5f19492831ab = L.marker(
+                [19.5144659999431, -99.20439200007247],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_2707dd497fcfa4ca404fa8bb6e718a24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55b63683bff0c7ac78e620b9796adbac = $(`<div id="html_55b63683bff0c7ac78e620b9796adbac" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - LUIS BRAILLE</div>`)[0];
+            popup_2707dd497fcfa4ca404fa8bb6e718a24.setContent(html_55b63683bff0c7ac78e620b9796adbac);
+        
+
+        marker_f49ecee86f16e2bb424c5f19492831ab.bindPopup(popup_2707dd497fcfa4ca404fa8bb6e718a24)
+        ;
+
+        
+    
+    
+            marker_f49ecee86f16e2bb424c5f19492831ab.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae7b196d6b6ad8e56100497f3a4610cc = L.marker(
+                [19.48648200007035, -99.19044399993489],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_be6e85ce30aeb8e0a37e39d70c1781f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e33c63bb5c06866dec6b803fd1fc26fe = $(`<div id="html_e33c63bb5c06866dec6b803fd1fc26fe" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - REPUBLICA DE PARAGUAY</div>`)[0];
+            popup_be6e85ce30aeb8e0a37e39d70c1781f9.setContent(html_e33c63bb5c06866dec6b803fd1fc26fe);
+        
+
+        marker_ae7b196d6b6ad8e56100497f3a4610cc.bindPopup(popup_be6e85ce30aeb8e0a37e39d70c1781f9)
+        ;
+
+        
+    
+    
+            marker_ae7b196d6b6ad8e56100497f3a4610cc.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f751db2b87b1c9a484cdc7b339431767 = L.marker(
+                [19.49921699987063, -99.19538299991908],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_f452405960b213540364184e071808be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25f9a9eeedcfa091526affc2a05570ad = $(`<div id="html_25f9a9eeedcfa091526affc2a05570ad" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - CELIA AMEZCUA</div>`)[0];
+            popup_f452405960b213540364184e071808be.setContent(html_25f9a9eeedcfa091526affc2a05570ad);
+        
+
+        marker_f751db2b87b1c9a484cdc7b339431767.bindPopup(popup_f452405960b213540364184e071808be)
+        ;
+
+        
+    
+    
+            marker_f751db2b87b1c9a484cdc7b339431767.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ebb8b306abe186346e1a22e904eafe9 = L.marker(
+                [19.49213800004492, -99.20862700003327],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_beae84db63e5afce3f797854bef5ee4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19cee63ba2e13e16c9001a37f505c2db = $(`<div id="html_19cee63ba2e13e16c9001a37f505c2db" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - DR. JAIME TORRES BODET</div>`)[0];
+            popup_beae84db63e5afce3f797854bef5ee4f.setContent(html_19cee63ba2e13e16c9001a37f505c2db);
+        
+
+        marker_2ebb8b306abe186346e1a22e904eafe9.bindPopup(popup_beae84db63e5afce3f797854bef5ee4f)
+        ;
+
+        
+    
+    
+            marker_2ebb8b306abe186346e1a22e904eafe9.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebaf7ae68ec7e8470d480056da2b6ec5 = L.marker(
+                [19.47166380515609, -99.16398759186684],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_227fe8204c969cf7c17dbc910f08718d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60229a1c702c19e7db6f678688f018f0 = $(`<div id="html_60229a1c702c19e7db6f678688f018f0" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL CON SERVICIO ASISTENCIAL - REINO UNIDO</div>`)[0];
+            popup_227fe8204c969cf7c17dbc910f08718d.setContent(html_60229a1c702c19e7db6f678688f018f0);
+        
+
+        marker_ebaf7ae68ec7e8470d480056da2b6ec5.bindPopup(popup_227fe8204c969cf7c17dbc910f08718d)
+        ;
+
+        
+    
+    
+            marker_ebaf7ae68ec7e8470d480056da2b6ec5.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1011604944ed6e1766d110663e76a1fe = L.marker(
+                [19.46041147258059, -99.16410523861347],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_0729f6eb3e059abd4f3798872397e188 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_748525a66e900eeb01ab81bf2d78435b = $(`<div id="html_748525a66e900eeb01ab81bf2d78435b" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - ANGELINA JUAREZ ABAUNZA</div>`)[0];
+            popup_0729f6eb3e059abd4f3798872397e188.setContent(html_748525a66e900eeb01ab81bf2d78435b);
+        
+
+        marker_1011604944ed6e1766d110663e76a1fe.bindPopup(popup_0729f6eb3e059abd4f3798872397e188)
+        ;
+
+        
+    
+    
+            marker_1011604944ed6e1766d110663e76a1fe.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d9a38b633b8263f38777d66f6bd7341 = L.marker(
+                [19.4922979998473, -99.1850619998435],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_616f197fc41b5c5ca1fd4b0a41f60076 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62fa67db9498217e112d85297e83cfd9 = $(`<div id="html_62fa67db9498217e112d85297e83cfd9" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - HERMINIO KENNY</div>`)[0];
+            popup_616f197fc41b5c5ca1fd4b0a41f60076.setContent(html_62fa67db9498217e112d85297e83cfd9);
+        
+
+        marker_6d9a38b633b8263f38777d66f6bd7341.bindPopup(popup_616f197fc41b5c5ca1fd4b0a41f60076)
+        ;
+
+        
+    
+    
+            marker_6d9a38b633b8263f38777d66f6bd7341.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9e26355ecca78ed291b6e42e55e39d6 = L.marker(
+                [19.49287200007433, -99.183112000123],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_5fa64ded85b8be8db67ac5192ffc19b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d780e5f25c0268e4734b5654350848b = $(`<div id="html_0d780e5f25c0268e4734b5654350848b" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - REPUBLICA ISLAMICA DE IRAN</div>`)[0];
+            popup_5fa64ded85b8be8db67ac5192ffc19b2.setContent(html_0d780e5f25c0268e4734b5654350848b);
+        
+
+        marker_b9e26355ecca78ed291b6e42e55e39d6.bindPopup(popup_5fa64ded85b8be8db67ac5192ffc19b2)
+        ;
+
+        
+    
+    
+            marker_b9e26355ecca78ed291b6e42e55e39d6.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7898d7f94f961c0fc4fe8835d3708722 = L.marker(
+                [19.48415099972555, -99.21649000049452],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_2dec3151cdf3ddf89affd82003f88135 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0a16ea5c91c64fc899fa0c36b3b7691 = $(`<div id="html_f0a16ea5c91c64fc899fa0c36b3b7691" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - GABRIELA BRIMMER</div>`)[0];
+            popup_2dec3151cdf3ddf89affd82003f88135.setContent(html_f0a16ea5c91c64fc899fa0c36b3b7691);
+        
+
+        marker_7898d7f94f961c0fc4fe8835d3708722.bindPopup(popup_2dec3151cdf3ddf89affd82003f88135)
+        ;
+
+        
+    
+    
+            marker_7898d7f94f961c0fc4fe8835d3708722.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ca049ee46acdc017b4b068b6d423c54 = L.marker(
+                [19.46433200002851, -99.16723299994833],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_82d0a12c946424d463e76608ac1ba6eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8442c33bb526fe091ea015942c0074e = $(`<div id="html_b8442c33bb526fe091ea015942c0074e" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - ANA MARIA BERLANGA</div>`)[0];
+            popup_82d0a12c946424d463e76608ac1ba6eb.setContent(html_b8442c33bb526fe091ea015942c0074e);
+        
+
+        marker_7ca049ee46acdc017b4b068b6d423c54.bindPopup(popup_82d0a12c946424d463e76608ac1ba6eb)
+        ;
+
+        
+    
+    
+            marker_7ca049ee46acdc017b4b068b6d423c54.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e442dae98b82c4302e8ff792af857f16 = L.marker(
+                [19.46863520308711, -99.1596546243491],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_4dd12d54cd3e05cdadb72af53c840e9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10b6db444c66d987d0373809895a2e70 = $(`<div id="html_10b6db444c66d987d0373809895a2e70" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - LEONARDA GOMEZ BLANCO</div>`)[0];
+            popup_4dd12d54cd3e05cdadb72af53c840e9e.setContent(html_10b6db444c66d987d0373809895a2e70);
+        
+
+        marker_e442dae98b82c4302e8ff792af857f16.bindPopup(popup_4dd12d54cd3e05cdadb72af53c840e9e)
+        ;
+
+        
+    
+    
+            marker_e442dae98b82c4302e8ff792af857f16.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a270831f88f2621b4b0c9eec299c39b = L.marker(
+                [19.46784600009733, -99.15456200005958],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_b3c005fad25b785dfa61df5493aead4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_821675cf68bac7524cc3fc373d776671 = $(`<div id="html_821675cf68bac7524cc3fc373d776671" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - ING. PABLO SALINAS Y DELGADO</div>`)[0];
+            popup_b3c005fad25b785dfa61df5493aead4d.setContent(html_821675cf68bac7524cc3fc373d776671);
+        
+
+        marker_6a270831f88f2621b4b0c9eec299c39b.bindPopup(popup_b3c005fad25b785dfa61df5493aead4d)
+        ;
+
+        
+    
+    
+            marker_6a270831f88f2621b4b0c9eec299c39b.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca6b74136deeb700459b5ee3d854c572 = L.marker(
+                [19.46890900370576, -99.14957415555187],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_7322a4ce23089a5779133fd3f01aa630 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9662bbd37bab3b9cf32f1d6ef39f58c8 = $(`<div id="html_9662bbd37bab3b9cf32f1d6ef39f58c8" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL CON SERVICIO ASISTENCIAL - SALTILLO</div>`)[0];
+            popup_7322a4ce23089a5779133fd3f01aa630.setContent(html_9662bbd37bab3b9cf32f1d6ef39f58c8);
+        
+
+        marker_ca6b74136deeb700459b5ee3d854c572.bindPopup(popup_7322a4ce23089a5779133fd3f01aa630)
+        ;
+
+        
+    
+    
+            marker_ca6b74136deeb700459b5ee3d854c572.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4fb570f385074b38c3782fde20568f0 = L.marker(
+                [19.49637235541362, -99.1978976838093],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_bcb3c084405b7810e847bbe9786966d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1bf3dae29e98d958f78c21f94179968 = $(`<div id="html_c1bf3dae29e98d958f78c21f94179968" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - JOSEFINA CASTANEDA Y DEL POZO</div>`)[0];
+            popup_bcb3c084405b7810e847bbe9786966d8.setContent(html_c1bf3dae29e98d958f78c21f94179968);
+        
+
+        marker_d4fb570f385074b38c3782fde20568f0.bindPopup(popup_bcb3c084405b7810e847bbe9786966d8)
+        ;
+
+        
+    
+    
+            marker_d4fb570f385074b38c3782fde20568f0.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e8c4a0f967592236d4c32ef76fa7513 = L.marker(
+                [19.50152991088672, -99.20756208960913],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_388942d0e4606cb4a4b7e0e82935a380 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6376cd2e030e6a74e155bed58f837b8c = $(`<div id="html_6376cd2e030e6a74e155bed58f837b8c" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - ESTADO DE TLAXCALA</div>`)[0];
+            popup_388942d0e4606cb4a4b7e0e82935a380.setContent(html_6376cd2e030e6a74e155bed58f837b8c);
+        
+
+        marker_8e8c4a0f967592236d4c32ef76fa7513.bindPopup(popup_388942d0e4606cb4a4b7e0e82935a380)
+        ;
+
+        
+    
+    
+            marker_8e8c4a0f967592236d4c32ef76fa7513.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_deeaa465afa5d5a4b96535e070e3bdb0 = L.marker(
+                [19.47526600004901, -99.20431799988036],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_6c9238e156d54bfcab0bdbb79db3cf1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27a4678ae501d5f334b4ea5158c00de8 = $(`<div id="html_27a4678ae501d5f334b4ea5158c00de8" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - AUGUSTO NOVARO</div>`)[0];
+            popup_6c9238e156d54bfcab0bdbb79db3cf1b.setContent(html_27a4678ae501d5f334b4ea5158c00de8);
+        
+
+        marker_deeaa465afa5d5a4b96535e070e3bdb0.bindPopup(popup_6c9238e156d54bfcab0bdbb79db3cf1b)
+        ;
+
+        
+    
+    
+            marker_deeaa465afa5d5a4b96535e070e3bdb0.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a70ed8e330ea12b93a8b9bab3441910 = L.marker(
+                [19.47934275933458, -99.15085242696028],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_5e2f8b2349369412f63ed88dfc843353 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6b4a1855944783a7c02311ffe856362 = $(`<div id="html_d6b4a1855944783a7c02311ffe856362" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - ANTONIO CASO</div>`)[0];
+            popup_5e2f8b2349369412f63ed88dfc843353.setContent(html_d6b4a1855944783a7c02311ffe856362);
+        
+
+        marker_0a70ed8e330ea12b93a8b9bab3441910.bindPopup(popup_5e2f8b2349369412f63ed88dfc843353)
+        ;
+
+        
+    
+    
+            marker_0a70ed8e330ea12b93a8b9bab3441910.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29b3b84313c808e6becad9a5cffa1679 = L.marker(
+                [19.47150199993654, -99.15359700001105],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_92375a657f2ba810e32b86747d0b278d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e858b8e2ed2979a37c8fff0281332456 = $(`<div id="html_e858b8e2ed2979a37c8fff0281332456" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - ALVARO GALVEZ Y FUENTES</div>`)[0];
+            popup_92375a657f2ba810e32b86747d0b278d.setContent(html_e858b8e2ed2979a37c8fff0281332456);
+        
+
+        marker_29b3b84313c808e6becad9a5cffa1679.bindPopup(popup_92375a657f2ba810e32b86747d0b278d)
+        ;
+
+        
+    
+    
+            marker_29b3b84313c808e6becad9a5cffa1679.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_248cdc7e39ee437fef31cab29e010a5e = L.marker(
+                [19.47519599998239, -99.1828499999647],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_1b326842fcab27da4c8718c439d466a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e123328139d5958819b20b59e8fae0e2 = $(`<div id="html_e123328139d5958819b20b59e8fae0e2" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL CON SERVICIO ASISTENCIAL - REPUBLICA DE BRASIL</div>`)[0];
+            popup_1b326842fcab27da4c8718c439d466a1.setContent(html_e123328139d5958819b20b59e8fae0e2);
+        
+
+        marker_248cdc7e39ee437fef31cab29e010a5e.bindPopup(popup_1b326842fcab27da4c8718c439d466a1)
+        ;
+
+        
+    
+    
+            marker_248cdc7e39ee437fef31cab29e010a5e.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_09cd545f86e8b3bb8af0efa21ad8b81a = L.marker(
+                [19.44231313035199, -99.11924947206704],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_3836a721c68f8c4e972c200e58729ae1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a43ae15257daa0736cce350e4d2d2240 = $(`<div id="html_a43ae15257daa0736cce350e4d2d2240" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - JUAN DE DIOS RODRIGUEZ HEREDIA</div>`)[0];
+            popup_3836a721c68f8c4e972c200e58729ae1.setContent(html_a43ae15257daa0736cce350e4d2d2240);
+        
+
+        marker_09cd545f86e8b3bb8af0efa21ad8b81a.bindPopup(popup_3836a721c68f8c4e972c200e58729ae1)
+        ;
+
+        
+    
+    
+            marker_09cd545f86e8b3bb8af0efa21ad8b81a.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d75154116019915dc61868657bf7ff5 = L.marker(
+                [19.4877910000804, -99.20493199984593],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_8136b8f1aa97c3ec5f074f59b2548fd5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9750116ed8e5a5c71cc912e2caa2d482 = $(`<div id="html_9750116ed8e5a5c71cc912e2caa2d482" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL CON SERVICIO ASISTENCIAL - EULALIA GUZMAN</div>`)[0];
+            popup_8136b8f1aa97c3ec5f074f59b2548fd5.setContent(html_9750116ed8e5a5c71cc912e2caa2d482);
+        
+
+        marker_7d75154116019915dc61868657bf7ff5.bindPopup(popup_8136b8f1aa97c3ec5f074f59b2548fd5)
+        ;
+
+        
+    
+    
+            marker_7d75154116019915dc61868657bf7ff5.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f8fc782a1e6aa1a1c7a7e7a1275a5c9 = L.marker(
+                [19.48056699983036, -99.20582799998157],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_589fbd67a1881968a4c9b2f086de279b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e060ae754450e669b0a3acae3ba559be = $(`<div id="html_e060ae754450e669b0a3acae3ba559be" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - CHULAVETE</div>`)[0];
+            popup_589fbd67a1881968a4c9b2f086de279b.setContent(html_e060ae754450e669b0a3acae3ba559be);
+        
+
+        marker_3f8fc782a1e6aa1a1c7a7e7a1275a5c9.bindPopup(popup_589fbd67a1881968a4c9b2f086de279b)
+        ;
+
+        
+    
+    
+            marker_3f8fc782a1e6aa1a1c7a7e7a1275a5c9.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c745c941dfcded9074f6c8a505d1b2c = L.marker(
+                [19.48881999976966, -99.19805299991262],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_5296bb3881d61b3f7dd1f9deb539a0b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b8ada921011305188becb60f53fc100 = $(`<div id="html_6b8ada921011305188becb60f53fc100" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - AMANECER</div>`)[0];
+            popup_5296bb3881d61b3f7dd1f9deb539a0b2.setContent(html_6b8ada921011305188becb60f53fc100);
+        
+
+        marker_0c745c941dfcded9074f6c8a505d1b2c.bindPopup(popup_5296bb3881d61b3f7dd1f9deb539a0b2)
+        ;
+
+        
+    
+    
+            marker_0c745c941dfcded9074f6c8a505d1b2c.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_020e8bf3cdae496ce221812d2d9a7519 = L.marker(
+                [19.46509899188363, -99.18158900039252],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_0d33e87796ca199d2544fbd16b51a220 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f6b7f956a9b39849fd6916a93f37eaf = $(`<div id="html_2f6b7f956a9b39849fd6916a93f37eaf" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - PROFR. ANGEL SALAS</div>`)[0];
+            popup_0d33e87796ca199d2544fbd16b51a220.setContent(html_2f6b7f956a9b39849fd6916a93f37eaf);
+        
+
+        marker_020e8bf3cdae496ce221812d2d9a7519.bindPopup(popup_0d33e87796ca199d2544fbd16b51a220)
+        ;
+
+        
+    
+    
+            marker_020e8bf3cdae496ce221812d2d9a7519.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9138776584091bca4685e4d434128ad3 = L.marker(
+                [19.51412917975393, -99.19663960500468],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_c16ceb31525d58c75de282d44ecc6224 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f4b219e3beaf5c4479bf042a5b85491 = $(`<div id="html_0f4b219e3beaf5c4479bf042a5b85491" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - MIGUEL HERNANDEZ</div>`)[0];
+            popup_c16ceb31525d58c75de282d44ecc6224.setContent(html_0f4b219e3beaf5c4479bf042a5b85491);
+        
+
+        marker_9138776584091bca4685e4d434128ad3.bindPopup(popup_c16ceb31525d58c75de282d44ecc6224)
+        ;
+
+        
+    
+    
+            marker_9138776584091bca4685e4d434128ad3.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b26f4ac3b382febf8236b136904e981 = L.marker(
+                [19.47674700026636, -99.18492000028128],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_09d951888d0bc2e230daa101c56b4265 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c21f5b60c47b9c993ab90fd7d7eadb0 = $(`<div id="html_8c21f5b60c47b9c993ab90fd7d7eadb0" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - MANUEL GUTIERREZ NAJERA</div>`)[0];
+            popup_09d951888d0bc2e230daa101c56b4265.setContent(html_8c21f5b60c47b9c993ab90fd7d7eadb0);
+        
+
+        marker_8b26f4ac3b382febf8236b136904e981.bindPopup(popup_09d951888d0bc2e230daa101c56b4265)
+        ;
+
+        
+    
+    
+            marker_8b26f4ac3b382febf8236b136904e981.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_271ff2aca2f18c9d92f1631bb7a4f51a = L.marker(
+                [19.47945986141954, -99.17512563340595],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_c4298225e4983f4139e6eca6a13da63a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe4e8869757a5d086393bcc63497beb3 = $(`<div id="html_fe4e8869757a5d086393bcc63497beb3" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - ITZCCAN</div>`)[0];
+            popup_c4298225e4983f4139e6eca6a13da63a.setContent(html_fe4e8869757a5d086393bcc63497beb3);
+        
+
+        marker_271ff2aca2f18c9d92f1631bb7a4f51a.bindPopup(popup_c4298225e4983f4139e6eca6a13da63a)
+        ;
+
+        
+    
+    
+            marker_271ff2aca2f18c9d92f1631bb7a4f51a.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95c1e3e8aa1d604afc0b2a1eddc97a3f = L.marker(
+                [19.48803228460009, -99.17594635213422],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_aca0450c693e640217edbfa66380096a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40c31b6db06d6fb541e6be8705d83330 = $(`<div id="html_40c31b6db06d6fb541e6be8705d83330" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL CON SERVICIO ASISTENCIAL - AQUILES ELORDUY</div>`)[0];
+            popup_aca0450c693e640217edbfa66380096a.setContent(html_40c31b6db06d6fb541e6be8705d83330);
+        
+
+        marker_95c1e3e8aa1d604afc0b2a1eddc97a3f.bindPopup(popup_aca0450c693e640217edbfa66380096a)
+        ;
+
+        
+    
+    
+            marker_95c1e3e8aa1d604afc0b2a1eddc97a3f.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0aa93939b0d0c0c14f36dc96caaed77b = L.marker(
+                [19.49865199978522, -99.19358599985432],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_e74e6e389eeeac14a10c740aef1ccd86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a24b2a416c283fd24df475c1f650ae3 = $(`<div id="html_2a24b2a416c283fd24df475c1f650ae3" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - PACTO FEDERAL</div>`)[0];
+            popup_e74e6e389eeeac14a10c740aef1ccd86.setContent(html_2a24b2a416c283fd24df475c1f650ae3);
+        
+
+        marker_0aa93939b0d0c0c14f36dc96caaed77b.bindPopup(popup_e74e6e389eeeac14a10c740aef1ccd86)
+        ;
+
+        
+    
+    
+            marker_0aa93939b0d0c0c14f36dc96caaed77b.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e6bd091a03c504e2d3882df15b9eb1f0 = L.marker(
+                [19.50544200006406, -99.20283600008489],
+                {}
+            ).addTo(feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa);
+        
+    
+        var popup_ed1c8a10c4cf6919cc36087707e73591 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2829ade1736c6276c0c4827457bd0b6 = $(`<div id="html_d2829ade1736c6276c0c4827457bd0b6" style="width: 100.0%; height: 100.0%;">PREESCOLAR GENERAL - EDUARDO CLAPAREDE</div>`)[0];
+            popup_ed1c8a10c4cf6919cc36087707e73591.setContent(html_d2829ade1736c6276c0c4827457bd0b6);
+        
+
+        marker_e6bd091a03c504e2d3882df15b9eb1f0.bindPopup(popup_ed1c8a10c4cf6919cc36087707e73591)
+        ;
+
+        
+    
+    
+            marker_e6bd091a03c504e2d3882df15b9eb1f0.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_sub_group_aebc1367051e2ce7d0c293cf4bd445e0 = L.featureGroup.subGroup(
+                marker_cluster_aa84e980f18bc22f590238d6bf496e39
+            );
+            feature_group_sub_group_aebc1367051e2ce7d0c293cf4bd445e0.addTo(map_d83d8500b5e7e61211490b4a6b1578a2);
+        
+    
+            var marker_11e84a9c27b98457fb2bbf0fb7dfd044 = L.marker(
+                [19.46716100019215, -99.15606600002182],
+                {}
+            ).addTo(feature_group_sub_group_aebc1367051e2ce7d0c293cf4bd445e0);
+        
+    
+        var popup_92e71aac1e7213d1b15b90bea10062e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98aed6a2787e9856406e1f8a614d07cb = $(`<div id="html_98aed6a2787e9856406e1f8a614d07cb" style="width: 100.0%; height: 100.0%;">ESCUELA SECUNDARIA TECNICA 38</div>`)[0];
+            popup_92e71aac1e7213d1b15b90bea10062e6.setContent(html_98aed6a2787e9856406e1f8a614d07cb);
+        
+
+        marker_11e84a9c27b98457fb2bbf0fb7dfd044.bindPopup(popup_92e71aac1e7213d1b15b90bea10062e6)
+        ;
+
+        
+    
+    
+            marker_11e84a9c27b98457fb2bbf0fb7dfd044.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ac313f162e047d8631217d88e06dcfe = L.marker(
+                [19.479877999937, -99.2044780000151],
+                {}
+            ).addTo(feature_group_sub_group_aebc1367051e2ce7d0c293cf4bd445e0);
+        
+    
+        var popup_0b8064ad88ed1c8ac65afa070d42a387 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_696c349db6e04bbb41b4af8572766644 = $(`<div id="html_696c349db6e04bbb41b4af8572766644" style="width: 100.0%; height: 100.0%;">ESCUELA SECUNDARIA TECNICA 78</div>`)[0];
+            popup_0b8064ad88ed1c8ac65afa070d42a387.setContent(html_696c349db6e04bbb41b4af8572766644);
+        
+
+        marker_1ac313f162e047d8631217d88e06dcfe.bindPopup(popup_0b8064ad88ed1c8ac65afa070d42a387)
+        ;
+
+        
+    
+    
+            marker_1ac313f162e047d8631217d88e06dcfe.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea47c8ab1da94f87062fd0b4f6a7d882 = L.marker(
+                [19.50101000017384, -99.1838620001388],
+                {}
+            ).addTo(feature_group_sub_group_aebc1367051e2ce7d0c293cf4bd445e0);
+        
+    
+        var popup_d2b5e315bfdc99f57086653a7a767d81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b4d9b57d8c2e80c11c6d3d123979314 = $(`<div id="html_1b4d9b57d8c2e80c11c6d3d123979314" style="width: 100.0%; height: 100.0%;">ESCUELA SECUNDARIA TECNICA 98</div>`)[0];
+            popup_d2b5e315bfdc99f57086653a7a767d81.setContent(html_1b4d9b57d8c2e80c11c6d3d123979314);
+        
+
+        marker_ea47c8ab1da94f87062fd0b4f6a7d882.bindPopup(popup_d2b5e315bfdc99f57086653a7a767d81)
+        ;
+
+        
+    
+    
+            marker_ea47c8ab1da94f87062fd0b4f6a7d882.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91957a1d59da2c9bd4f894a8730dc304 = L.marker(
+                [19.48923010460949, -99.20187742182571],
+                {}
+            ).addTo(feature_group_sub_group_aebc1367051e2ce7d0c293cf4bd445e0);
+        
+    
+        var popup_f7bde609b6d419a1d433d1fc38635c18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ee6882464213d7eb54b2bad3f483462 = $(`<div id="html_5ee6882464213d7eb54b2bad3f483462" style="width: 100.0%; height: 100.0%;">SECUNDARIA TECNICA 27</div>`)[0];
+            popup_f7bde609b6d419a1d433d1fc38635c18.setContent(html_5ee6882464213d7eb54b2bad3f483462);
+        
+
+        marker_91957a1d59da2c9bd4f894a8730dc304.bindPopup(popup_f7bde609b6d419a1d433d1fc38635c18)
+        ;
+
+        
+    
+    
+            marker_91957a1d59da2c9bd4f894a8730dc304.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c516860e87b2c722b6344a280f76be5 = L.marker(
+                [19.4882540000128, -99.17947100006552],
+                {}
+            ).addTo(feature_group_sub_group_aebc1367051e2ce7d0c293cf4bd445e0);
+        
+    
+        var popup_22d0dc2b0d4ef3e72bc38052ccfb555a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ce49deb032782cddeef01c0342b960a = $(`<div id="html_9ce49deb032782cddeef01c0342b960a" style="width: 100.0%; height: 100.0%;">ESCUELA SECUNDARIA TECNICA 15</div>`)[0];
+            popup_22d0dc2b0d4ef3e72bc38052ccfb555a.setContent(html_9ce49deb032782cddeef01c0342b960a);
+        
+
+        marker_8c516860e87b2c722b6344a280f76be5.bindPopup(popup_22d0dc2b0d4ef3e72bc38052ccfb555a)
+        ;
+
+        
+    
+    
+            marker_8c516860e87b2c722b6344a280f76be5.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7504fdc616ed1289c5170e235ea440ce = L.marker(
+                [19.50035099990041, -99.1926549999547],
+                {}
+            ).addTo(feature_group_sub_group_aebc1367051e2ce7d0c293cf4bd445e0);
+        
+    
+        var popup_18341cb68be1b11c89106eeb8a105f24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_244dd71a8588ddc12468fbdcf945c97b = $(`<div id="html_244dd71a8588ddc12468fbdcf945c97b" style="width: 100.0%; height: 100.0%;">ESCUELA SECUNDARIA TECNICA 62</div>`)[0];
+            popup_18341cb68be1b11c89106eeb8a105f24.setContent(html_244dd71a8588ddc12468fbdcf945c97b);
+        
+
+        marker_7504fdc616ed1289c5170e235ea440ce.bindPopup(popup_18341cb68be1b11c89106eeb8a105f24)
+        ;
+
+        
+    
+    
+            marker_7504fdc616ed1289c5170e235ea440ce.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_sub_group_e8ee9b35ac36a6e7b4baa93f93bf61d8 = L.featureGroup.subGroup(
+                marker_cluster_aa84e980f18bc22f590238d6bf496e39
+            );
+            feature_group_sub_group_e8ee9b35ac36a6e7b4baa93f93bf61d8.addTo(map_d83d8500b5e7e61211490b4a6b1578a2);
+        
+    
+            var marker_82a3cfadc73adfce58ef5f4e97f8038c = L.marker(
+                [19.48873899984912, -99.19037799994352],
+                {}
+            ).addTo(feature_group_sub_group_e8ee9b35ac36a6e7b4baa93f93bf61d8);
+        
+    
+        var popup_ce05d138870521d4aa8ec2f56df39f23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3cac45517d373ceb0f9fd5dcd1f659f5 = $(`<div id="html_3cac45517d373ceb0f9fd5dcd1f659f5" style="width: 100.0%; height: 100.0%;">INTERVENCION TEMPRANA, PREESCOLAR, PRIMARIA Y CAPACITACION LABORAL ESPECIAL - CENTRO DE ATENCION MULTIPLE No. 98</div>`)[0];
+            popup_ce05d138870521d4aa8ec2f56df39f23.setContent(html_3cac45517d373ceb0f9fd5dcd1f659f5);
+        
+
+        marker_82a3cfadc73adfce58ef5f4e97f8038c.bindPopup(popup_ce05d138870521d4aa8ec2f56df39f23)
+        ;
+
+        
+    
+    
+            marker_82a3cfadc73adfce58ef5f4e97f8038c.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa74fd22a1d92a304c5b0f7ad630ecee = L.marker(
+                [19.48004000015141, -99.1993610001818],
+                {}
+            ).addTo(feature_group_sub_group_e8ee9b35ac36a6e7b4baa93f93bf61d8);
+        
+    
+        var popup_90aaa098301cec8121841427adc1a03c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_348e71e05789e943f027b3ea7aa8e45d = $(`<div id="html_348e71e05789e943f027b3ea7aa8e45d" style="width: 100.0%; height: 100.0%;">INTERVENCION TEMPRANA, PREESCOLAR, PRIMARIA Y CAPACITACION LABORAL ESPECIAL - CENTRO DE ATENCION MULTIPLE 77</div>`)[0];
+            popup_90aaa098301cec8121841427adc1a03c.setContent(html_348e71e05789e943f027b3ea7aa8e45d);
+        
+
+        marker_aa74fd22a1d92a304c5b0f7ad630ecee.bindPopup(popup_90aaa098301cec8121841427adc1a03c)
+        ;
+
+        
+    
+    
+            marker_aa74fd22a1d92a304c5b0f7ad630ecee.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8df6b46a703e8fb4f771ffa31f704b72 = L.marker(
+                [19.4882029999472, -99.17337499981532],
+                {}
+            ).addTo(feature_group_sub_group_e8ee9b35ac36a6e7b4baa93f93bf61d8);
+        
+    
+        var popup_67c95580eaf327d11aee2b9c149f264e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0217ec2cf0d9bec9d531ef2a3a6fae5 = $(`<div id="html_d0217ec2cf0d9bec9d531ef2a3a6fae5" style="width: 100.0%; height: 100.0%;">INTERVENCION TEMPRANA, PREESCOLAR, PRIMARIA Y CAPACITACION LABORAL ESPECIAL - CENTRO DE ATENCION MULTIPLE 4</div>`)[0];
+            popup_67c95580eaf327d11aee2b9c149f264e.setContent(html_d0217ec2cf0d9bec9d531ef2a3a6fae5);
+        
+
+        marker_8df6b46a703e8fb4f771ffa31f704b72.bindPopup(popup_67c95580eaf327d11aee2b9c149f264e)
+        ;
+
+        
+    
+    
+            marker_8df6b46a703e8fb4f771ffa31f704b72.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_sub_group_e9847dd02327b8fac0dfc3f6f4153289 = L.featureGroup.subGroup(
+                marker_cluster_aa84e980f18bc22f590238d6bf496e39
+            );
+            feature_group_sub_group_e9847dd02327b8fac0dfc3f6f4153289.addTo(map_d83d8500b5e7e61211490b4a6b1578a2);
+        
+    
+            var marker_1131b07569068bc54afe857783fc3ffe = L.marker(
+                [19.48982900028281, -99.19752000017353],
+                {}
+            ).addTo(feature_group_sub_group_e9847dd02327b8fac0dfc3f6f4153289);
+        
+    
+        var popup_6229ffc91bad3af27604b814c8cb4ee0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d5ba0fc4031e11a08f1be94a259dbba = $(`<div id="html_0d5ba0fc4031e11a08f1be94a259dbba" style="width: 100.0%; height: 100.0%;">TELESECUNDARIA 71</div>`)[0];
+            popup_6229ffc91bad3af27604b814c8cb4ee0.setContent(html_0d5ba0fc4031e11a08f1be94a259dbba);
+        
+
+        marker_1131b07569068bc54afe857783fc3ffe.bindPopup(popup_6229ffc91bad3af27604b814c8cb4ee0)
+        ;
+
+        
+    
+    
+            marker_1131b07569068bc54afe857783fc3ffe.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_sub_group_f09882e67512b07155d458f36e6d98d8 = L.featureGroup.subGroup(
+                marker_cluster_aa84e980f18bc22f590238d6bf496e39
+            );
+            feature_group_sub_group_f09882e67512b07155d458f36e6d98d8.addTo(map_d83d8500b5e7e61211490b4a6b1578a2);
+        
+    
+            var marker_199ae61924e768aedfeaee3ccbd91201 = L.marker(
+                [19.47874099995326, -99.21211499972512],
+                {}
+            ).addTo(feature_group_sub_group_f09882e67512b07155d458f36e6d98d8);
+        
+    
+        var popup_d8468fda683cdf34b05d9caf73e25f74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd2f42c8e99c01baae17fafe8079ffec = $(`<div id="html_dd2f42c8e99c01baae17fafe8079ffec" style="width: 100.0%; height: 100.0%;">LACTANTE, MATERNAL Y PREESCOLAR - CENDI SEP NO 15 CAROLINA AGAZZI</div>`)[0];
+            popup_d8468fda683cdf34b05d9caf73e25f74.setContent(html_dd2f42c8e99c01baae17fafe8079ffec);
+        
+
+        marker_199ae61924e768aedfeaee3ccbd91201.bindPopup(popup_d8468fda683cdf34b05d9caf73e25f74)
+        ;
+
+        
+    
+    
+            marker_199ae61924e768aedfeaee3ccbd91201.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b5a92318844e10aeebdb349b76ca54d = L.marker(
+                [19.47145084549266, -99.18815352882623],
+                {}
+            ).addTo(feature_group_sub_group_f09882e67512b07155d458f36e6d98d8);
+        
+    
+        var popup_f23766c5a257cddef71385f234b290cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_598746523760327f0fc2a3b016adfa9f = $(`<div id="html_598746523760327f0fc2a3b016adfa9f" style="width: 100.0%; height: 100.0%;">LACTANTE, MATERNAL Y PREESCOLAR - CENDI SEP NO 25 JOSE VASCONCELOS</div>`)[0];
+            popup_f23766c5a257cddef71385f234b290cd.setContent(html_598746523760327f0fc2a3b016adfa9f);
+        
+
+        marker_2b5a92318844e10aeebdb349b76ca54d.bindPopup(popup_f23766c5a257cddef71385f234b290cd)
+        ;
+
+        
+    
+    
+            marker_2b5a92318844e10aeebdb349b76ca54d.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6d2aef23458d9def9c85cc0a49b2e20 = L.marker(
+                [19.46706200036638, -99.17918099983564],
+                {}
+            ).addTo(feature_group_sub_group_f09882e67512b07155d458f36e6d98d8);
+        
+    
+        var popup_63ce983f4c3d4ead7f0413852c062fa9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91b61db7bdf3a4634962f050392762c4 = $(`<div id="html_91b61db7bdf3a4634962f050392762c4" style="width: 100.0%; height: 100.0%;">LACTANTE, MATERNAL Y PREESCOLAR - CENDI SEP NO 04 GABRIELA MISTRAL</div>`)[0];
+            popup_63ce983f4c3d4ead7f0413852c062fa9.setContent(html_91b61db7bdf3a4634962f050392762c4);
+        
+
+        marker_a6d2aef23458d9def9c85cc0a49b2e20.bindPopup(popup_63ce983f4c3d4ead7f0413852c062fa9)
+        ;
+
+        
+    
+    
+            marker_a6d2aef23458d9def9c85cc0a49b2e20.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_sub_group_b2e27a17faecf4f56ca6c6289a1b4aaa = L.featureGroup.subGroup(
+                marker_cluster_aa84e980f18bc22f590238d6bf496e39
+            );
+            feature_group_sub_group_b2e27a17faecf4f56ca6c6289a1b4aaa.addTo(map_d83d8500b5e7e61211490b4a6b1578a2);
+        
+    
+            var marker_84869c9cc6d57db3650ae470e5168d2c = L.marker(
+                [19.50877297377279, -99.20161939897488],
+                {}
+            ).addTo(feature_group_sub_group_b2e27a17faecf4f56ca6c6289a1b4aaa);
+        
+    
+        var popup_91137c072fa6bb3bb0489e57423c9ae8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4318f973c7d4bf57b4eecf76548dc363 = $(`<div id="html_4318f973c7d4bf57b4eecf76548dc363" style="width: 100.0%; height: 100.0%;">ATENDER A PREESCOLAR CON PROBLEMAS LEVES EN SU DESARROLLO - CAPEP AZCAPOTZALCO 2</div>`)[0];
+            popup_91137c072fa6bb3bb0489e57423c9ae8.setContent(html_4318f973c7d4bf57b4eecf76548dc363);
+        
+
+        marker_84869c9cc6d57db3650ae470e5168d2c.bindPopup(popup_91137c072fa6bb3bb0489e57423c9ae8)
+        ;
+
+        
+    
+    
+            marker_84869c9cc6d57db3650ae470e5168d2c.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8084af5ba9b14c6119f1c096c141d0b = L.marker(
+                [19.51034372927382, -99.20210270088866],
+                {}
+            ).addTo(feature_group_sub_group_b2e27a17faecf4f56ca6c6289a1b4aaa);
+        
+    
+        var popup_c89455e335f957b66768fb020f8d2b62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b655cb0e472db4366f42bdc6eb9196a7 = $(`<div id="html_b655cb0e472db4366f42bdc6eb9196a7" style="width: 100.0%; height: 100.0%;">ATENDER LAS ESC. SEC. QUE NO TIENEN LABORATORIOS NI TALLERES - CENTRAL DE LABORATORIOS Y TALLERES NO 2</div>`)[0];
+            popup_c89455e335f957b66768fb020f8d2b62.setContent(html_b655cb0e472db4366f42bdc6eb9196a7);
+        
+
+        marker_b8084af5ba9b14c6119f1c096c141d0b.bindPopup(popup_c89455e335f957b66768fb020f8d2b62)
+        ;
+
+        
+    
+    
+            marker_b8084af5ba9b14c6119f1c096c141d0b.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_sub_group_a554cc54cc79eab637f8fe90d72b6692 = L.featureGroup.subGroup(
+                marker_cluster_aa84e980f18bc22f590238d6bf496e39
+            );
+            feature_group_sub_group_a554cc54cc79eab637f8fe90d72b6692.addTo(map_d83d8500b5e7e61211490b4a6b1578a2);
+        
+    
+            var marker_feeb54030e34fa8577b429d0d193087e = L.marker(
+                [19.49577200008391, -99.20677100003248],
+                {}
+            ).addTo(feature_group_sub_group_a554cc54cc79eab637f8fe90d72b6692);
+        
+    
+        var popup_e7c0f30d55de21b74e4655f1942252ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90a18061af4d72bd5a41fa3de0eb439d = $(`<div id="html_90a18061af4d72bd5a41fa3de0eb439d" style="width: 100.0%; height: 100.0%;">LICENCIATURA EN EDUCACION SECUNDARIA (CURSOS ORDINARIOS) - ESCUELA NORMAL SUPERIOR DE MEXICO</div>`)[0];
+            popup_e7c0f30d55de21b74e4655f1942252ba.setContent(html_90a18061af4d72bd5a41fa3de0eb439d);
+        
+
+        marker_feeb54030e34fa8577b429d0d193087e.bindPopup(popup_e7c0f30d55de21b74e4655f1942252ba)
+        ;
+
+        
+    
+    
+            marker_feeb54030e34fa8577b429d0d193087e.bindTooltip(
+                `<div>
+                     click
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_sub_group_319d5862cb4da23617ce0e000e879353 = L.featureGroup.subGroup(
+                marker_cluster_aa84e980f18bc22f590238d6bf496e39
+            );
+            feature_group_sub_group_319d5862cb4da23617ce0e000e879353.addTo(map_d83d8500b5e7e61211490b4a6b1578a2);
+        
+    
+            var feature_group_sub_group_2ce40e66371e3377306124dca1d927ca = L.featureGroup.subGroup(
+                marker_cluster_aa84e980f18bc22f590238d6bf496e39
+            );
+            feature_group_sub_group_2ce40e66371e3377306124dca1d927ca.addTo(map_d83d8500b5e7e61211490b4a6b1578a2);
+        
+    
+            var feature_group_sub_group_136f91bb7cd7aee3c02d5f253fe803b9 = L.featureGroup.subGroup(
+                marker_cluster_aa84e980f18bc22f590238d6bf496e39
+            );
+            feature_group_sub_group_136f91bb7cd7aee3c02d5f253fe803b9.addTo(map_d83d8500b5e7e61211490b4a6b1578a2);
+        
+    
+            var layer_control_bd13d40d3ebab747ba38d445b4da8fea = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_ceee0c5f555ffcebb73f92dd6a184893,
+                },
+                overlays :  {
+                    "Primarias" : feature_group_sub_group_8dd372c0416785b1279d86983546ade5,
+                    "Secundarias" : feature_group_sub_group_d2a73ae6a77ced9e6f1a90aae78e0b5f,
+                    "Preescolar" : feature_group_sub_group_14ec06c3249cb1e48f18ad22500acefa,
+                    "Sec.Tecnica" : feature_group_sub_group_aebc1367051e2ce7d0c293cf4bd445e0,
+                    "Intervencion" : feature_group_sub_group_e8ee9b35ac36a6e7b4baa93f93bf61d8,
+                    "Telesecundaria" : feature_group_sub_group_e9847dd02327b8fac0dfc3f6f4153289,
+                    "Lactante" : feature_group_sub_group_f09882e67512b07155d458f36e6d98d8,
+                    "Atender" : feature_group_sub_group_b2e27a17faecf4f56ca6c6289a1b4aaa,
+                    "Licenciatura" : feature_group_sub_group_a554cc54cc79eab637f8fe90d72b6692,
+                    "Supervisar" : feature_group_sub_group_319d5862cb4da23617ce0e000e879353,
+                    "Capacitacion" : feature_group_sub_group_2ce40e66371e3377306124dca1d927ca,
+                    "Brindar" : feature_group_sub_group_136f91bb7cd7aee3c02d5f253fe803b9,
+                },
+            };
+            L.control.layers(
+                layer_control_bd13d40d3ebab747ba38d445b4da8fea.base_layers,
+                layer_control_bd13d40d3ebab747ba38d445b4da8fea.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_d83d8500b5e7e61211490b4a6b1578a2);
+        
+</script>
